@@ -47,4 +47,4 @@ Adobe CLA를 한 번만 제출합니다.
 
 ## 보안 문제
 
-이 문제 추적기에서 보안 문제를 보고하지 마십시오. 대신 [Adobe 보안에 문의](https://helpx.adobe.com/security/alertus.html)하세요.
+이 문제 추적기에서 보안 문제를 보고하지 마십시오. 대신 [Adobe 보안에 문의](https://helpx.adobe.com/kr/security/alertus.html)하세요.
