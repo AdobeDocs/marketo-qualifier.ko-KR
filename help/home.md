@@ -4,15 +4,10 @@ description: B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 22%
@@ -29,20 +24,20 @@ BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outloo
 ## Sales Qualifier에서 수행할 수 있는 작업
 
 * AI가 생성한 활동 요약 및 신호 기반 우선 순위를 사용하여 **잠재 고객 및 계정의 우선 순위 지정**.
-* AI가 케이던스를 제안하고 각 잠재 고객에 대해 개인화된 이메일을 작성하는 **목표 기반 참여 계획 수립**.
+* AI가 케이던스를 제안하고 각 잠재 고객에 대해 개인화된 이메일을 작성하는 **목표 기반 아웃바운드 워크플로 구축**.
 * 전화 통화, LinkedIn InMails 및 이메일 검토를 위해 **한 대기열에서 처리**.
 * 일정을 연결하고 개인 예약 링크를 케이던스에 삽입하여 **자동으로 회의를 예약하세요**.
 * 지식 센터에서 플레이북을 작성하여 **AI 지원 정보를 직접 제공**.
 * CRM, 참여 및 지식 센터 데이터를 사용하는 AI 채팅으로 **자연어로 질문하기**.
 * 전자 메일 및 모임 예약 보고서를 사용하여 **도달 성과를 추적**&#x200B;합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## 안내서 살펴보기
 
 ::::landing-cards-container
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작하기
 
@@ -52,7 +47,7 @@ BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outloo
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 잠재 고객
 
@@ -62,7 +57,7 @@ BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outloo
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 계정
 
@@ -72,7 +67,7 @@ BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outloo
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 아웃바운드 워크플로
 
@@ -82,7 +77,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 작업
 
@@ -92,7 +87,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 성능
 
@@ -102,7 +97,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 기술 자료 센터
 
@@ -112,7 +107,7 @@ AI 지원 및 자료 지원을 기반으로 하는 플레이북을 구축하십�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 통합
 
@@ -122,7 +117,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 프로필 설정
 
@@ -132,7 +127,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 사용자 역할 및 권한
 
@@ -142,7 +137,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 채팅
 

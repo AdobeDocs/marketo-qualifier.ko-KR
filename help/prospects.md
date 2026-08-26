@@ -4,16 +4,12 @@ description: Sales Qualifier에서 잠재 고객 목록을 빌드하고, 필터�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 550
 ht-degree: 2%
 
 ---
@@ -27,6 +23,7 @@ ht-degree: 2%
 
 * **[!UICONTROL 잠재 고객]** - 연결된 CRM에서 사용자에게 할당된 잠재 고객.
 * **[!UICONTROL 연락처]**—연결된 CRM에서 사용자에게 할당된 연락처.
+* **[!UICONTROL 마케팅 하이라이트]** - 이메일 열기 또는 클릭과 같은 라이브 Marketo 활동이 있는 잠재 고객.
 * **[!UICONTROL 사용자 목록]**—수동으로 가져오거나 추가하는 잠재 고객.
 
 ## 잠재 고객 목록 작성
@@ -40,6 +37,9 @@ ht-degree: 2%
 CRM에서 제공되지 않는 잠재 고객을 추가하려면:
 
 1. **[!UICONTROL 잠재 고객]** 페이지에서 **[!UICONTROL 인물 목록]**&#x200B;을 선택하세요.
+
+   ![사람 목록](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. **[!UICONTROL + 직원 추가]**&#x200B;를 선택한 다음 **[!UICONTROL CSV 가져오기]** 또는 **[!UICONTROL 직원 추가]**&#x200B;를 선택합니다.
 
    * CSV 가져오기의 경우 CSV를 `firstname,email` 형식으로 업로드하십시오.
@@ -52,8 +52,8 @@ CRM에서 제공되지 않는 잠재 고객을 추가하려면:
 
 목록의 범위를 좁히려면 **[!UICONTROL 필터]**&#x200B;을(를) 선택하십시오. 다음을 기준으로 필터링할 수 있습니다.
 
-* 참여 계획 상태
-* 생성한 사람
+* 아웃바운드 워크플로 상태
+* 제작자
 * 직위
 * 계정
 * 소스

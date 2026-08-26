@@ -4,15 +4,11 @@ description: Sales Qualifier에서 AI Chat을 사용하여 계정을 조사하�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 401
 ht-degree: 1%
@@ -26,7 +22,7 @@ AI Chat은 판매 컨텍스트를 기반으로 자연어 질문에 답변합니�
 
 ## AI 채팅 열기
 
-플로팅 **[!UICONTROL AI 채팅]** 버튼을 선택하여 채팅 패널을 엽니다. 잠재 고객, 계정 또는 참여 계획을 볼 수 있도록 현재 페이지 옆에 패널이 열립니다. 패널 가장자리를 드래그하여 크기를 조정합니다. 패널을 닫으려면 **[!UICONTROL AI 채팅]**&#x200B;을 다시 선택하세요.
+플로팅 **[!UICONTROL AI 채팅]** 버튼을 선택하여 채팅 패널을 엽니다. 잠재 고객, 계정 또는 아웃바운드 워크플로우를 볼 수 있도록 현재 페이지 옆에 패널이 열립니다. 패널 가장자리를 드래그하여 크기를 조정합니다. 패널을 닫으려면 **[!UICONTROL AI 채팅]**&#x200B;을 다시 선택하세요.
 
 >[!NOTE]
 >
@@ -49,7 +45,7 @@ AI Chat은 다음 소스를 사용할 수 있습니다.
 * **조사 및 요약**: 거래처, 구매 그룹 또는 잠재 고객의 최근 참여에 대한 요약을 요청하세요.
 * **빌드 위치 지정**: 회의 전에 도우미에게 특정 계정에 대한 솔루션을 배치하도록 요청하십시오.
 * **초안 작성 및 세분화**: 전자 메일을 작성하거나 다시 작성하도록 요청하세요. 색조, 길이, 언어 및 이모지를 포함할지 여부를 지정합니다.
-* **추천 받기**: 우선 순위를 지정할 잠재 고객 또는 계정을 요청하거나 새 참여 플랜에 대한 목표나 케이던스를 요청하세요.
+* **권장 사항 가져오기**: 우선 순위를 지정할 잠재 고객 또는 계정을 요청하거나 새 아웃바운드 워크플로우에 대한 목표 또는 케이던스를 요청합니다.
 * **연락처 세부 정보 찾기**: 도우미에게 연락처와 배경 정보를 추가하여 잠재 고객을 보강하도록 요청하십시오.
 
 ## 플레이북의 기본 답변

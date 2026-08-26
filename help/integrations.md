@@ -3,18 +3,12 @@ title: 통합 관리
 description: Sales Qualifier에서 Outlook 연결, CRM 연결 관리, 인바운드 필드 매핑, 활동 동기화 및 글로벌 이메일 옵트아웃을 구성하는 방법에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 1412
+source-wordcount: 1379
 ht-degree: 1%
 
 ---
@@ -96,6 +90,8 @@ Sales Qualifier은 전송된 이메일에 대한 답장만 읽고 나머지 받�
 
    **[!UICONTROL 클라이언트 ID(소비자 키)]**, **[!UICONTROL 인스턴스 URL]** 및 **[!UICONTROL 클라이언트 암호]**&#x200B;를 입력하십시오. 정식 인스턴스 URL 양식 `https://{{mydomain}}.my.salesforce.com`을(를) 사용합니다.
 
+   ![Salesforce 연결](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
    >[!TAB Microsoft Dynamics]
 
    **[!UICONTROL 클라이언트 ID(소비자 키)]**, **[!UICONTROL 테넌트 ID]**, **[!UICONTROL Microsoft Dynamics 인스턴스 URL]** 및 **[!UICONTROL 클라이언트 암호]**&#x200B;를 입력하십시오. 정식 인스턴스 URL 양식 `https://{{mydomain}}.crm.dynamics.com`을(를) 사용합니다.
@@ -117,7 +113,7 @@ Sales Qualifier이 자격 증명을 거부하면 자격 증명이 잘못되었�
 
 >[!WARNING]
 >
->CRM의 연결을 끊으면 조직의 모든 잠재 고객에 대해 참여 플랜이 일시 중지되고, 다시 연결할 때까지 CRM에서 새 잠재 고객이 동기화되지 않습니다.
+>CRM의 연결을 끊으면 조직의 모든 잠재 고객에 대해 아웃바운드 워크플로우가 일시 중지되며 다시 연결할 때까지 CRM에서 새 잠재 고객이 동기화되지 않습니다.
 
 ## CRM 필드 매핑(인바운드 매핑) {#map-crm-fields-inbound-mapping}
 
@@ -148,7 +144,7 @@ Sales Qualifier이 자격 증명을 거부하면 자격 증명이 잘못되었�
 
 ## 활동 동기화 구성(아웃바운드 매핑) {#configure-activity-sync-outbound-mapping}
 
-Activity Sync는 CRM 및 Marketo에 Sales Qualifier Outreach 활동을 기록합니다. 이메일 전송, 열기, 클릭 및 회신된 활동에는 참여 계획 이름이 포함됩니다. 담당자는 CRM의 활동을 볼 수 있고 마케팅 팀은 잠재 고객 점수 및 참여 타임라인에서 Marketo 활동을 사용할 수 있습니다.
+Activity Sync는 CRM 및 Marketo에 Sales Qualifier Outreach 활동을 기록합니다. 이메일 전송, 열기, 클릭 및 회신된 활동에는 아웃바운드 워크플로우 이름이 포함됩니다. 담당자는 CRM의 활동을 볼 수 있고 마케팅 팀은 잠재 고객 점수 및 참여 타임라인에서 Marketo 활동을 사용할 수 있습니다.
 
 1. 연결된 CRM 카드에서 **[!UICONTROL 관리]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 아웃바운드 매핑]** 탭을 엽니다.
@@ -160,20 +156,13 @@ Activity Sync는 CRM 및 Marketo에 Sales Qualifier Outreach 활동을 기록합
 >
 >Activity Sync를 사용하려면 CRM에 쓰기 권한이 필요합니다. 필요한 권한이 없으면 스위치가 비활성화되고 Sales Qualifier에서 관리자에게 문의하라는 메시지가 표시됩니다. 활동 쓰기 액세스 권한을 부여하려면 CRM 관리자와 협력하십시오.
 
-## Marketo 참여 필터링 켜기 {#turn-on-marketo-engagement-filtering}
+## 마케팅 하이라이트 설정 {#turn-on-marketo-engagement-filtering}
 
-Marketo 참여 필터링을 사용하면 담당자가 이메일 열기 및 클릭 수와 같은 실시간 [!DNL Marketo] 참여로 잠재 고객을 찾고 우선 순위를 지정할 수 있습니다. [Marketo 참여로 필터링](prospects.md#filter-by-marketo-engagement)을 참조하십시오.
+마케팅 하이라이트를 사용하면 담당자가 이메일 열기 및 클릭 수와 같은 실시간 [!DNL Marketo] 참여로 잠재 고객을 찾고 우선 순위를 지정할 수 있습니다. [Marketo 참여로 필터링](prospects.md#filter-by-marketo-engagement)을 참조하십시오.
 
-관리자가 관련 조직 및 샌드박스에 대해 Marketo 참여 필터링을 켭니다. 켜진 후 마케터는 [!DNL Marketo]에서 1회 설정을 완료합니다.
+관리자가 관련 조직 및 샌드박스에 대해 [!DNL Marketo]을(를) Sales Qualifier에 연결하는 1회 설정을 완료합니다. 이 설정에서는 Adobe Developer Console에서 API 자격 증명을 만들고, [!DNL Marketo]에서 웹후크를 구성하고, 해당 웹후크를 Smart Campaign 트리거에 추가하는 작업을 다룹니다. 전체 단계는 [마케팅 하이라이트 설정](marketing-highlights-setup.md)을 참조하십시오.
 
-스마트 캠페인의 활동을 Sales Qualifier으로 보내려면 다음을 수행하십시오.
-
-1. [!DNL Marketo]에서 Sales Qualifier으로 이동할 활동의 스마트 캠페인을 엽니다.
-1. Smart Campaign 흐름에 Webhook 호출 단계를 추가합니다.
-
-Webhook 단계가 실행되면 해당 Smart Campaign의 활동이 Sales Qualifier으로 유입되며, 담당자는 이를 통해 잠재 고객을 필터링할 수 있습니다.
-
-Marketo 참여 필터링은 북미, EMEA 및 호주의 모든 프로덕션 지역에서 사용할 수 있습니다.
+마케팅 하이라이트는 북미, EMEA 및 오스트레일리아의 모든 프로덕션 지역에서 사용할 수 있습니다.
 
 ## 글로벌 이메일 옵트아웃 구성 {#configure-global-email-opt-out}
 
