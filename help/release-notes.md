@@ -3,17 +3,16 @@ title: Sales Qualifier 릴리스 노트
 description: Seal Qualifier의 새로운 기능에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 1fb149668518a8f6e3d47f60ec962b13554121f1
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 12%
 
 ---
 
-
 # Sales Qualifier 릴리스 노트
 
-**08-17-2026**
+## 08-17-2026
 
 [!DNL Sales Qualifier]은(는) 이제 독립 실행형 응용 프로그램으로 사용할 수 있습니다. 이 제품은 처음에 Adobe Journey Optimizer B2B의 일부로 출시되었습니다.
 

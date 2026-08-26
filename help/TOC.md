@@ -1,10 +1,10 @@
 ---
 user-guide-title: 영업 구분자
 user-guide-description: Sales Qualifier을 사용하여 B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자 참여를 자동화하는 방법에 대해 알아봅니다.
-source-git-commit: 1fb149668518a8f6e3d47f60ec962b13554121f1
+source-git-commit: 7000e83d987e182ef60ceb5c75531b280c96cf22
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 30%
+source-wordcount: '54'
+ht-degree: 27%
 
 ---
 
@@ -26,4 +26,3 @@ ht-degree: 30%
 + [사용자 역할 및 권한](user-roles-permissions.md)
 + [AI 채팅](ai-assistant.md)
 + [관리자 설정](admin-settings.md)
-+ [릴리스 정보](release-notes.md)

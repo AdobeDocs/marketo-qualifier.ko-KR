@@ -4,18 +4,12 @@ description: Sales Qualifier에서 AI가 생성한 아웃바운드 워크플로�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 1905
+source-wordcount: 1923
 ht-degree: 0%
 
 ---
@@ -88,6 +82,8 @@ AI는 이 목표를 사용하여 타깃팅 필터를 제안하고, 케이던스�
 ![접점](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
 이메일 터치포인트를 확장하여 프롬프트를 읽습니다. 프롬프트는 색조, 길이, 포커스 및 call to action을 포함하여 각 잠재 고객의 이메일을 작성할 때 AI를 안내합니다.
+
+슬래시 `/`을(를) 입력하면 전자 메일을 개인화하는 데 사용할 수 있는 정의된 토큰 목록이 표시됩니다.
 
 #### 케이던스 재생성
 

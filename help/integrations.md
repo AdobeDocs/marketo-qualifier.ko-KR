@@ -3,16 +3,10 @@ title: 통합 관리
 description: Sales Qualifier에서 Outlook 연결, CRM 연결 관리, 인바운드 필드 매핑, 활동 동기화 및 글로벌 이메일 옵트아웃을 구성하는 방법에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
 source-wordcount: 1379
 ht-degree: 1%
@@ -164,7 +158,7 @@ Activity Sync는 CRM 및 Marketo에 Sales Qualifier Outreach 활동을 기록합
 
 ## 마케팅 하이라이트 설정 {#turn-on-marketo-engagement-filtering}
 
-마케팅 하이라이트를 사용하면 담당자가 이메일 열기 및 클릭 수와 같은 실시간 [!DNL Marketo] 참여로 잠재 고객을 찾고 우선 순위를 지정할 수 있습니다. [Marketo 참여로 필터링](prospects.md#filter-by-marketo-engagement)을 참조하십시오.
+마케팅 하이라이트를 사용하면 담당자가 이메일 열기 및 클릭 수와 같은 실시간 [!DNL Marketo] 참여로 잠재 고객을 찾고 우선 순위를 지정할 수 있습니다. [마케팅 하이라이트별로 필터링](prospects.md#filter-by-marketing-highlights)을 참조하십시오.
 
 관리자가 관련 조직 및 샌드박스에 대해 [!DNL Marketo]을(를) Sales Qualifier에 연결하는 1회 설정을 완료합니다. 이 설정에서는 Adobe Developer Console에서 API 자격 증명을 만들고, [!DNL Marketo]에서 웹후크를 구성하고, 해당 웹후크를 Smart Campaign 트리거에 추가하는 작업을 다룹니다. 전체 단계는 [마케팅 하이라이트 설정](marketing-highlights-setup.md)을 참조하십시오.
 
