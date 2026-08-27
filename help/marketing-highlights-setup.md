@@ -3,18 +3,12 @@ title: 마케팅 하이라이트 설정
 description: Marketo을 Sales Qualifier에 연결하여 담당자가 마케팅 하이라이트에서 라이브 Marketo 활동으로 잠재 고객을 보고 필터링할 수 있는 방법에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 1%
 
 ---
@@ -22,7 +16,7 @@ ht-degree: 1%
 
 # 마케팅 하이라이트 설정
 
-마케팅 하이라이트는 Sales Qualifier에 있는 잠재 고객의 **[!UICONTROL 마케팅 하이라이트]** 탭에서 이메일 열기 및 클릭 수, 웹 방문 수, 양식 채우기 수와 같은 각 잠재 고객의 라이브 [!DNL Marketo] 활동을 보여줍니다. 이 문서에서는 활동이 유입될 수 있도록 [!DNL Marketo] 인스턴스를 연결하는 방법에 대해 설명합니다.
+마케팅 하이라이트는 이메일 열기 및 클릭 수, 웹 방문 횟수 및 양식 채우기와 같은 각 잠재 고객의 라이브 [!DNL Marketo] 활동을 보여줍니다. 이 문서에서는 활동이 유입될 수 있도록 [!DNL Marketo] 인스턴스를 연결하는 방법에 대해 설명합니다.
 
 >[!IMPORTANT]
 >

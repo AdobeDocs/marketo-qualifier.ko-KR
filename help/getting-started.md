@@ -4,19 +4,12 @@ description: 팀에서 애플리케이션 사용을 시작하기 전에 사용�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -30,7 +23,9 @@ Adobe에서 조직에 Sales Qualifier을 프로비전한 후에는 [!DNL Marketo
 
 ## 사용자 그룹 설정
 
-Adobe Admin Console의 두 사용자 그룹은 Sales Qualifier에 대한 액세스를 제어합니다. 사용자가 로그인하기 전에 두 그룹을 모두 만듭니다.
+Adobe Admin Console의 사용자 그룹은 Sales Qualifier에 대한 액세스를 제어하는 데 사용됩니다. 사용자가 로그인하려면 두 그룹을 모두 만들어야 합니다.
+
+그룹 설정에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)를 참조하세요.
 
 >[!PREREQUISITES]
 >
@@ -43,6 +38,8 @@ Adobe Admin Console의 두 사용자 그룹은 Sales Qualifier에 대한 액세�
 
 응용 프로그램에 액세스하려면 사용자가 `Sales Qualifier` 사용자 그룹에 속해야 합니다.
 
+이 단계는 Adobe Admin Console에서 수행됩니다.
+
 1. 9개 점이 있는 앱 전환기에서 **[!UICONTROL Admin Console]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]** > **[!UICONTROL 새 사용자 그룹]**&#x200B;을 선택합니다.
 1. 그룹 이름으로 `Sales Qualifier`을(를) 입력하고 **[!UICONTROL 저장]**&#x200B;을(를) 선택합니다.
@@ -53,18 +50,16 @@ Adobe Admin Console의 두 사용자 그룹은 Sales Qualifier에 대한 액세�
 
 ### Sales Qualifier 관리자
 
-CRM 연결, [기술 센터](knowledge-center.md) 및 글로벌 전자 메일 옵트아웃 설정을 구성하는 관리자 또한 `Sales Qualifier Admins` 사용자 그룹에 속해야 합니다.
+CRM 연결, [기술 센터](admin-settings.md#knowledge-center) 및 글로벌 전자 메일 옵트아웃 설정을 구성하는 관리자 또한 `Sales Qualifier Admins` 사용자 그룹에 속해야 합니다.
 
 1. Adobe Admin Console에서 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]** > **[!UICONTROL 새 사용자 그룹]**&#x200B;을 선택합니다.
 1. 그룹 이름으로 `Sales Qualifier Admins`을(를) 입력하고 **[!UICONTROL 저장]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL 사용자]**&#x200B;를 열고 **[!UICONTROL 사용자 추가]**&#x200B;를 선택한 다음 관리자를 추가합니다.
 1. 각 관리자도 `Sales Qualifier` 그룹의 구성원인지 확인하십시오.
 
-두 그룹의 구성원 자격을 사용하면 왼쪽 탐색 메뉴의 **[!UICONTROL 관리]**&#x200B;에서 **[!UICONTROL 관리 설정]**&#x200B;을 볼 수 있습니다. 표준 사용자는 관리자가 구성하는 필드, 필터 및 플레이북으로 작업합니다. 구성된 옵트아웃 바닥글은 아웃바운드 이메일에 자동으로 적용됩니다. 표준 사용자는 이러한 설정을 변경할 수 없습니다. 자세한 내용은 [사용자 역할 및 권한](user-roles-permissions.md)을 참조하세요.
+두 그룹의 구성원 자격을 사용하면 왼쪽 탐색 메뉴의 **[!UICONTROL 관리]**&#x200B;에서 **[!UICONTROL 관리 설정]**&#x200B;을 볼 수 있습니다. 표준 사용자는 관리자가 구성하는 필드, 필터 및 플레이북으로 작업합니다. 구성된 옵트아웃 바닥글은 아웃바운드 이메일에 자동으로 적용됩니다. 표준 사용자는 이러한 설정을 변경할 수 없습니다.
 
->[!NOTE]
->
->사용자 그룹 이름은 이전 단계에 표시된 대로 정확히 일치해야 합니다.
+사용자 그룹 이름은 이전 단계에 표시된 대로 정확히 일치해야 합니다.
 
 선택적 `Sales Qualifier BDR managers` 그룹도 만들 수 있습니다. 이 그룹의 구성원은 전자 메일 성능 보고서에 액세스할 수 있습니다.
 
@@ -116,9 +111,7 @@ Salesforce 시스템 관리자는 외부 클라이언트 앱(연결된 앱이라
    * 콜백 URL
    * Salesforce 인스턴스 URL
 
->[!IMPORTANT]
->
->클라이언트 암호를 이메일로 보내지 마십시오. 조직의 승인된 보안 채널을 사용하여 Sales Qualifier에 자격 증명을 입력하는 사용자와 자격 증명을 공유할 수 있습니다.
+단계는 여기에 설명된 것과 약간 다를 수 있습니다. 자세한 내용은 [Salesforce 설명서](https://help.salesforce.com/s/)를 참조하세요.
 
 ### Salesforce 인스턴스 URL 찾기
 
@@ -154,9 +147,9 @@ Microsoft Dynamics 365 또는 Azure 관리자는 애플리케이션을 등록하
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]**&#x200B;를 확장하고 **[!UICONTROL 관리 설정]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 통합]**&#x200B;에서 **[!UICONTROL CRM 연결]**&#x200B;을 선택하십시오.
 
-   이전 버전의 인터페이스는 **[!UICONTROL 관리]**&#x200B;에서 이 영역을 **[!UICONTROL 통합]**(으)로 표시할 수 있습니다.
-
    페이지에 Salesforce 및 Microsoft Dynamics 카드가 표시됩니다. 비활성 연결에 **[!UICONTROL 연결]**&#x200B;이 표시됩니다. 구성된 연결에 **[!UICONTROL 연결됨]** 및 **[!UICONTROL 관리]**&#x200B;가 표시됩니다.
+
+   ![Salesforce 자격 증명](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
 1. 사용하는 CRM에 대해 **[!UICONTROL 연결]**&#x200B;을 선택하십시오.
 1. CRM 관리자의 자격 증명과 인스턴스 URL을 입력합니다.
@@ -164,18 +157,9 @@ Microsoft Dynamics 365 또는 Azure 관리자는 애플리케이션을 등록하
 
 ### CRM 필드 가져오기
 
-CRM을 연결한 후 인바운드 매핑을 구성하여 Sales Qualifier에 표시할 CRM 필드를 선택합니다.
+CRM을 연결한 후 인바운드 매핑을 구성하여 Sales Qualifier 내에 표시되는 CRM 필드를 결정합니다. 연결된 CRM 카드에서 **[!UICONTROL 관리]**&#x200B;를 선택하여 **[!UICONTROL 인바운드 매핑]**&#x200B;을 연 다음 가져올 필드의 각 엔터티 형식에 대한 섹션을 추가하십시오.
 
-1. 연결된 CRM 카드에서 **[!UICONTROL 관리]**&#x200B;를 선택하여 **[!UICONTROL 인바운드 매핑]**&#x200B;을 엽니다.
-1. **[!UICONTROL 섹션 추가]**&#x200B;를 선택합니다.
-1. 섹션 이름과 설명을 입력합니다.
-1. 엔티티 유형을 선택합니다. 기본적으로 **[!UICONTROL 잠재 고객]**&#x200B;이 선택됩니다. **[!UICONTROL 연락처]**, **[!UICONTROL 계정]** 및 **[!UICONTROL 기회]**&#x200B;도 사용할 수 있습니다.
-1. 가져올 CRM 필드를 선택하십시오.
-1. 섹션을 미리 보고 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
-
-잠재 고객 필드는 **[!UICONTROL 개인]** 탭에 표시되고 계정 필드는 **[!UICONTROL 계정]** 탭에 표시되며 기회 필드는 **[!UICONTROL 계정 기회]** 섹션에 표시됩니다. 담당자가 필터로 필요한 매핑된 각 필드에 대해 **[!UICONTROL 필터링 가능]**&#x200B;을(를) 켜십시오.
-
-필드 매핑 및 동기화를 관리하려면 [통합](integrations.md#map-crm-fields-inbound-mapping)을 참조하세요.
+가져온 필드를 필터로 사용할 수 있도록 하는 방법을 포함한 전체 단계는 [CRM 필드 매핑(인바운드 매핑)](integrations.md#map-crm-fields-inbound-mapping)을 참조하십시오.
 
 ## 다음 단계
 
@@ -183,4 +167,3 @@ CRM을 연결한 후 인바운드 매핑을 구성하여 Sales Qualifier에 표�
 >
 >* [잠재 고객](prospects.md)
 >* [아웃바운드 워크플로](outbound-workflows.md)
->* [사용자 역할 및 권한](user-roles-permissions.md)

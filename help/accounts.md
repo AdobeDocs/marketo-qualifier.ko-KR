@@ -3,16 +3,12 @@ title: Sales Qualifier의 계정
 description: AI 연구, 최근 뉴스, 기회 및 주요 참여 연락처를 포함하여 Sales Qualifier에서 계정 인텔리전스를 검토하여 지원 우선 순위를 매기는 방법을 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: 643
 ht-degree: 0%
 
 ---
@@ -28,6 +24,8 @@ ht-degree: 0%
 
 1. 왼쪽 탐색에서 **[!UICONTROL 잠재 고객]**&#x200B;을 선택하고 잠재 고객을 여십시오. [잠재 고객](prospects.md)을 참조하세요.
 1. 잠재 고객 세부 정보 페이지에서 **[!UICONTROL 계정]** 탭을 선택합니다.
+
+![개인 및 계정 탭이 있는 잠재 고객 세부 정보 페이지](./assets/account-home.png){width="800" zoomable="yes"}
 
 Sales Qualifier은 잠재 고객의 CRM 레코드에서 계정을 식별합니다. 해당 계정과 연결된 모든 잠재 고객에서 동일한 계정 보기를 사용할 수 있습니다. Sales Qualifier이 계정과 일치하지 않으면 탭에 _계정을 찾을 수 없음_&#x200B;이 표시됩니다.
 
@@ -77,6 +75,8 @@ Sales Qualifier은 잠재 고객의 CRM 레코드에서 계정을 식별합니�
 * **[!UICONTROL 연구 범주]** - 연구 주제. 중앙 창에서 조사할 범주를 선택합니다.
 * **연구 콘텐츠**—범주별로 그룹화된 AI 생성 연구 카드. 카드에는 소스 도메인과 신호가 처음 감지된 날짜와 마지막으로 감지된 날짜가 포함될 수 있습니다.
 * **[!UICONTROL 최근 뉴스]** - 날짜, 태그 및 소스 링크를 포함하여 계정에 대한 최신 뉴스입니다.
+
+![계정 조사 탭](./assets/account-detail.png){width="800" zoomable="yes"}
 
 리서치 또는 뉴스를 로드할 수 없는 경우 각 영역에는 **[!UICONTROL 다시 로드]** 작업이 제공됩니다.
 

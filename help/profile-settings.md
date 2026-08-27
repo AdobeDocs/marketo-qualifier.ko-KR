@@ -4,14 +4,11 @@ description: Sales Qualifier 프로필 설정에서 이메일 연결, 서명 및
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e7de3a1e28cb8268b58f1ab1ec10394035bdfd74
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 394
 ht-degree: 3%
 
 ---
@@ -21,14 +18,19 @@ ht-degree: 3%
 
 왼쪽 탐색에서 **[!UICONTROL 구성]**&#x200B;을 확장하고 **[!UICONTROL 프로필 설정]**&#x200B;을 선택합니다. 이 설정을 사용하여 개인 세부 정보, 전자 메일 연결, 일정 및 채팅 사용 가능 여부를 관리합니다.
 
+![프로필 설정](assets/profile-email-config.png)
+
 ## 이메일 설정
 
 **[!UICONTROL 전자 메일 설정]** 탭에서 전자 메일 연결을 설정합니다.
 
-* **[!UICONTROL 전자 메일 연결]**—**[!UICONTROL Outlook 연결]**&#x200B;을 선택하고 Microsoft 로그인 프로세스를 따릅니다. 승인하는 액세스 권한과 필요한 경우 관리자 승인 경로에 대해서는 [Outlook 연결](integrations.md#connect-outlook)을 참조하십시오.
-* **[!UICONTROL 전자 메일 서명]**—생성된 전자 메일에 사용된 서명을 추가하거나 업데이트합니다. 잠재 고객이 나와 시간을 예약할 수 있도록 [모임 예약](outbound-workflows.md#meeting-booking) 링크를 포함하세요.
+* **[!UICONTROL 전자 메일 연결]** — Microsoft Outlook 또는 Google을 선택하고 로그인 프로세스를 따릅니다. 승인하는 액세스 권한과 필요한 경우 관리자 승인 경로에 대해서는 [Outlook 연결](integrations.md#connect-outlook)을 참조하십시오.
+* **[!UICONTROL 전자 메일 서명]** — 생성된 전자 메일에 사용된 서명을 추가하거나 업데이트합니다. 잠재 고객이 나와 시간을 예약할 수 있도록 [모임 예약](outbound-workflows.md#meeting-booking) 링크를 포함하세요.
+* **[!UICONTROL 모임 예약 링크]** - 전자 메일 내에 모임 초대를 보냅니다. 회의 URL을 가져옵니다.
 
 ### 이메일 초안 컨텍스트
+
+![전자 메일 컨텍스트](assets/profile-email-instructions.png)
 
 **[!UICONTROL 전자 메일 초안 컨텍스트]**&#x200B;를 사용하여 전자 메일이 일관되도록 전자 메일 색조, 구조 및 스타일을 설정하십시오.
 
