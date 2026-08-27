@@ -13,7 +13,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6a8091bd893ea80a26edfc1526646aec037223f
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 246
 ht-degree: 4%
@@ -29,7 +29,7 @@ Sales Qualifier은 두 개의 필수 사용자 그룹을 사용하여 판매 태
 
 | 그룹 | 누구 | 부여 내용 |
 | --- | --- | --- |
-| `Sales Qualifier` | 관리자를 포함한 모든 사용자 | 잠재 고객, 계정, 참여 계획, 작업, 성능 및 프로필 설정과 같은 애플리케이션에 대한 액세스 권한. |
+| `Sales Qualifier` | 관리자를 포함한 모든 사용자 | 애플리케이션에 액세스: 잠재 고객, 계정, 아웃바운드 워크플로, 작업, 성능 및 프로필 설정. |
 | `Sales Qualifier Admins` | `Sales Qualifier` 그룹 외에 관리자만 | 조직 전체의 CRM 연결, 기술 자료 센터 및 규정 준수 설정을 제어하는 **[!UICONTROL 관리 설정]**&#x200B;에 대한 액세스 권한. |
 
 표준 사용자에게는 `Sales Qualifier` 그룹만 필요합니다. 관리자는 두 그룹 모두에서 멤버십이 필요합니다. 이 그룹을 만들려면 [시작하기](getting-started.md)를 참조하세요.

@@ -10,7 +10,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 0%
@@ -67,7 +67,7 @@ Sales Qualifier은 잠재 고객의 CRM 레코드에서 계정을 식별합니�
 
 **[!UICONTROL 최상위 구성원]** 보기에서 연락처에 대해 다음 작업 중 하나를 수행합니다.
 
-* **[!UICONTROL 참여 계획에 추가]**—연락처를 [참여 계획](outbound-workflows.md)에 등록합니다.
+* **[!UICONTROL 아웃바운드 워크플로에 추가]**—연락처를 [아웃바운드 워크플로에 등록](outbound-workflows.md)합니다.
 * **[!UICONTROL Marketo 캠페인에 추가]**—연락처에 대한 [!DNL Marketo] 캠페인을 트리거합니다.
 
 ## 계정 조사
@@ -86,7 +86,7 @@ Sales Qualifier은 잠재 고객의 CRM 레코드에서 계정을 식별합니�
 
 * 일반적인 피치를 사용하는 대신 최근 뉴스 항목 또는 리서치 신호를 참조하여 오프닝을 적절하도록 하십시오.
 * 개설 기회 및 파이프라인 값을 확인하여 계정의 우선 순위를 정할지 여부를 결정합니다.
-* **[!UICONTROL 최상위 구성원]**&#x200B;을(를) 사용하여 연락할 사람을 식별한 다음 참여 플랜에 등록합니다.
+* **[!UICONTROL 최상위 구성원]**&#x200B;을(를) 사용하여 연락할 사람을 식별한 다음 아웃바운드 워크플로우에 등록합니다.
 * 통화 전에 [AI 채팅](ai-assistant.md)에 계정에 대한 위치를 개발하도록 요청하세요.
 
 >[!MORELIKETHIS]

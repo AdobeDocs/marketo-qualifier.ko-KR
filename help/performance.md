@@ -6,7 +6,7 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 321
 ht-degree: 0%
@@ -59,7 +59,7 @@ Sales Qualifier은 부재 중 회신 및 바운스에 별도의 상태를 할당
 
 ## 캠페인 성과
 
-**[!UICONTROL 캠페인 성과]** 참여 계획 캠페인별 아웃바운드 결과에 대한 보고서:
+아웃바운드 워크플로우 캠페인별 아웃바운드 결과에 대한 **[!UICONTROL 캠페인 성과]** 보고서:
 
 * **KPI 타일**: 활성 잠재 고객, 열람율, 클릭률, 응답률 및 예약된 모임.
 * **캠페인 지표 트렌드 차트**: 선택한 기간 동안의 캠페인 KPI.

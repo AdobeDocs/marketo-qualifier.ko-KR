@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 22%
@@ -29,7 +29,7 @@ BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outloo
 ## Sales Qualifier에서 수행할 수 있는 작업
 
 * AI가 생성한 활동 요약 및 신호 기반 우선 순위를 사용하여 **잠재 고객 및 계정의 우선 순위 지정**.
-* AI가 케이던스를 제안하고 각 잠재 고객에 대해 개인화된 이메일을 작성하는 **목표 기반 참여 계획 수립**.
+* AI가 케이던스를 제안하고 각 잠재 고객에 대해 개인화된 이메일을 작성하는 **목표 기반 아웃바운드 워크플로 구축**.
 * 전화 통화, LinkedIn InMails 및 이메일 검토를 위해 **한 대기열에서 처리**.
 * 일정을 연결하고 개인 예약 링크를 케이던스에 삽입하여 **자동으로 회의를 예약하세요**.
 * 지식 센터에서 플레이북을 작성하여 **AI 지원 정보를 직접 제공**.
