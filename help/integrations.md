@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1379
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Outlook을 연결하여 전자 메일을 보내고, 잠재 고객 답글을 인�
 
 >[!IMPORTANT]
 >
->Outlook 연결은 대표마다 다릅니다. 이 문서의 뒷부분에 설명된 CRM 및 규정 준수 설정은 전체 조직에 적용됩니다. 이러한 조직 전체 설정에 액세스하려면 `Sales Qualifier` 및 `Sales Qualifier Admins` 사용자 그룹에 속해야 합니다. 표준 사용자는 구성된 CRM 데이터 및 필터를 사용할 수 있지만 설정을 변경할 수는 없습니다. [사용자 역할 및 권한](user-roles-permissions.md)을 참조하세요.
+>Outlook 연결은 대표마다 다릅니다. 이 문서의 뒷부분에 설명된 CRM 및 규정 준수 설정은 전체 조직에 적용됩니다. 이러한 조직 전체 설정에 액세스하려면 `Sales Qualifier` 및 `Sales Qualifier Admins` 사용자 그룹에 속해야 합니다. 표준 사용자는 구성된 CRM 데이터 및 필터를 사용할 수 있지만 설정을 변경할 수는 없습니다.
 
 ## Outlook 연결
 
@@ -67,7 +67,7 @@ Sales Qualifier은 전송된 이메일에 대한 답장만 읽고 나머지 받�
 | **[!UICONTROL 통합]** | **[!UICONTROL CRM 연결]**, **[!UICONTROL 기술 자료 센터]** |
 | **[!UICONTROL 규정 준수]** | **[!UICONTROL 전자 메일 설정]** |
 
-기술 자료실은 [기술 자료실](knowledge-center.md)을 참조하세요.
+지식 센터에 대해서는 [지식 센터 플레이북 만들기](admin-settings.md#knowledge-center)를 참조하십시오.
 
 ## CRM 연결 관리
 
@@ -96,7 +96,7 @@ Sales Qualifier은 전송된 이메일에 대한 답장만 읽고 나머지 받�
 
    **[!UICONTROL 클라이언트 ID(소비자 키)]**, **[!UICONTROL 인스턴스 URL]** 및 **[!UICONTROL 클라이언트 암호]**&#x200B;를 입력하십시오. 정식 인스턴스 URL 양식 `https://{{mydomain}}.my.salesforce.com`을(를) 사용합니다.
 
-   ![Salesforce 연결](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Salesforce 자격 증명](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB Microsoft Dynamics]
 
@@ -125,8 +125,13 @@ Sales Qualifier이 자격 증명을 거부하면 자격 증명이 잘못되었�
 
 인바운드 매핑은 Sales Qualifier이 가져오는 CRM 필드와 표시 위치를 제어합니다. 필드는 섹션으로 그룹화되고 각 섹션은 엔티티 유형에 속합니다.
 
+![인바운드 매핑](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
 1. 연결된 CRM 카드에서 **[!UICONTROL 관리]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 인바운드 매핑]** 탭에서 **[!UICONTROL 섹션 추가]**&#x200B;를 선택합니다.
+
+   ![섹션 추가](assets/crm-add-section.png){width="800" zoomable="yes"}
+
 1. **섹션 선택** 단계에서 엔터티 형식을 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
    | 엔티티 | 필드가 표시되는 위치 |
@@ -197,5 +202,4 @@ CRM 관리자는 Salesforce 또는 Dynamics에서 API 액세스를 준비합니�
 >[!MORELIKETHIS]
 >
 >* [시작](getting-started.md)
->* [사용자 역할 및 권한](user-roles-permissions.md)
 >* [계정](accounts.md)

@@ -12,10 +12,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 412
-ht-degree: 22%
+source-wordcount: 391
+ht-degree: 21%
 
 ---
 
@@ -108,7 +108,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 
 AI 지원 및 자료 지원을 기반으로 하는 플레이북을 구축하십시오.
 
-[기술 자료 센터](knowledge-center.md)
+[기술 자료 센터](admin-settings.md#knowledge-center)
 :::
 
 :::card
@@ -129,16 +129,6 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 이메일, 서명 및 일정 가용성을 구성합니다.
 
 [프로필 설정](profile-settings.md)
-:::
-
-:::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
-
-사용자 역할 및 권한
-
-사용자 및 관리자 그룹 모델을 이해합니다.
-
-[사용자 역할 및 권한](user-roles-permissions.md)
 :::
 
 :::card

@@ -3,9 +3,9 @@ title: Sales Qualifier 릴리스 노트
 description: Seal Qualifier의 새로운 기능에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 12%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier]은(는) 이제 독립 실행형 응용 프로그램으로 사용할 수 있습니다. 이 제품은 처음에 Adobe Journey Optimizer B2B의 일부로 출시되었습니다.
+[!DNL Sales Qualifier]은(는) 이제 독립 실행형 응용 프로그램으로 사용할 수 있습니다. Marketo 및 Adobe Journey Optimizer B2B를 지원합니다.
 
 이번 릴리스에는 다음이 포함됩니다.
 
@@ -22,7 +22,7 @@ ht-degree: 12%
 * AI가 제안한 케이던스 및 초안 이메일이 포함된 목표 기반 아웃바운드 워크플로우입니다. [자세히 알아보기](outbound-workflows.md)
 * 전화 통화, LinkedIn InMails 및 이메일 검토를 위한 통합 작업 대기열. [자세히 알아보기](tasks.md)
 * 달력 통합을 통한 자동 모임 예약. [자세히 알아보기](outbound-workflows.md#meeting-booking)
-* 자체 플레이북 자료에 AI 전달을 위한 지식 센터. [자세히 알아보기](knowledge-center.md)
+* 자체 플레이북 자료에 AI 전달을 위한 지식 센터. [자세히 알아보기](admin-settings.md#knowledge-center)
 * CRM, 참여 및 지식 센터 데이터를 기반으로 하는 자연어 질문에 대한 AI 채팅. [자세히 알아보기](ai-assistant.md)
 * 이메일 및 모임 예약 성과 보고서. [자세히 알아보기](performance.md)
 * CRM 또는 Outlook에서 액세스할 수 있는 브라우저 및 전자 메일 플러그인. [자세히 알아보기](admin-settings.md#crm-mcp-and-the-embedded-plugin)

@@ -6,9 +6,9 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: 334
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 왼쪽 탐색에서 **[!UICONTROL 아웃바운드 성능]**&#x200B;을(를) 선택하여 팀 전체의 아웃바운드 활동 및 결과를 추적합니다. 대시보드에는 **[!UICONTROL 조직 성과]** 및 **[!UICONTROL 캠페인 성과]**&#x200B;의 두 가지 보기가 있습니다.
 
-[아웃바운드 성능](assets/outbound-performance.png){width="800" zoomable="yes"}
+![아웃바운드 성능](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## 필터 및 기간
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 개요 탭
 
-**[!UICONTROL 개요]** 탭에는 아웃바운드 결과가 요약되어 있습니다.
+**[!UICONTROL 개요]** 탭에는 아웃바운드 결과가 한눈에 요약되어 있습니다. 상자를 클릭하면 해당 정보가 있는 차트가 표시됩니다.
 
 * **타일**: 파이프라인, 전자 메일 참여 및 수동 활동으로, 각각 이전 기간에 대한 트렌드가 변경되었습니다.
 * **성능 추세 차트**: 선택한 기간 동안의 아웃바운드 성능입니다.

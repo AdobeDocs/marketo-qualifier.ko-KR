@@ -13,7 +13,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 1923
 ht-degree: 0%
@@ -105,7 +105,7 @@ AI는 사용자의 지침에 따라 전체 케이던스를 재작성합니다. �
 
 #### 프롬프트에서 지식 센터 사용
 
-조직에서 [기술 센터](knowledge-center.md) 플레이북을 빌드한 경우 프롬프트에서 해당 플레이북을 참조하세요. 문서 이름을 지정하고 사용할 컨텍스트를 설명합니다. 예를 들어 `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`을(를) 입력합니다.
+조직에서 [기술 센터](admin-settings.md#knowledge-center) 플레이북을 빌드한 경우 프롬프트에서 해당 플레이북을 참조하세요. 문서 이름을 지정하고 사용할 컨텍스트를 설명합니다. 예를 들어 `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`을(를) 입력합니다.
 
 케이던스와 프롬프트가 준비되면 **[!UICONTROL 다음: 설정]**&#x200B;을 선택합니다.
 
@@ -245,5 +245,5 @@ AI는 선택한 각 잠재 고객 및 이메일 접점에 대해 개인화된 �
 >[!MORELIKETHIS]
 >
 >* [작업](tasks.md)
->* [기술 자료 센터](knowledge-center.md)
+>* [기술 자료 센터](admin-settings.md#knowledge-center)
 >* [아웃바운드 성능](performance.md)

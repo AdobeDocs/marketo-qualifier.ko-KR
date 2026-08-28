@@ -12,9 +12,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: 404
 ht-degree: 1%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 1%
 # AI 채팅
 
 AI Chat은 판매 컨텍스트를 기반으로 자연어 질문에 답변합니다. 계정을 조사하고, 통화를 준비하고, 봉사 활동을 초안 작성하고, Sales Qualifier을 종료하지 않고 작업의 우선 순위를 지정할 때 사용합니다.
+
+![AI 채팅 단추](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## AI 채팅 열기
 
@@ -36,7 +38,7 @@ AI Chat은 판매 컨텍스트를 기반으로 자연어 질문에 답변합니�
 
 AI Chat은 다음 소스를 사용할 수 있습니다.
 
-* [지식 센터](knowledge-center.md)에 있는 조직의 플레이북입니다.
+* [지식 센터](admin-settings.md#knowledge-center)에 있는 조직의 플레이북입니다.
 * 잠재 고객, 연락처, 계정, 기회 및 활동을 포함한 연결된 CRM입니다.
 * [!DNL Marketo] 활동 및 참여 데이터.
 * Account Qualification Agent이 수집한 계정 연구 및 최근 뉴스입니다.
@@ -54,7 +56,7 @@ AI Chat은 다음 소스를 사용할 수 있습니다.
 
 ## 플레이북의 기본 답변
 
-[기술 자료 센터](knowledge-center.md) 플레이북을 사용하려면 질문에 있는 기술 자료 센터를 참조하세요. 예:
+[기술 자료 센터](admin-settings.md#knowledge-center) 플레이북을 사용하려면 질문에 있는 기술 자료 센터를 참조하세요. 예:
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -76,6 +78,6 @@ AI가 생성한 응답은 정확하지 않을 수 있습니다. 사용하기 전
 
 >[!MORELIKETHIS]
 >
->* [기술 자료 센터](knowledge-center.md)
+>* [기술 자료 센터](admin-settings.md#knowledge-center)
 >* [계정](accounts.md)
 >* [아웃바운드 워크플로](outbound-workflows.md)

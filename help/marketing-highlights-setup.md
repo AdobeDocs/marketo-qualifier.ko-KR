@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 # 마케팅 하이라이트 설정
 
-마케팅 하이라이트는 Sales Qualifier에 있는 잠재 고객의 **[!UICONTROL 마케팅 하이라이트]** 탭에서 이메일 열기 및 클릭 수, 웹 방문 수, 양식 채우기 수와 같은 각 잠재 고객의 라이브 [!DNL Marketo] 활동을 보여줍니다. 이 문서에서는 활동이 유입될 수 있도록 [!DNL Marketo] 인스턴스를 연결하는 방법에 대해 설명합니다.
+마케팅 하이라이트는 이메일 열기 및 클릭 수, 웹 방문 횟수 및 양식 채우기와 같은 각 잠재 고객의 라이브 [!DNL Marketo] 활동을 보여줍니다. 이 문서에서는 활동이 유입될 수 있도록 [!DNL Marketo] 인스턴스를 연결하는 방법에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
