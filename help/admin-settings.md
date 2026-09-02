@@ -4,15 +4,12 @@ description: CRM 필드, 활동 동기화, 이메일 옵트아웃 및 기타 Sal
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: 845
 ht-degree: 0%
 
 ---
@@ -70,7 +67,7 @@ CRM이 연결된 후 연결을 위해 **[!UICONTROL 관리]**&#x200B;를 선택�
 
 1. **[!UICONTROL CRM 연결]**&#x200B;에서 연결된 CRM에 대해 **[!UICONTROL 관리]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 아웃바운드 매핑]**&#x200B;을 엽니다.
-1. **[!UICONTROL 활동 동기화]**&#x200B;를 켜서 Sales Qualifier 지원 활동을 CRM 및 Marketo에 동기화합니다. 이메일 전송, 열기, 클릭 및 회신된 활동에는 아웃바운드 워크플로우 이름이 포함됩니다.
+1. **[!UICONTROL 활동 동기화]**&#x200B;를 켜서 Sales Qualifier 지원 활동을 CRM 및 Marketo에 다시 동기화합니다.
 
 활동 동기화가 꺼져 있으면 Sales Qualifier에서 인바운드 CRM 데이터를 계속 사용하지만 아웃바운드 활동을 CRM 또는 Marketo에 동기화하지 않습니다.
 
