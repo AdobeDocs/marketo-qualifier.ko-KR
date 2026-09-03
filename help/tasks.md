@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 **[!UICONTROL 작업]**&#x200B;을(를) 사용하여 아웃바운드 워크플로우에서 생성된 작업을 완료합니다. 작업을 선택하고, 작업을 수행하고, 작업을 완료로 표시하고, 페이지를 떠나지 않고 다음 작업을 계속합니다.
 
 왼쪽 탐색에서 **[!UICONTROL 활동]** > **[!UICONTROL 작업]**(으)로 이동합니다.
+
+![작업 패널](assets/tasks.png)
 
 ## 작업 보기
 
@@ -43,6 +45,8 @@ ht-degree: 0%
 * **[!UICONTROL LinkedInMail]**—케이던스가 LinkedInMail 단계에 도달할 때 만들어집니다. 작업 패널에는 LinkedIn에서 복사하고 보낼 콘텐츠가 표시됩니다. **[!UICONTROL AI 이유]**&#x200B;를 확장하여 이유를 검토하십시오.
 
 * **[!UICONTROL 이메일 검토]** - Sales Qualifier에서 잠재 고객의 개인화된 이메일을 생성한 후 만들어집니다. **[!UICONTROL 전자 메일 검토]**&#x200B;를 선택하여 전달을 시작하기 전에 초안을 검토하고 승인합니다. [생성된 전자 메일 검토 및 세분화](outbound-workflows.md#review-and-refine-generated-emails)를 참조하세요.
+
+![전자 메일 검토](assets/tasks-review.png)
 
 ### 작업 패널
 
