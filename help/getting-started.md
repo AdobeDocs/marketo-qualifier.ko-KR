@@ -32,7 +32,7 @@ Adobe에서 조직에 Sales Qualifier을 프로비전한 후에는 [!DNL Marketo
 
 Adobe Admin Console의 사용자 그룹은 Sales Qualifier에 대한 액세스를 제어하는 데 사용됩니다. 사용자가 로그인하려면 두 그룹을 모두 만들어야 합니다.
 
-그룹 설정에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)를 참조하세요.
+그룹 설정에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://helpx.adobe.com/kr/business/enterprise/users/users-and-groups/user-groups.html)를 참조하세요.
 
 >[!PREREQUISITES]
 >
