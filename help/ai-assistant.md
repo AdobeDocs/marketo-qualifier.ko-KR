@@ -4,17 +4,13 @@ description: Sales Qualifier에서 AI Chat을 사용하여 계정을 조사하�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: 725
 ht-degree: 1%
 
 ---
@@ -46,13 +42,66 @@ AI Chat은 다음 소스를 사용할 수 있습니다.
 
 ## AI 채팅 사용
 
-다음 작업에 AI 채팅 사용:
+다음 유형의 작업에 AI 채팅 사용:
 
 * **조사 및 요약**: 거래처, 구매 그룹 또는 잠재 고객의 최근 참여에 대한 요약을 요청하세요.
 * **빌드 위치 지정**: 회의 전에 도우미에게 특정 계정에 대한 솔루션을 배치하도록 요청하십시오.
 * **초안 작성 및 세분화**: 전자 메일을 작성하거나 다시 작성하도록 요청하세요. 색조, 길이, 언어 및 이모지를 포함할지 여부를 지정합니다.
 * **권장 사항 가져오기**: 우선 순위를 지정할 잠재 고객 또는 계정을 요청하거나 새 아웃바운드 워크플로우에 대한 목표 또는 케이던스를 요청합니다.
 * **연락처 세부 정보 찾기**: 도우미에게 연락처와 배경 정보를 추가하여 잠재 고객을 보강하도록 요청하십시오.
+
+## 연결된 데이터 전체에 걸쳐 AI 채팅에 묻기
+
+AI Chat은 Sales Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition] 및 회사 인텔리전스 데이터에서 질문에 답변할 수 있습니다. 정보를 조회하거나 컨텍스트를 가져오기 위해 일반 언어로 질문합니다. AI 채팅은 데이터를 읽고 보고합니다. AI 채팅은 아무것도 만들거나 편집하거나 실행하지 않습니다.
+
+다음은 몇 가지 샘플 프롬프트입니다. 프롬프트에서 더 구체적일수록 결과는 더 집중적이 됩니다.
+
+잠재 고객 및 계정:
+
+* &quot;참여 상태가 새로운 잠재 고객을 찾습니다.&quot;
+* &quot;Adobe 회사를 조사하라.&quot;
+* &quot;잠재 고객에 대한 전체 프로필을 나에게 주세요.&quot;
+* &quot;지난 30일 동안의 아웃바운드 성능을 표시합니다.&quot;
+* 지난 30일 동안의 예약된 회의를 나열합니다.
+
+기술 자료 센터:
+
+* &quot;가격 이의를 처리하는 데 어떤 담보가 있습니까?&quot;
+* &quot;경쟁사와 비교하여 EMC의 주요 차별화 요소는 무엇입니까?&quot;
+* &quot;지식 센터에 문서를 나열합니다.&quot;
+* &quot;문서 요약&quot;
+
+CRM:
+
+* &quot;열린 기회를 나열합니다.&quot;
+* &quot;이름과 이메일로 처음 5개의 잠재 고객을 나열합니다.&quot;
+* &quot;잠재 고객 또는 거래처에 대한 영업 활동 표시&quot;
+
+[!DNL Marketo]:
+
+* &quot;내 스마트 캠페인 찾아보기&quot;
+* &quot;이름이 &#39;획득됨&#39;인 스마트 목록을 가져옵니다.&quot;
+* &quot;내 프로그램을 찾아보거나 이름으로 프로그램을 가져옵니다.&quot;
+* &quot;[!DNL Marketo] 활동 유형을 나열합니다.&quot;
+
+[!DNL Adobe Journey Optimizer B2B Edition]:
+
+* &quot;여정이 몇 개나 있습니까?&quot;
+* &quot;대상자를 성향별로 어떻게 구분합니까?&quot;
+* &quot;내 계정에는 어떤 랜딩 페이지가 있습니까?&quot;
+* &quot;어떤 리드 필드가 채점으로 연결됩니까?&quot;
+
+회사 정보:
+
+* &quot;기업이 사용하는 기술은 무엇입니까?&quot;
+* &quot;회사에 대한 최근 뉴스를 표시합니다.&quot;
+* &quot;지정된 회사와 유사한 회사를 찾습니다.&quot;
+* &quot;회사에 대한 빈 일자리 목록을 작성하라.&quot;
+
+### 현재 범위 및 제한
+
+* AI 채팅이 데이터를 읽고 보고합니다. 아무것도 만들거나 편집하거나 시작하지 않습니다. 예를 들어 프로그램을 만들거나 캠페인을 시작하거나 목록을 편집하지 않습니다.
+* AI 채팅은 정보를 조회합니다. 보고 도구가 아닙니다. 해당 분기의 이메일 상태 또는 지난 10일 동안 만든 잠재 고객 목록과 같은 [!DNL Marketo] 스타일의 분석 또는 시간 경과에 따른 트렌드를 빌드하지 않습니다. 이 작업에 기본 [!DNL Marketo] 보고를 사용합니다.
 
 ## 플레이북의 기본 답변
 

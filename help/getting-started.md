@@ -4,19 +4,12 @@ description: 팀에서 애플리케이션 사용을 시작하기 전에 사용�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1017
 ht-degree: 0%
 
 ---
@@ -32,7 +25,7 @@ Adobe에서 조직에 Sales Qualifier을 프로비전한 후에는 [!DNL Marketo
 
 Adobe Admin Console의 사용자 그룹은 Sales Qualifier에 대한 액세스를 제어하는 데 사용됩니다. 사용자가 로그인하려면 두 그룹을 모두 만들어야 합니다.
 
-그룹 설정에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://helpx.adobe.com/kr/business/enterprise/users/users-and-groups/user-groups.html)를 참조하세요.
+그룹 설정에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)를 참조하세요.
 
 >[!PREREQUISITES]
 >
@@ -47,7 +40,7 @@ Adobe Admin Console의 사용자 그룹은 Sales Qualifier에 대한 액세스�
 
 이 단계는 Adobe Admin Console에서 수행됩니다.
 
-1. 9개 점이 있는 앱 전환기에서 **[!UICONTROL Admin Console]**&#x200B;을(를) 선택합니다.
+1. 앱 전환기에서 **[!UICONTROL Admin Console]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]** > **[!UICONTROL 새 사용자 그룹]**&#x200B;을 선택합니다.
 1. 그룹 이름으로 `Sales Qualifier`을(를) 입력하고 **[!UICONTROL 저장]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL 할당된 제품 프로필]**&#x200B;을 연 다음 **[!UICONTROL 프로필 할당]**&#x200B;을 선택하세요.
@@ -72,7 +65,7 @@ CRM 연결, [기술 센터](admin-settings.md#knowledge-center) 및 글로벌 �
 
 ## CRM 연결
 
-Sales Qualifier은 Salesforce 또는 Microsoft Dynamics 365에 연결하여 BDR에 사용자, 리드, 연락처, 계정, 기회, 소유자 매핑 및 관련 활동을 통합적으로 볼 수 있도록 합니다. 초기 연결에는 이 CRM 데이터에 대한 읽기 전용 액세스 권한이 필요합니다. Sales Qualifier에 연결하기 전에 CRM 관리자와 함께 자격 증명을 준비합니다. 통합 세부 정보는 [통합](integrations.md)을 참조하십시오.
+Sales Qualifier은 Salesforce 또는 Microsoft Dynamics 365에 연결하여 BDR에 사용자, 리드, 연락처, 계정, 기회, 소유자 매핑 및 관련 활동을 통합적으로 볼 수 있도록 합니다. 초기 연결에는 이 CRM 데이터에 대한 읽기 전용 액세스 권한이 필요합니다. Sales Qualifier에 연결하기 전에 자격 증명을 준비하려면 CRM 관리자와 협력합니다. 통합 세부 정보는 [통합](integrations.md)을 참조하십시오.
 
 >[!PREREQUISITES]
 >
@@ -93,7 +86,7 @@ Salesforce 시스템 관리자는 외부 클라이언트 앱(연결된 앱이라
 >* 모든 데이터 수정
 >* 연결된 앱 관리
 >
->_연결된 앱 관리_&#x200B;가 없으면 관리자가 클라이언트 ID 및 클라이언트 암호를 볼 수 없습니다.
+>관리자는 클라이언트 ID 및 클라이언트 암호를 보려면 _연결된 앱 관리_&#x200B;를 필요로 합니다.
 
 1. Salesforce에서 **[!UICONTROL 설정]** > **[!UICONTROL 앱 관리자]**(으)로 이동하여 **[!UICONTROL 새로 연결된 앱]** 또는 **[!UICONTROL 새 외부 클라이언트 앱]**&#x200B;을 선택합니다.
 1. 응용 프로그램 이름 및 관리 담당자 전자 메일을 입력합니다.
@@ -118,7 +111,7 @@ Salesforce 시스템 관리자는 외부 클라이언트 앱(연결된 앱이라
    * 콜백 URL
    * Salesforce 인스턴스 URL
 
-단계는 여기에 설명된 것과 약간 다를 수 있습니다. 자세한 내용은 [Salesforce 설명서](https://help.salesforce.com/s/)를 참조하세요.
+단계는 여기에 설명된 것과 약간 다릅니다. 자세한 내용은 [Salesforce 설명서](https://help.salesforce.com/s/?language=en_US)를 참조하세요.
 
 ### Salesforce 인스턴스 URL 찾기
 
@@ -142,7 +135,7 @@ Microsoft Dynamics 365 또는 Azure 관리자는 애플리케이션을 등록하
 1. 등록된 Microsoft Entra 애플리케이션을 선택합니다.
 1. 리드, 연락처, 계정, 기회 및 활동에 대한 읽기 액세스 권한을 부여하는 보안 역할을 지정합니다.
 
-   보안 역할이 필요합니다. 응용 프로그램이 없으면 Dynamics 데이터에 액세스할 수 없습니다.
+   보안 역할이 필요합니다. 응용 프로그램에서 Dynamics 데이터에 액세스하려면 보안 역할이 필요합니다.
 
 1. 클라이언트 ID, 클라이언트 암호, 테넌트 ID 및 Dynamics 인스턴스 URL을 수집합니다. 정식 URL 양식 `https://{{mydomain}}.crm.dynamics.com`을(를) 사용합니다.
 

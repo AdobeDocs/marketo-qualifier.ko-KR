@@ -4,11 +4,10 @@ description: Sales Qualifier에서 조직 성과 및 캠페인 성과 보고서�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 401
 ht-degree: 0%
 
 ---
@@ -29,21 +28,22 @@ ht-degree: 0%
 
 ## 조직 성과
 
-**[!UICONTROL 조직 성과]**&#x200B;가 팀 전체의 아웃바운드 활동 및 결과에 대해 보고합니다. 여기에는 **[!UICONTROL 개요]**, **[!UICONTROL 전자 메일]** 및 **[!UICONTROL 작업]**&#x200B;의 세 가지 탭이 있습니다.
+**[!UICONTROL 조직 성과]** 팀 전체의 아웃바운드 활동 및 결과에 대해 보고합니다. 여기에는 **[!UICONTROL 개요]**, **[!UICONTROL 전자 메일]** 및 **[!UICONTROL 작업]**&#x200B;의 세 가지 탭이 있습니다.
 
 ### 개요 탭
 
-**[!UICONTROL 개요]** 탭에는 아웃바운드 결과가 한눈에 요약되어 있습니다. 상자를 클릭하면 해당 정보가 있는 차트가 표시됩니다.
+**[!UICONTROL 개요]** 탭에 아웃바운드 결과가 요약됩니다. 상자를 클릭하면 해당 정보가 있는 차트가 표시됩니다.
 
 * **타일**: 파이프라인, 전자 메일 참여 및 수동 활동으로, 각각 이전 기간에 대한 트렌드가 변경되었습니다.
 * **성능 추세 차트**: 선택한 기간 동안의 아웃바운드 성능입니다.
-* **[!UICONTROL 팀 활동]** 테이블: 담당자가 활동을 분류했습니다.
+* **[!UICONTROL 팀 활동]** 테이블: 활동이 담당자별로 분류되었습니다.
+* **총 잠재 고객 수**: 활성 잠재 고객뿐만 아니라 총 잠재 고객 수이므로 총 아웃바운드 볼륨은 더 이상 계산되지 않습니다.
 
 ### 이메일 탭
 
 **[!UICONTROL 전자 메일]** 탭에서 전자 메일 볼륨 및 효과에 대해 보고합니다.
 
-* **타일**: 전송, 열기, 클릭, 회신된 전자 메일
+* **타일**: 다른 볼륨의 캠페인 간에 성능을 비교할 수 있도록 기본적으로 표시되는 열람률과 클릭률입니다. 대신 전송, 열기, 클릭 및 회신된 이메일의 원시 수를 보려면 토글을 선택합니다.
 * **주별 전자 메일 트렌드 차트**: 주별 전자 메일 활동.
 * 대표 이메일 성능 테이블.
 
@@ -61,9 +61,9 @@ Sales Qualifier은 부재 중 회신 및 바운스에 별도의 상태를 할당
 
 아웃바운드 워크플로우 캠페인별 아웃바운드 결과에 대한 **[!UICONTROL 캠페인 성과]** 보고서:
 
-* **KPI 타일**: 활성 잠재 고객, 열람율, 클릭률, 응답률 및 예약된 모임.
+* **KPI 타일**: 활성 잠재 고객, 열람율, 클릭률, 응답률 및 예약된 모임. 시스템은 기본적으로 열람 및 클릭률을 표시하여 다른 볼륨의 캠페인 간에 성능을 비교할 수 있도록 합니다. 원시 수를 대신 보려면 토글을 선택하십시오.
 * **캠페인 지표 트렌드 차트**: 선택한 기간 동안의 캠페인 KPI.
-* **[!UICONTROL 캠페인]** 테이블: 각 캠페인에 대한 이메일, 모임, 호출 및 LinkedIn 메시지 활동. 캠페인 행을 확장하여 해당 캠페인에 대한 대표 수준 세부 정보를 확인합니다.
+* **[!UICONTROL 캠페인]** 테이블: 각 캠페인에 대한 이메일, 모임, 호출 및 LinkedIn 메시지 활동. 캠페인에 대한 대표 수준 세부 정보를 보려면 해당 행을 확장합니다.
 
 예약 생성 방법은 [모임 예약](outbound-workflows.md#meeting-booking)을 참조하세요.
 
