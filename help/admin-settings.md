@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 1089
 ht-degree: 0%
 
 ---
@@ -73,6 +73,34 @@ CRM이 연결된 후 연결을 위해 **[!UICONTROL 관리]**&#x200B;를 선택�
 1. **[!UICONTROL 활동 동기화]**&#x200B;를 켜서 Sales Qualifier 지원 활동을 CRM 및 Marketo에 다시 동기화합니다.
 
 활동 동기화가 꺼져 있으면 Sales Qualifier에서 인바운드 CRM 데이터를 계속 사용하지만 아웃바운드 활동을 CRM 또는 Marketo에 동기화하지 않습니다.
+
+## CRM 동기화 규칙 구성
+
+잠재 고객이 아웃바운드 워크플로우를 통해 이동할 때 Sales Qualifier에서 리드 상태 업데이트를 Salesforce 및 Microsoft Dynamics에 자동으로 다시 쓸 수 있으므로 담당자가 더 이상 수동으로 CRM을 업데이트하지 않습니다.
+
+### CRM 동기화 규칙의 기능
+
+업데이트는 잠재 고객 뿐만 아니라 **[!UICONTROL 잠재 고객]**, **[!UICONTROL 연락처]**, **[!UICONTROL 계정]** 또는 **[!UICONTROL 기회]** 레코드도 타깃팅할 수 있습니다.
+
+업데이트는 다음과 같은 아웃바운드 워크플로 순간에 실행됩니다.
+
+* 워크플로우에 추가됨, 회신됨 또는 예약된 회의
+* 회신하지 않고 완료된 담당자 또는 워크플로에서 제거됨
+* 옵트아웃 또는 반송된 이메일
+
+필드 값은 동적 토큰으로 개인화할 수 있으므로 CRM 업데이트는 정적 값이 아닌 잠재 고객의 실제 여정을 반영합니다. 대표자 이름, 아웃바운드 워크플로 이름, 모임 날짜 및 시간 등 세부 정보에 대한 토큰을 사용할 수 있습니다.
+
+CRM 호환 값만 기록되고, 실패한 필드 하나가 다른 필드를 차단하지 않으며, 일시적인 문제가 자동으로 다시 시도됩니다. 동기화된 항목과 주의가 필요한 항목을 확인할 수 있도록 모든 업데이트가 추적됩니다.
+
+### CRM 동기화 규칙 설정
+
+CRM 동기화 규칙을 설정하려면:
+
+1. 왼쪽 탐색에서 **[!UICONTROL 관리]**&#x200B;를 확장하고 **[!UICONTROL 관리 설정]** > **[!UICONTROL CRM 연결]**&#x200B;을 선택합니다.
+1. 연결된 CRM에 대해 **[!UICONTROL 관리]**&#x200B;를 선택한 다음 **[!UICONTROL 동기화 규칙]**&#x200B;을 선택합니다.
+1. 대상 CRM 엔터티 및 필드를 선택하고 위의 워크플로 모멘트에 매핑한 다음 토글을 켭니다.
+
+CRM 동기화 규칙이 구성되면 영업 팀은 모든 단계에서 데이터 지연 및 수동 작업을 줄이면서 리드, 연락처, 계정 및 기회에 걸쳐 정확하고 개인화된 최신 상태를 확인할 수 있습니다.
 
 ## 지식 센터 플레이북 구축 {#knowledge-center}
 

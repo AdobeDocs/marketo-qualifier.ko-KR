@@ -3,14 +3,27 @@ title: Sales Qualifier 릴리스 노트
 description: Seal Qualifier의 새로운 기능에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '307'
 ht-degree: 12%
 
 ---
 
 # Sales Qualifier 릴리스 노트
+
+## 09-08-2026
+
+이번 릴리스에는 다음이 포함됩니다.
+
+* 프로필 설정에서 사용자 자신의 이메일 드래프팅 스타일을 한 번 설정하면 생성된 모든 이메일이 이를 따릅니다. [자세히 알아보기](profile-settings.md#email-drafting-context)
+* 새 모임 리서치 탭에서 잠재 고객의 페이지에서 목표 기반 또는 사용자 지정 모임 준비를 생성합니다. [자세히 알아보기](prospects.md#generate-meeting-prep)
+* 관리자는 팀원에게 아웃바운드 워크플로우를 할당하고 워크플로우 설정을 기본값으로 재설정할 수 있습니다. [자세히 알아보기](outbound-workflows.md#create-an-outbound-workflow)
+* CSV에서 잠재 고객을 가져올 때 사용자 지정 필드를 매핑하고 생성된 이메일에서 해당 값을 사용합니다. [자세히 알아보기](prospects.md#build-your-prospect-list)
+* 생성된 이메일은 사용자가 가져오는 모든 추가 잠재 고객 데이터를 사용하며 기본적으로 잠재 고객의 언어로 작성될 수 있습니다. [자세히 알아보기](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)
+* 아웃바운드 성과는 기본적으로 열람률과 클릭률을 보여주며 원시 카운트 및 조직 수준의 총 잠재 고객에 대한 토글이 표시됩니다. [자세히 알아보기](performance.md)
+* CRM 동기화 규칙은 전망이 아웃바운드 워크플로우를 통해 이동할 때 CRM 상태를 자동으로 업데이트합니다. [자세히 알아보기](admin-settings.md#configure-crm-sync-rules)
+* Sales Qualifier, CRM, [!DNL Marketo] 및 [!DNL Adobe Journey Optimizer B2B Edition] 데이터에서 AI Chat 질문을 합니다. [자세히 알아보기](ai-assistant.md#ask-ai-chat-across-your-connected-data)
 
 ## 08-17-2026
 
