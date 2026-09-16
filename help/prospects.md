@@ -1,23 +1,25 @@
 ---
-title: Sales Qualifier의 잠재 고객
-description: CRM에서 잠재 고객 목록을 빌드하고, 가져오고, 수동으로 추가한 소스에서 잠재 고객을 필터링하고, Sales Qualifier에서 잠재 고객 세부 정보를 검토하는 방법을 알아봅니다.
+title: Adobe Marketo Qualifier의 잠재 고객
+description: CRM에서 잠재 고객 목록을 빌드하고, 가져오고, 수동으로 추가한 소스에서 잠재 고객을 필터링하고, Adobe Marketo Qualifier에서 잠재 고객 세부 정보를 검토하는 방법에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '701'
 ht-degree: 1%
-
 ---
-
 
 # 잠재 고객
 
@@ -34,9 +36,9 @@ ht-degree: 1%
 
 잠재 고객 목록은 두 개 이상의 소스에서 가져온 사람을 결합합니다.
 
-* **CRM 잠재 고객** - Sales Qualifier에서 연결된 사용자에게 할당된 잠재 고객 및 연락처를 자동으로 가져옵니다. [통합](integrations.md)을 참조하세요.
+* **CRM 잠재 고객** - Adobe Marketo Qualifier는 연결된 사용자에게 할당된 리드 및 연락처를 자동으로 가져옵니다. [통합](integrations.md)을 참조하세요.
 * **가져온 잠재 고객** - CSV 파일에서 가져온 잠재 고객입니다.
-* **수동으로 추가된 잠재 고객**—Sales Qualifier에 개별 잠재 고객이 추가되었습니다.
+* **수동으로 추가된 잠재 고객** - 개별 잠재 고객이 Marketo 한정자에 추가되었습니다.
 
 CRM에서 제공되지 않는 잠재 고객을 추가하려면:
 
@@ -48,7 +50,7 @@ CRM에서 제공되지 않는 잠재 고객을 추가하려면:
 
    * CSV 가져오기의 경우 CSV를 `firstname,email` 형식으로 업로드하십시오.
      이름과 이메일은 필수 항목입니다. 성은 선택 사항입니다. CSV 템플릿에는 CRM 리드 ID 열이 포함되어 있지 않지만 가져오기 전에 열과 해당 값을 파일에 추가할 수 있습니다. 가져오기에 실패한 경우 수정할 필드 또는 값에 대한 오류 메시지를 검토한 다음 파일을 다시 업로드하십시오.
-     표준 CSV 필드뿐만 아니라 모든 사용자 지정 또는 추가 CSV 필드를 매핑합니다. Sales Qualifier은 이러한 값을 각 잠재 고객에 저장하고 [이메일 생성](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)을 포함하여 나중에 사용할 수 있도록 합니다.
+     표준 CSV 필드뿐만 아니라 모든 사용자 지정 또는 추가 CSV 필드를 매핑합니다. Marketo 한정자는 이러한 값을 각 잠재 고객에 저장하고 [이메일 생성](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)을 포함하여 나중에 사용할 수 있도록 합니다.
    * 개인을 수동으로 추가하려면 양식에 해당 상세내역을 입력합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
@@ -79,7 +81,7 @@ CRM에서 제공되지 않는 잠재 고객을 추가하려면:
 
 각 잠재 고객은 최근 기록과 함께 최신 [!DNL Marketo] 활동을 보여줍니다.
 
-마케팅 하이라이트는 모든 프로덕션 지역에서 사용할 수 있습니다. 관리자가 [!DNL Marketo]을(를) Sales Qualifier에 연결하는 일회성 설정을 완료합니다. [마케팅 하이라이트 설정](integrations.md#turn-on-marketo-engagement-filtering)을 참조하세요.
+마케팅 하이라이트는 모든 프로덕션 지역에서 사용할 수 있습니다. 관리자가 [!DNL Marketo]을(를) Marketo 한정자에 연결하는 일회성 설정을 완료합니다. [마케팅 하이라이트 설정](integrations.md#turn-on-marketo-engagement-filtering)을 참조하세요.
 
 ## 잠재 고객 세부 정보 검토
 

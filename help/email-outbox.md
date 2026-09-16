@@ -1,20 +1,21 @@
 ---
 title: 이메일 보낼 편지함 검토
-description: 이메일 보낼 편지함에서 답글을 포함하여 Sales Qualifier이 귀하를 대신하여 보낸 이메일을 검토하는 방법을 알아봅니다.
+description: 이메일 보낼 편지함에서 회신을 포함하여 Adobe Marketo Qualifier가 귀하를 대신하여 보낸 이메일을 검토하는 방법을 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # 이메일 보낼 편지함
 
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 **[!UICONTROL 모든 전자 메일]** 목록에는 보낸 전자 메일마다 하나의 행이 있으며 가장 최근 전자 메일이 먼저 표시됩니다. 각 행에는 수신자의 이름, 제목 및 보낸 날짜가 표시됩니다. 제목이 없는 전자 메일에 _(제목 없음)_&#x200B;이(가) 표시됩니다. 이전 이메일을 로드하려면 스크롤하십시오.
 
-페이지를 열면 Sales Qualifier에서 첫 번째 이메일을 자동으로 선택하여 콘텐츠가 오른쪽에 나타납니다.
+페이지를 열면 Adobe Marketo Qualifier가 자동으로 첫 번째 이메일을 선택하여 해당 콘텐츠가 오른쪽에 나타납니다.
 
 전자 메일을 보내지 않은 경우 목록에 _보낼 편지함이 비어 있습니다_. 아웃바운드 워크플로우를 통해 이메일을 보내거나 예약하면 여기에 표시됩니다.
 
@@ -38,7 +39,7 @@ ht-degree: 0%
 * **제목 및 아웃바운드 워크플로**—제목, 전자 메일을 보낸 [아웃바운드 워크플로](outbound-workflows.md)의 이름, 아웃바운드 워크플로 상태. 아웃바운드 워크플로 이름을 선택하여 엽니다.
 * **대화**—스레드에 있는 보낸 전자 메일과 모든 답글. 각 항목은 메시지가 전송되었는지 또는 수신되었는지 여부를 식별하며 타임스탬프를 포함합니다.
 
-이메일은 개인화된 콘텐츠를 포함하여 전송된 대로 렌더링됩니다. 메시지 본문을 사용할 수 없는 경우 Sales Qualifier에 짧은 _사용할 수 없는 전자 메일 내용_ 메모가 대신 표시됩니다.
+이메일은 개인화된 콘텐츠를 포함하여 전송된 대로 렌더링됩니다. 메시지 본문을 사용할 수 없는 경우 Marketo 한정자에 짧은 _사용할 수 없는 전자 메일 내용_ 메모가 대신 표시됩니다.
 
 >[!NOTE]
 >

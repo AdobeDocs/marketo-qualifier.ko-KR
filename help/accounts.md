@@ -1,22 +1,24 @@
 ---
-title: Sales Qualifier의 계정
-description: AI 연구, 최근 뉴스, 기회 및 주요 참여 연락처를 포함하여 Sales Qualifier에서 계정 인텔리전스를 검토하여 지원 우선 순위를 매기는 방법을 알아봅니다.
+title: Adobe Marketo 한정자의 계정
+description: AI 리서치, 최근 뉴스, 기회 및 주요 참여 연락처를 포함한 Adobe Marketo Qualifier에서 계정 인텔리전스를 검토하여 지원 우선 순위를 정하는 방법에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 
 # 계정
 
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 ![개인 및 계정 탭이 있는 잠재 고객 세부 정보 페이지](./assets/account-home.png){width="800" zoomable="yes"}
 
-Sales Qualifier은 잠재 고객의 CRM 레코드에서 계정을 식별합니다. 해당 계정과 연결된 모든 잠재 고객에서 동일한 계정 보기를 사용할 수 있습니다. Sales Qualifier이 계정과 일치하지 않으면 탭에 _계정을 찾을 수 없음_&#x200B;이 표시됩니다.
+Adobe Marketo Qualifier는 잠재 고객의 CRM 레코드에서 계정을 식별합니다. 해당 계정과 연결된 모든 잠재 고객에서 동일한 계정 보기를 사용할 수 있습니다. Marketo 한정자가 계정과 일치하지 않으면 탭에 _계정을 찾을 수 없음_&#x200B;이 표시됩니다.
 
 >[!NOTE]
 >

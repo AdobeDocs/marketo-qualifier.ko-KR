@@ -1,21 +1,22 @@
 ---
-title: Sales Qualifier의 작업
-description: Sales Qualifier 작업 큐에서 수동 지원 작업을 처리하고 에이전트가 제안한 잠재 고객을 검토하는 방법을 알아봅니다.
+title: Adobe Marketo 한정자의 작업
+description: Adobe Marketo 한정자 작업 큐에서 수동 전달 작업을 처리하고 에이전트가 제안한 잠재 고객을 검토하는 방법을 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 904
+source-wordcount: '907'
 ht-degree: 0%
-
 ---
-
 
 # 작업
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 
 * **[!UICONTROL LinkedInMail]**—케이던스가 LinkedInMail 단계에 도달할 때 만들어집니다. 작업 패널에는 LinkedIn에서 복사하고 보낼 콘텐츠가 표시됩니다. **[!UICONTROL AI 이유]**&#x200B;를 확장하여 이유를 검토하십시오.
 
-* **[!UICONTROL 이메일 검토]** - Sales Qualifier에서 잠재 고객의 개인화된 이메일을 생성한 후 만들어집니다. **[!UICONTROL 전자 메일 검토]**&#x200B;를 선택하여 전달을 시작하기 전에 초안을 검토하고 승인합니다. [생성된 전자 메일 검토 및 세분화](outbound-workflows.md#review-and-refine-generated-emails)를 참조하세요.
+* **[!UICONTROL 이메일 검토]** - Adobe Marketo Qualifier가 잠재 고객의 개인화된 이메일을 생성한 후 만들어집니다. **[!UICONTROL 전자 메일 검토]**&#x200B;를 선택하여 전달을 시작하기 전에 초안을 검토하고 승인합니다. [생성된 전자 메일 검토 및 세분화](outbound-workflows.md#review-and-refine-generated-emails)를 참조하세요.
 
 ![전자 메일 검토](assets/tasks-review.png)
 
