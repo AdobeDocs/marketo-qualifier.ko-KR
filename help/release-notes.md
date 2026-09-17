@@ -1,16 +1,14 @@
 ---
-title: Sales Qualifier 릴리스 노트
-description: Seal Qualifier의 새로운 기능에 대해 알아봅니다.
+title: Adobe Marketo Qualifier 릴리스 정보
+description: Adobe Marketo Qualifier의 새로운 기능에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 12%
-
 ---
-
-# Sales Qualifier 릴리스 노트
+# Adobe Marketo Qualifier 릴리스 정보
 
 ## 09-08-2026
 
@@ -23,11 +21,11 @@ ht-degree: 12%
 * 생성된 이메일은 사용자가 가져오는 모든 추가 잠재 고객 데이터를 사용하며 기본적으로 잠재 고객의 언어로 작성될 수 있습니다. [자세히 알아보기](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)
 * 아웃바운드 성과는 기본적으로 열람률과 클릭률을 보여주며 원시 카운트 및 조직 수준의 총 잠재 고객에 대한 토글이 표시됩니다. [자세히 알아보기](performance.md)
 * CRM 동기화 규칙은 전망이 아웃바운드 워크플로우를 통해 이동할 때 CRM 상태를 자동으로 업데이트합니다. [자세히 알아보기](admin-settings.md#configure-crm-sync-rules)
-* Sales Qualifier, CRM, [!DNL Marketo] 및 [!DNL Adobe Journey Optimizer B2B Edition] 데이터에서 AI Chat 질문을 합니다. [자세히 알아보기](ai-assistant.md#ask-ai-chat-across-your-connected-data)
+* Marketo Qualifier, CRM, [!DNL Marketo] 및 [!DNL Adobe Journey Optimizer B2B Edition] 데이터에서 AI 채팅 질문을 할 수 있습니다. [자세히 알아보기](ai-assistant.md#ask-ai-chat-across-your-connected-data)
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier]은(는) 이제 독립 실행형 응용 프로그램으로 사용할 수 있습니다. Marketo 및 Adobe Journey Optimizer B2B를 지원합니다.
+[!DNL Marketo Qualifier]은(는) 이제 독립 실행형 응용 프로그램으로 사용할 수 있습니다. Marketo 및 Adobe Journey Optimizer B2B를 지원합니다.
 
 이번 릴리스에는 다음이 포함됩니다.
 

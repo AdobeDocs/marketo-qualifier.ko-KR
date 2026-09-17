@@ -1,25 +1,29 @@
 ---
 title: 아웃바운드 워크플로우 만들기 및 관리
-description: Sales Qualifier에서 AI가 생성한 아웃바운드 워크플로우를 만들고, 공유하고, 검토하고, 관리하여 목표 기반 아웃바운드 케이던스를 실행하는 방법에 대해 알아봅니다.
+description: 목표 기반 아웃바운드 케이던스를 실행하기 위해 Adobe Marketo Qualifier에서 AI 생성 아웃바운드 워크플로우를 생성, 공유, 검토 및 관리하는 방법을 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 2062
+source-wordcount: '2064'
 ht-degree: 0%
-
 ---
-
 
 # 아웃바운드 워크플로
 
@@ -155,7 +159,7 @@ AI는 선택한 각 잠재 고객 및 이메일 접점에 대해 개인화된 �
 
 ## 생성된 이메일 검토 및 세분화
 
-생성이 완료되면 아웃바운드 워크플로 세부 사항 보기에서 초안을 검토하라는 메시지가 표시됩니다. Sales Qualifier은 승인하기 전까지 이메일을 보내지 않습니다.
+생성이 완료되면 아웃바운드 워크플로 세부 사항 보기에서 초안을 검토하라는 메시지가 표시됩니다. Adobe Marketo Qualifier는 승인할 때까지 이메일을 보내지 않습니다.
 
 1. 아웃바운드 워크플로 세부 정보 보기의 배너에서 **[!UICONTROL 초안 검토]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 터치포인트 검토]** 단계에는 두 개의 탭이 있습니다.
@@ -234,10 +238,10 @@ AI는 선택한 각 잠재 고객 및 이메일 접점에 대해 개인화된 �
 
 ## 회의 예약
 
-달력에 연결하면 Sales Qualifier은 잠재 고객이 나와 시간을 예약하는 데 사용할 수 있는 개인 예약 링크를 생성합니다.
+달력에 연결하면 Marketo Qualifier는 잠재 고객이 나와 시간을 예약하는 데 사용할 수 있는 개인 예약 링크를 생성합니다.
 
 * **예약 링크**—일정 연결 및 가용성을 [프로필 설정](profile-settings.md)에서 구성하세요. 아웃바운드 이메일에 표시되도록 이메일 서명에 예약 링크를 추가합니다.
-* **케이던스 배치** - Sales Qualifier이 케이던스의 관련 지점에 예약 링크를 삽입합니다. 배치를 변경할 수 있습니다.
+* **케이던스 배치** - Marketo 한정자가 케이던스의 관련 지점에 예약 링크를 삽입합니다. 배치를 변경할 수 있습니다.
 * **예약 일시 중지**—잠재 고객이 모임을 예약하면 **[!UICONTROL 모임 예약 일시 중지]**&#x200B;가 이후 작업을 중지합니다. [4단계: 아웃바운드 워크플로 설정 구성](#step-4-configure-outbound-workflow-settings)을 참조하십시오.
 
 [아웃바운드 성능](performance.md) 페이지에서 예약 결과를 추적합니다.

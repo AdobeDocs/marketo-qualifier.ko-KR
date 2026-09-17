@@ -1,32 +1,35 @@
 ---
-title: Sales Qualifier 개요
-description: B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자 참여를 자동화하는 AI 기반 앱인 Sales Qualifier에 대해 알아봅니다.
+title: Adobe Marketo 한정자 개요
+description: B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자 참여를 자동화하는 AI 기반 앱인 Adobe Marketo Qualifier에 대해 알아보십시오.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '394'
 ht-degree: 21%
-
 ---
 
+# Adobe Marketo 한정자
 
-# 영업 구분자
-
-Adobe Sales Qualifier은 BDR(비즈니스 개발 담당자)을 위한 잠재 고객 자격, 지원 및 크로스 채널 구매자 참여를 자동화하는 AI 기반 애플리케이션입니다. Account Qualification Agent은 계정 및 잠재 고객을 분석하고, 다음 단계를 위해 준비된 고객을 우선시하며, CRM 데이터를 기반으로 개인화된 전달을 초안합니다.
+Adobe Marketo Qualifier는 BDR(비즈니스 개발 담당자)을 위한 잠재 고객 자격, 지원 및 크로스 채널 구매자 참여를 자동화하는 AI 기반 애플리케이션입니다. Account Qualification Agent은 계정 및 잠재 고객을 분석하고, 다음 단계를 위해 준비된 고객을 우선시하며, CRM 데이터를 기반으로 개인화된 전달을 초안합니다.
 
 BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outlook 내에서 직접 비즈니스 인텔리전스에 액세스할 수 있습니다.
 
-## Sales Qualifier에서 수행할 수 있는 작업
+## Marketo Qualifier에서 수행할 수 있는 작업
 
 * AI가 생성한 활동 요약 및 신호 기반 우선 순위를 사용하여 **잠재 고객 및 계정의 우선 순위 지정**.
 * AI가 케이던스를 제안하고 각 잠재 고객에 대해 개인화된 이메일을 작성하는 **목표 기반 아웃바운드 워크플로 구축**.

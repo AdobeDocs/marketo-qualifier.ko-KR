@@ -1,14 +1,12 @@
 ---
-user-guide-title: 영업 구분자
-user-guide-description: Sales Qualifier을 사용하여 B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자 참여를 자동화하는 방법에 대해 알아봅니다.
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+user-guide-title: Adobe Marketo 한정자
+user-guide-description: Adobe Marketo Qualifier를 사용하여 B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자 참여를 자동화하는 방법에 대해 알아봅니다.
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 27%
-
+source-wordcount: '51'
+ht-degree: 21%
 ---
-
-# Sales Qualifier 안내서 {#using}
+# Adobe Marketo Qualifier 안내서 {#using}
 
 + [개요](home.md)
 + [릴리스 정보](release-notes.md)

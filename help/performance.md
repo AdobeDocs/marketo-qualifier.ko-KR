@@ -1,20 +1,20 @@
 ---
-title: Sales Qualifier의 아웃바운드 성능
-description: Sales Qualifier에서 조직 성과 및 캠페인 성과 보고서를 검토하여 아웃바운드 활동 및 결과를 추적하는 방법에 대해 알아봅니다.
+title: Adobe Marketo Qualifier의 아웃바운드 성능
+description: Adobe Marketo Qualifier에서 조직 성과 및 캠페인 성과 보고서를 검토하여 아웃바운드 활동 및 결과를 추적하는 방법에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: CX Enterprise
+Outbound Workflows    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
 
-
-# Sales Qualifier의 아웃바운드 성능
+# Adobe Marketo Qualifier의 아웃바운드 성능
 
 왼쪽 탐색에서 **[!UICONTROL 아웃바운드 성능]**&#x200B;을(를) 선택하여 팀 전체의 아웃바운드 활동 및 결과를 추적합니다. 대시보드에는 **[!UICONTROL 조직 성과]** 및 **[!UICONTROL 캠페인 성과]**&#x200B;의 두 가지 보기가 있습니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 * **주별 전자 메일 트렌드 차트**: 주별 전자 메일 활동.
 * 대표 이메일 성능 테이블.
 
-Sales Qualifier은 부재 중 회신 및 바운스에 별도의 상태를 할당하여 잠재 고객 참여와 구분할 수 있도록 합니다.
+Marketo Qualifier는 부재 중 회신 및 바운스에 개별 상태를 할당하므로 잠재 고객 참여와 구분할 수 있습니다.
 
 ### 작업 탭
 
