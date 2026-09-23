@@ -1,12 +1,12 @@
 ---
 title: AI 채팅 사용
-description: Adobe Marketo Qualifier에서 AI Chat을 사용하여 계정을 조사하고, 참여를 선언하고, CRM, 참여 및 지식 센터 데이터를 기반으로 답변을 얻는 방법에 대해 알아봅니다.
+description: '[!DNL Adobe Marketo Qualifier]에서 AI Chat을 사용하여 계정을 조사하고, 봉사 활동 초안을 작성하고, CRM, 참여 및 지식 센터 데이터를 기반으로 답변을 얻는 방법에 대해 알아봅니다.'
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Adobe Marketo Qualifier
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -16,21 +16,21 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '712'
 ht-degree: 1%
 ---
 
 # AI 채팅
 
-AI Chat은 판매 컨텍스트를 기반으로 자연어 질문에 답변합니다. Adobe Marketo Qualifier를 종료하지 않고 계정을 조사하고, 통화를 준비하고, 봉사 활동을 초안 및 작업의 우선 순위를 지정할 수 있습니다.
+AI Chat은 판매 컨텍스트를 기반으로 자연어 질문에 답변합니다. [!DNL Adobe Marketo Qualifier]을(를) 종료하지 않고 계정을 조사하고, 통화를 준비하고, 봉사 활동 초안을 작성하고, 작업의 우선 순위를 매기는 데 사용합니다.
 
 ![AI 채팅 단추](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## AI 채팅 열기
 
-플로팅 **[!UICONTROL AI 채팅]** 버튼을 선택하여 채팅 패널을 엽니다. 잠재 고객, 계정 또는 아웃바운드 워크플로우를 볼 수 있도록 현재 페이지 옆에 패널이 열립니다. 패널 가장자리를 드래그하여 크기를 조정합니다. 패널을 닫으려면 **[!UICONTROL AI 채팅]**&#x200B;을 다시 선택하세요.
+채팅 패널을 열려면 부동 **[!UICONTROL AI 채팅]** 버튼을 선택합니다. 잠재 고객, 계정 또는 아웃바운드 워크플로우를 볼 수 있도록 현재 페이지 옆에 패널이 열립니다. 패널의 크기를 조정하려면 가장자리를 드래그합니다. 패널을 닫으려면 **[!UICONTROL AI 채팅]**&#x200B;을 다시 선택하세요.
 
 >[!NOTE]
 >
@@ -58,9 +58,9 @@ AI Chat은 다음 소스를 사용할 수 있습니다.
 
 ## 연결된 데이터 전체에 걸쳐 AI 채팅에 묻기
 
-AI Chat은 Marketo Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition] 및 회사 인텔리전스 데이터에서 질문에 답변할 수 있습니다. 정보를 조회하거나 컨텍스트를 가져오기 위해 일반 언어로 질문합니다. AI 채팅은 데이터를 읽고 보고합니다. AI 채팅은 아무것도 만들거나 편집하거나 실행하지 않습니다.
+AI Chat은 [!DNL Marketo Qualifier], CRM, [!DNL Marketo], [!DNL Marketo Optimizer] 및 회사 인텔리전스 데이터에서 질문에 답변할 수 있습니다. 정보를 조회하거나 컨텍스트를 검색하려면 일반 언어로 질문하십시오. AI 채팅은 데이터를 읽고 보고합니다. AI 채팅은 아무것도 만들거나 편집하거나 실행하지 않습니다.
 
-다음은 몇 가지 샘플 프롬프트입니다. 프롬프트에서 더 구체적일수록 결과는 더 집중적이 됩니다.
+다음은 몇 가지 샘플 프롬프트입니다. 프롬프트에서 더 구체적일수록 결과는 더 집중됩니다.
 
 잠재 고객 및 계정:
 
@@ -72,8 +72,8 @@ AI Chat은 Marketo Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer
 
 기술 자료 센터:
 
-* &quot;가격 이의를 처리하는 데 어떤 담보가 있습니까?&quot;
-* &quot;경쟁사와 비교하여 EMC의 주요 차별화 요소는 무엇입니까?&quot;
+* &quot;가격 이의를 처리할 때 이용할 수 있는 담보는 무엇입니까?&quot;
+* &quot;경쟁사와 차별화되는 주요 차별화 요소는 무엇입니까?&quot;
 * &quot;지식 센터에 문서를 나열합니다.&quot;
 * &quot;문서 요약&quot;
 
@@ -93,7 +93,7 @@ CRM:
 [!DNL Adobe Journey Optimizer B2B Edition]:
 
 * &quot;여정이 몇 개나 있습니까?&quot;
-* &quot;대상자를 성향별로 어떻게 구분합니까?&quot;
+* &quot;성향은 내 대상자를 어떻게 분할합니까?&quot;
 * &quot;내 계정에는 어떤 랜딩 페이지가 있습니까?&quot;
 * &quot;어떤 리드 필드가 채점으로 연결됩니까?&quot;
 
@@ -129,7 +129,7 @@ AI가 생성한 응답은 정확하지 않을 수 있습니다. 사용하기 전
 * 초안 이메일을 주의 깊게 읽고 보내기 전에 개인화합니다.
 * 완성된 결과물이 아닌 어시스턴트의 출력을 시작점으로 사용합니다.
 
-조직의 AI 채팅 사용은 Adobe 생성 AI 약관의 적용을 받습니다.
+Adobe Generative AI 용어는 조직의 AI 채팅 사용을 제어합니다.
 
 >[!MORELIKETHIS]
 >

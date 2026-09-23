@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe Marketo 한정자
-user-guide-description: Adobe Marketo Qualifier를 사용하여 B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자 참여를 자동화하는 방법에 대해 알아봅니다.
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+user-guide-title: '[!DNL Adobe Marketo Qualifier]'
+user-guide-description: '[!DNL Adobe Marketo Qualifier]을(를) 사용하여 B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자 참여를 자동화하는 방법에 대해 알아봅니다.'
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '42'
+ht-degree: 26%
 ---
-# Adobe Marketo Qualifier 안내서 {#using}
+# [!DNL Adobe Marketo Qualifier] 안내서 {#using}
 
 + [개요](home.md)
 + [릴리스 정보](release-notes.md)

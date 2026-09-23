@@ -1,6 +1,6 @@
 ---
 title: Adobe Marketo Qualifier 시작
-description: 팀에서 애플리케이션을 사용하기 전에 사용자 그룹 및 CRM 연결을 포함하여 Adobe Marketo Qualifier에 대한 관리자 1회 설정을 완료하는 방법을 알아봅니다.
+description: 팀에서 애플리케이션 사용을 시작하기 전에 사용자 그룹 및 CRM 연결을 포함하여 Adobe Marketo Qualifier에 대한 관리자 1회 설정을 완료하는 방법을 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -29,15 +29,15 @@ ht-degree: 0%
 
 # Adobe Marketo Qualifier 시작
 
-Adobe에서 조직에 Marketo 한정자를 프로비전한 후 [!DNL Marketo] 시스템 관리자는 필요한 사용자 그룹을 만들고 Salesforce 또는 Microsoft Dynamics 365에 연결해야 합니다.
+Adobe에서 조직에 Marketo Qualifier을 프로비전한 후에는 [!DNL Marketo] 시스템 관리자가 필요한 사용자 그룹을 만들고 Salesforce 또는 Microsoft Dynamics 365에 연결해야 합니다.
 
-![Marketo 한정자 홈 페이지](assets/homepage.png){width="800" zoomable="yes"}
+![Marketo Qualifier 홈 페이지](assets/homepage.png){width="800" zoomable="yes"}
 
 ## 사용자 그룹 설정
 
 Adobe Admin Console의 사용자 그룹은 Marketo Qualifier에 대한 액세스를 제어하는 데 사용됩니다. 사용자가 로그인하려면 두 그룹을 모두 만들어야 합니다.
 
-그룹 설정에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://helpx.adobe.com/kr/business/enterprise/users/users-and-groups/user-groups.html)를 참조하세요.
+그룹 설정에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)를 참조하세요.
 
 >[!PREREQUISITES]
 >
@@ -46,7 +46,7 @@ Adobe Admin Console의 사용자 그룹은 Marketo Qualifier에 대한 액세스
 >* Adobe 앱 전환기에서 **[!UICONTROL Admin Console]**&#x200B;에 액세스할 수 있는 조직 관리자가 되십시오.
 >* Adobe Experience Platform 제품에 할당되거나 시스템 관리자가 될 수 있습니다. 그렇지 않으면 Adobe Experience Platform이 제품 목록에 표시되지 않습니다.
 
-### Marketo 한정자 사용자
+### Marketo Qualifier 사용자
 
 응용 프로그램에 액세스하려면 사용자가 `Marketo Qualifier` 사용자 그룹에 속해야 합니다.
 
@@ -58,9 +58,9 @@ Adobe Admin Console의 사용자 그룹은 Marketo Qualifier에 대한 액세스
 1. **[!UICONTROL 할당된 제품 프로필]**&#x200B;을 연 다음 **[!UICONTROL 프로필 할당]**&#x200B;을 선택하세요.
 1. **[!UICONTROL Adobe Experience Platform]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL 기본 프로덕션 모든 액세스]** 제품 프로필을 선택하고 **[!UICONTROL 적용]**&#x200B;을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 사용자]**&#x200B;를 열고 **[!UICONTROL 사용자 추가]**&#x200B;를 선택하여 Marketo Qualifier에 액세스해야 하는 모든 사용자를 추가합니다.
+1. Marketo Qualifier에 액세스해야 하는 모든 사용자를 추가하려면 **[!UICONTROL 사용자]**&#x200B;를 열고 **[!UICONTROL 사용자 추가]**&#x200B;를 선택하십시오.
 
-### Marketo 한정자 관리자
+### Marketo Qualifier 관리자
 
 CRM 연결, [기술 센터](admin-settings.md#knowledge-center) 및 글로벌 전자 메일 옵트아웃 설정을 구성하는 관리자 또한 `Marketo Qualifier Admins` 사용자 그룹에 속해야 합니다.
 
@@ -77,7 +77,7 @@ CRM 연결, [기술 센터](admin-settings.md#knowledge-center) 및 글로벌 �
 
 ## CRM 연결
 
-Marketo Qualifier는 Salesforce 또는 Microsoft Dynamics 365에 연결하여 BDR에 사용자, 리드, 연락처, 계정, 기회, 소유자 매핑 및 관련 활동에 대한 통합 보기를 제공합니다. 초기 연결에는 이 CRM 데이터에 대한 읽기 전용 액세스 권한이 필요합니다. Marketo Qualifier에 연결하기 전에 자격 증명을 준비하려면 CRM 관리자와 협력하십시오. 통합 세부 정보는 [통합](integrations.md)을 참조하십시오.
+Marketo Qualifier은 Salesforce 또는 Microsoft Dynamics 365에 연결하여 BDR에 사용자, 리드, 연락처, 계정, 기회, 소유자 매핑 및 관련 활동을 통합적으로 볼 수 있도록 합니다. 초기 연결에는 이 CRM 데이터에 대한 읽기 전용 액세스 권한이 필요합니다. Marketo Qualifier에 연결하기 전에 자격 증명을 준비하려면 CRM 관리자와 협력합니다. 통합 세부 정보는 [통합](integrations.md)을 참조하십시오.
 
 >[!PREREQUISITES]
 >
@@ -116,7 +116,7 @@ Salesforce 시스템 관리자는 외부 클라이언트 앱(연결된 앱이라
 1. 실행 사용자에게 `Leads`, `Accounts`, `Contacts`, `Tasks`, `Events`, `Opportunity`, `OpportunityContactRoles` 및 `OpportunityLineItems`에 대한 **읽기** 액세스 권한이 있는지 확인하십시오. **활동 액세스**&#x200B;도 사용하도록 설정되어 있는지 확인하십시오.
 1. 응용 프로그램을 저장합니다.
 1. **[!UICONTROL 앱 관리자]**&#x200B;에서 응용 프로그램을 열고 **[!UICONTROL 보기]** > **[!UICONTROL 소비자 세부 정보]**&#x200B;를 선택합니다.
-1. Marketo 한정자 연결에 대해 다음 값을 복사합니다.
+1. Marketo Qualifier 연결에 대해 다음 값을 복사합니다.
 
    * 소비자 키(클라이언트 ID)
    * 소비자 암호(클라이언트 암호)
@@ -128,7 +128,7 @@ Salesforce 시스템 관리자는 외부 클라이언트 앱(연결된 앱이라
 ### Salesforce 인스턴스 URL 찾기
 
 1. 로그인 후 브라우저 주소 표시줄(`{{mydomain}}` 값)에서 조직 _내 도메인_ 하위 도메인을 메모하세요.
-1. Marketo 한정자에 표준 양식을 사용합니다. `https://{{mydomain}}.my.salesforce.com`.
+1. Marketo Qualifier에 표준 양식을 사용합니다. `https://{{mydomain}}.my.salesforce.com`.
 
 `lightning.force.com` URL을 인스턴스 URL로 사용하지 마십시오.
 
@@ -155,7 +155,7 @@ Microsoft Dynamics 365 또는 Azure 관리자는 애플리케이션을 등록하
 
 ### 연결 입력
 
-1. 두 필수 Marketo Qualifier 그룹의 구성원으로, Marketo Qualifier에 로그인하여 올바른 샌드박스 또는 환경이 선택되어 있는지 확인하십시오.
+1. 두 필수 Marketo Qualifier 그룹의 구성원으로 Marketo Qualifier에 로그인하여 올바른 샌드박스 또는 환경이 선택되어 있는지 확인하십시오.
 1. 왼쪽 탐색에서 **[!UICONTROL 관리]**&#x200B;를 확장하고 **[!UICONTROL 관리 설정]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 통합]**&#x200B;에서 **[!UICONTROL CRM 연결]**&#x200B;을 선택하십시오.
 
@@ -169,7 +169,7 @@ Microsoft Dynamics 365 또는 Azure 관리자는 애플리케이션을 등록하
 
 ### CRM 필드 가져오기
 
-CRM을 연결한 후 인바운드 매핑을 구성하여 Marketo Qualifier 내에 표시되는 CRM 필드를 결정합니다. 연결된 CRM 카드에서 **[!UICONTROL 관리]**&#x200B;를 선택하여 **[!UICONTROL 인바운드 매핑]**&#x200B;을 연 다음 가져올 필드의 각 엔터티 형식에 대한 섹션을 추가하십시오.
+CRM을 연결한 후 인바운드 매핑을 구성하여 Marketo Qualifier 내에 표시되는 CRM 필드를 결정합니다. **[!UICONTROL 인바운드 매핑]**&#x200B;을(를) 열려면 연결된 CRM 카드에서 **[!UICONTROL 관리]**&#x200B;를 선택한 다음 가져올 필드의 각 엔터티 형식에 대한 섹션을 추가하십시오.
 
 가져온 필드를 필터로 사용할 수 있도록 하는 방법을 포함한 전체 단계는 [CRM 필드 매핑(인바운드 매핑)](integrations.md#map-crm-fields-inbound-mapping)을 참조하십시오.
 
