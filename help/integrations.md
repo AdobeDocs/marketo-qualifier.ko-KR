@@ -18,15 +18,15 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1383'
 ht-degree: 1%
 ---
 
 # 통합
 
-Outlook을 연결하여 전자 메일을 보내고, 잠재 고객 답글을 인식하고, 모임을 예약합니다. 리드, 연락처, 계정, 기회, 활동 및 소유자를 Account Qualification Agent(AQA) 및 아웃바운드 워크플로에서 사용할 수 있도록 하기 위해 Adobe Marketo Qualifier 를 Salesforce 또는 Microsoft Dynamics 365에 연결할 수도 있습니다. Marketo 한정자는 CRM 데이터를 읽고, CRM에 다시 도달 활동 및 옵트아웃 상태를 쓸 수 있으며, 도달 활동을 Marketo에 동기화할 수 있습니다. 그렇지 않으면 CRM 레코드를 수정하지 않습니다.
+Outlook을 연결하여 전자 메일을 보내고, 잠재 고객 답글을 인식하고, 모임을 예약합니다. 리드, 연락처, 계정, 기회, 활동 및 소유자를 Account Qualification Agent(AQA) 및 아웃바운드 워크플로에서 사용할 수 있도록 하기 위해 Adobe Marketo Qualifier을 Salesforce 또는 Microsoft Dynamics 365에 연결할 수도 있습니다. Marketo Qualifier은 CRM 데이터를 읽고, CRM에 도달 활동 및 옵트아웃 상태를 다시 쓸 수 있으며, 도달 활동을 Marketo에 동기화할 수 있습니다. 그렇지 않으면 CRM 레코드를 수정하지 않습니다.
 
 이 문서에서는 Outlook 연결, CRM 연결 관리, 필드 매핑, 활동 동기화 및 이메일 옵트아웃 구성 방법에 대해 설명합니다. CRM을 처음 연결하려면 [시작](getting-started.md#connect-your-crm)을 참조하세요.
 
@@ -42,9 +42,9 @@ Outlook을 연결하여 전자 메일을 보내고, 잠재 고객 답글을 인�
 1. Microsoft 계정으로 로그인
 1. 요청된 액세스 권한을 검토하고 승인합니다.
 
-연결을 통해 Marketo Qualifier를 사서함에서 보내고, 잠재 고객이 회신하는 시점을 인지하고, 캘린더에서 모임을 예약할 수 있습니다.
+이 연결을 통해 Marketo Qualifier은 사서함에서 메시지를 보내고, 잠재 고객이 답글을 달 때 이를 인식하고, 달력에서 모임을 예약할 수 있습니다.
 
-연결할 때 Marketo Qualifier가 다음을 수행할 수 있도록 하는 액세스를 승인합니다.
+연결할 때 Marketo Qualifier에서 다음을 수행할 수 있도록 하는 액세스를 승인합니다.
 
 * 잠재 고객의 답글을 인식합니다.
 * 귀하를 대신하여 이메일을 만들고 전송합니다.
@@ -56,11 +56,11 @@ Outlook을 연결하여 전자 메일을 보내고, 잠재 고객 답글을 인�
 
 기본적으로 관리자 작업은 필요하지 않습니다. 각 대표는 Outlook을 연결할 때 자신에 대한 액세스를 승인합니다.
 
-조직에서 Microsoft 365 또는 Microsoft Entra의 서드파티 앱에 대한 사용자 동의를 해제한 경우 Microsoft 365 또는 Entra 관리자는 전체 조직에 대해 Marketo Qualifier를 한 번 승인해야 합니다. 담당자가 Outlook 계정에 연결하기 전에 관리자가 이 승인을 완료합니다. 조직 전체 승인 후 각 담당자가 자신의 계정을 연결할 수 있습니다.
+조직에서 Microsoft 365 또는 Microsoft Entra의 서드파티 앱에 대한 사용자 동의를 해제한 경우 Microsoft 365 또는 Entra 관리자는 전체 조직에 대해 Marketo Qualifier을 한 번 승인해야 합니다. 담당자가 Outlook 계정에 연결하기 전에 관리자가 이 승인을 완료합니다. 조직 전체 승인 후 각 담당자가 자신의 계정을 연결할 수 있습니다.
 
-### Marketo Qualifier가 사서함 데이터를 처리하는 방법
+### Marketo Qualifier에서 사서함 데이터를 처리하는 방법
 
-Marketo 한정자는 전송된 이메일에 대한 답장만 읽고 나머지 받은 편지함은 읽지 않습니다. 활성 참여 외부에서 들어오는 첨부 파일 또는 전자 메일은 저장하지 않습니다. 저장된 로그인 자격 증명이 암호화됩니다.
+Marketo Qualifier은 전송된 이메일에 대한 답장만 읽고 나머지 받은 편지함은 읽지 않습니다. 활성 참여 외부에서 들어오는 첨부 파일 또는 전자 메일은 저장하지 않습니다. 저장된 로그인 자격 증명이 암호화됩니다.
 
 ## CRM 설정 열기
 
@@ -91,7 +91,7 @@ Marketo 한정자는 전송된 이메일에 대한 답장만 읽고 나머지 �
 
 ### 연결 연결 또는 편집
 
-1. CRM 카드에서 **[!UICONTROL 연결]**&#x200B;을 선택하거나 **[!UICONTROL 자세히]** > **[!UICONTROL 구성 편집]**&#x200B;을 선택하여 기존 연결을 업데이트합니다.
+1. 연결을 만들려면 CRM 카드에서 **[!UICONTROL 연결]**&#x200B;을 선택하세요. 기존 연결을 업데이트하려면 **[!UICONTROL 자세히]** > **[!UICONTROL 구성 편집]**&#x200B;을 선택하세요.
 1. CRM 관리자의 자격 증명을 입력합니다.
 
    >[!BEGINTABS]
@@ -119,7 +119,7 @@ Marketo 한정자가 자격 증명을 거부하는 경우 자격 증명이 잘�
 ### 연결 끊기
 
 1. 연결된 CRM 카드에서 **[!UICONTROL 자세히]** > **[!UICONTROL 연결 끊기]**&#x200B;를 선택합니다.
-1. 경고를 검토하고 **[!UICONTROL 연결 끊기]**&#x200B;를 선택하여 확인합니다.
+1. 경고를 검토합니다. 확인하려면 **[!UICONTROL 연결 끊기]**&#x200B;를 선택하세요.
 
 >[!WARNING]
 >
@@ -146,7 +146,7 @@ Marketo 한정자가 자격 증명을 거부하는 경우 자격 증명이 잘�
    | **[!UICONTROL 기회]** | 계정의 영업 기회 세부 정보. |
 
 1. **[!UICONTROL 섹션 이름]** 및 선택적 **[!UICONTROL 설명]**&#x200B;을 입력하십시오. 그런 다음 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
-1. **[!UICONTROL 필드 추가]** 단계에서 가져올 CRM 필드를 검색하여 선택하십시오. 그런 다음 **[!UICONTROL 다음]**&#x200B;을 선택합니다. 각 필드에는 **[!UICONTROL 표시 이름]**, **[!UICONTROL 필드 이름]** 및 **[!UICONTROL 데이터 형식]**&#x200B;이 표시됩니다.
+1. **[!UICONTROL 필드 추가]** 단계에서 CRM 필드를 가져오려면 해당 필드를 검색하여 선택하십시오. 그런 다음 계속하려면 **[!UICONTROL 다음]**&#x200B;을 선택하세요. 각 필드에는 **[!UICONTROL 표시 이름]**, **[!UICONTROL 필드 이름]** 및 **[!UICONTROL 데이터 형식]**&#x200B;이 표시됩니다.
 1. **[!UICONTROL 잠재 고객]**, **[!UICONTROL 연락처]** 및 **[!UICONTROL 기회]** 섹션의 경우 [잠재 고객](prospects.md) 목록에서 담당자가 필요로 하는 각 필드에 대해 **[!UICONTROL 필터링 가능]**&#x200B;을 켜십시오.
 
    해당 데이터 형식이 필터링을 지원하지 않거나 다른 섹션에서 이미 사용되고 있는 경우 필드를 필터링 가능으로 만들 수 없습니다.

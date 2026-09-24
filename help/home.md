@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo 한정자 개요
-description: B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자 참여를 자동화하는 AI 기반 앱인 Adobe Marketo Qualifier에 대해 알아보십시오.
+title: '[!DNL Adobe Marketo Qualifier] 개요'
+description: B2B 영업 팀을 위한 잠재 고객 자격, 지원 및 구매자 참여를 자동화하는 AI 기반 앱인 [!DNL Adobe Marketo Qualifier]에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
@@ -17,19 +17,19 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 21%
+source-wordcount: '463'
+ht-degree: 18%
 ---
 
-# Adobe Marketo 한정자
+# [!DNL Adobe Marketo Qualifier]
 
-Adobe Marketo Qualifier는 BDR(비즈니스 개발 담당자)을 위한 잠재 고객 자격, 지원 및 크로스 채널 구매자 참여를 자동화하는 AI 기반 애플리케이션입니다. Account Qualification Agent은 계정 및 잠재 고객을 분석하고, 다음 단계를 위해 준비된 고객을 우선시하며, CRM 데이터를 기반으로 개인화된 전달을 초안합니다.
+[!DNL Adobe Marketo Qualifier]은(는) BDR(비즈니스 개발 담당자)을 위한 잠재 고객 자격, 지원 및 크로스 채널 구매자 참여를 자동화하는 AI 기반 앱입니다. Account Qualification Agent은 계정 및 잠재 고객을 분석하고, 다음 단계를 위해 준비된 고객을 우선시하며, CRM 데이터를 기반으로 개인화된 전달을 초안합니다.
 
-BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outlook 내에서 직접 비즈니스 인텔리전스에 액세스할 수 있습니다.
+이 앱은 [!DNL Marketo Engage], [!DNL Marketo Optimizer] 및 [!DNL Marketo Measure]과(와) 함께 [!DNL Marketo] 제품군의 일부입니다. BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outlook 내에서 직접 비즈니스 인텔리전스에 액세스할 수 있습니다.
 
-## Marketo Qualifier에서 수행할 수 있는 작업
+## [!DNL Marketo Qualifier]에서 수행할 수 있는 작업
 
 * AI가 생성한 활동 요약 및 신호 기반 우선 순위를 사용하여 **잠재 고객 및 계정의 우선 순위 지정**.
 * AI가 케이던스를 제안하고 각 잠재 고객에 대해 개인화된 이메일을 작성하는 **목표 기반 아웃바운드 워크플로 구축**.
@@ -40,6 +40,12 @@ BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outloo
 * 전자 메일 및 모임 예약 보고서를 사용하여 **도달 성과를 추적**&#x200B;합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
+
+## 홈 페이지 사용
+
+홈 페이지는 일상 업무의 시작점을 제공합니다. 최초 지침 및 시작 메시지는 **[!UICONTROL AI 채팅]**&#x200B;을 열고 질문을 하는 데 도움이 됩니다. 빠른 링크를 통해 **[!UICONTROL 잠재 고객]**, **[!UICONTROL 아웃바운드 워크플로]** 및 **[!UICONTROL 작업]**&#x200B;으로 바로 이동할 수 있습니다.
+
+홈 페이지에는 예정된 작업 및 아웃바운드 워크플로우도 표시됩니다. 다음 작업에 집중할 수 있도록 작업 목록에서 달력 작업 또는 에이전트 제안 작업을 선택합니다.
 
 ## 안내서 살펴보기
 

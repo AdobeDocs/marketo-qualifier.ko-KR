@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo 한정자의 작업
-description: Adobe Marketo 한정자 작업 큐에서 수동 전달 작업을 처리하고 에이전트가 제안한 잠재 고객을 검토하는 방법을 알아봅니다.
+title: '[!DNL Adobe Marketo Qualifier]의 작업'
+description: '[!DNL Adobe Marketo Qualifier] 작업 큐에서 수동 전달 작업을 처리하고 에이전트가 제안한 잠재 고객을 검토하는 방법을 알아봅니다.'
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
@@ -12,9 +12,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '1086'
 ht-degree: 0%
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * **[!UICONTROL LinkedInMail]**—케이던스가 LinkedInMail 단계에 도달할 때 만들어집니다. 작업 패널에는 LinkedIn에서 복사하고 보낼 콘텐츠가 표시됩니다. **[!UICONTROL AI 이유]**&#x200B;를 확장하여 이유를 검토하십시오.
 
-* **[!UICONTROL 이메일 검토]** - Adobe Marketo Qualifier가 잠재 고객의 개인화된 이메일을 생성한 후 만들어집니다. **[!UICONTROL 전자 메일 검토]**&#x200B;를 선택하여 전달을 시작하기 전에 초안을 검토하고 승인합니다. [생성된 전자 메일 검토 및 세분화](outbound-workflows.md#review-and-refine-generated-emails)를 참조하세요.
+* **[!UICONTROL 이메일 검토]**—[!DNL Adobe Marketo Qualifier]에서 잠재 고객의 개인화된 이메일을 생성한 후 만들어집니다. 전달을 시작하기 전에 초안을 검토하고 승인하려면 **[!UICONTROL 전자 메일 검토]**&#x200B;를 선택하세요. [생성된 전자 메일 검토 및 세분화](outbound-workflows.md#review-and-refine-generated-emails)를 참조하세요.
 
 ![전자 메일 검토](assets/tasks-review.png)
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 * **[!UICONTROL 정렬]**—기한 또는 만든 날짜별로 정렬합니다. 또한 정렬 순서는 대기열이 진행되는 순서를 결정합니다.
 * **[!UICONTROL 작업 검색]** - 잠재 고객 이름, 회사 이름 또는 아웃바운드 워크플로우별로 작업을 찾습니다. 검색은 활성 필터와 함께 적용됩니다.
 
-활성 필터는 도구 모음 아래에 칩으로 나타납니다. 재설정하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하십시오.
+활성 필터는 도구 모음 아래에 칩으로 나타납니다. 다시 설정하려면 **[!UICONTROL 모두 지우기]**&#x200B;를 선택하십시오.
 
 ### 작업 상태
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 **[!UICONTROL 에이전트 제안]** 탭에는 아웃바운드 워크플로우의 타깃팅 기준과 일치하는 잠재 고객이 나열되며 등록에 권장됩니다. 권장 사항을 켜려면 [아웃바운드 워크플로](outbound-workflows.md)를 참조하십시오.
 
-작업 패널에서 검토할 제안을 선택합니다.
+작업 패널에서 제안을 검토하려면 다음을 선택합니다.
 
 * 최신성 배지는 각 제안을 **[!UICONTROL 신규]** 또는 **[!UICONTROL 이전]**(으)로 표시합니다.
 * **[!UICONTROL 권장 잠재 고객]** 또는 **[!UICONTROL 권장 연락처]** 표에는 **[!UICONTROL 이름]**, **[!UICONTROL 제목]**, **[!UICONTROL 계정]**, **[!UICONTROL 상태]**, **[!UICONTROL 전자 메일]** 및 **[!UICONTROL 마지막 업데이트]**&#x200B;에 대한 열로 제안된 잠재 고객이 나열됩니다.
@@ -116,6 +116,23 @@ ht-degree: 0%
 
 **[!UICONTROL 에이전트 제안]** 탭에는 **[!UICONTROL 현재]**, **[!UICONTROL 완료됨]** 및 **[!UICONTROL 취소됨]** 상태 필터, 아웃바운드 워크플로 필터 및 만든 날짜별 정렬이 포함됩니다.
 
+### 에이전트 제안으로 잠재 고객에게 회신
+
+잠재 고객이 전자 메일에 회신하면 [!DNL Marketo Qualifier]이(가) 스레드 내 응답을 초안을 작성하여 **[!UICONTROL 에이전트 제안]**&#x200B;에 작업으로 추가할 수 있습니다. 초안은 다음 항목의 관련 컨텍스트를 사용합니다.
+
+* 최신 메시지뿐만 아니라 전체 이메일 스레드.
+* 지식 센터 자료 및 제품 조사.
+* 최근 뉴스, 마케팅 참여 및 CRM 활동과 같은 계정 신호.
+* 저장한 [전자 메일 초안 컨텍스트](profile-settings.md#email-drafting-context).
+
+조수는 잠재 고객의 의도에 따라 응답을 조정합니다. 예를 들어, 예약 링크를 통해 모임 요청에 대한 시간을 제공하거나, 잠재 고객이 관심이 있는 경우 가치를 보강하고, 담보의 제품 질문에 답변하고, 관련 자산을 공유하고, 하나의 차별화 요소로 이의를 제기하고, 잠재 고객이 연기하고자 하는 경우 낮은 압력의 응답을 사용할 수 있습니다.
+
+가격, 법적 또는 보안 요구 사항, 적대적 응답 및 불명확한 요청에 대한 메시지는 개인 응답을 위해 담당자에게 남아 있습니다.
+
+1. 응답 제안을 열고 전체 스레드 및 초안 응답을 검토합니다.
+1. 다른 초안을 만들려면 응답을 편집하거나 **[!UICONTROL AI로 생성]**&#x200B;을 선택하십시오.
+1. 응답을 보내고 잠재 고객의 아웃바운드 워크플로우를 계속하려면 **[!UICONTROL 승인 및 보내기]**&#x200B;를 선택합니다.
+
 ## 아웃바운드 워크플로우에서 작업 완료
 
 아웃바운드 워크플로우의 **[!UICONTROL 참여 잠재 고객]** 보기에서 수동 터치포인트는 동일한 **[!UICONTROL 완료로 표시]**, **[!UICONTROL 건너뛰기]** 및 메모 옵션을 제공합니다. 작업을 완료하면 **[!UICONTROL 작업]** 페이지에서도 상태가 업데이트됩니다. [아웃바운드 워크플로](outbound-workflows.md)를 참조하십시오.
@@ -124,7 +141,7 @@ ht-degree: 0%
 
 * 수행할 작업이 없으면 목록에 _오늘 작업이 모두 완료되었습니다_ 메시지가 표시됩니다.
 * 필터가 작업과 일치하지 않으면 목록에서 필터와 일치하는 작업이 없음을 보고합니다.
-* 작업을 선택하지 않으면 작업 패널에서 세부 정보를 볼 작업을 선택하라는 메시지를 표시합니다.
+* 작업을 선택하지 않으면 작업 패널에서 작업을 선택하라는 메시지가 표시됩니다. 세부 정보를 보려면 작업을 선택합니다.
 
 >[!MORELIKETHIS]
 >

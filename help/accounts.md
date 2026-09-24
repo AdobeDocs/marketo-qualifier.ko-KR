@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo 한정자의 계정
-description: AI 리서치, 최근 뉴스, 기회 및 주요 참여 연락처를 포함한 Adobe Marketo Qualifier에서 계정 인텔리전스를 검토하여 지원 우선 순위를 정하는 방법에 대해 알아봅니다.
+title: Adobe Marketo Qualifier의 계정
+description: AI 연구, 최근 뉴스, 기회 및 주요 참여 연락처를 포함하여 Adobe Marketo Qualifier에서 계정 인텔리전스를 검토하여 지원 우선 순위를 매기는 방법을 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
@@ -14,9 +14,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '647'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![개인 및 계정 탭이 있는 잠재 고객 세부 정보 페이지](./assets/account-home.png){width="800" zoomable="yes"}
 
-Adobe Marketo Qualifier는 잠재 고객의 CRM 레코드에서 계정을 식별합니다. 해당 계정과 연결된 모든 잠재 고객에서 동일한 계정 보기를 사용할 수 있습니다. Marketo 한정자가 계정과 일치하지 않으면 탭에 _계정을 찾을 수 없음_&#x200B;이 표시됩니다.
+Adobe Marketo Qualifier은 잠재 고객의 CRM 레코드에서 계정을 식별합니다. 해당 계정과 연결된 모든 잠재 고객에서 동일한 계정 보기를 사용할 수 있습니다. Marketo Qualifier이 계정과 일치하지 않으면 탭에 _계정을 찾을 수 없음_&#x200B;이 표시됩니다.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Adobe Marketo Qualifier는 잠재 고객의 CRM 레코드에서 계정을 식별
 탭 상단의 개요 카드는 계정을 식별하고 해당 값을 요약합니다.
 
 * 계정 이름 및 지역
-* **연간 되풀이 매출(ARR)** - 모든 활성 구독의 연간 되풀이 매출입니다. **[!UICONTROL 연간 되풀이 매출]** 대화 상자에서 제품별 ARR을 검토하려면 **[!UICONTROL 모두 보기]**&#x200B;를 선택하십시오.
+* **연간 되풀이 매출(ARR)** - 모든 활성 구독의 연간 되풀이 매출입니다. **[!UICONTROL 연간 반복 매출]** 대화 상자에서 제품별 ARR을 검토하려면 **[!UICONTROL 모두 보기]**&#x200B;를 선택하십시오.
 * 영업 기회 및 연락처 수와 파이프라인 값을 포함한 계정 통계
 
 ### 계정 개요 요약
@@ -63,7 +63,7 @@ Adobe Marketo Qualifier는 잠재 고객의 CRM 레코드에서 계정을 식별
 
 | 보기 | 표시 내용 |
 | --- | --- |
-| **[!UICONTROL 기회]** | 각 고객에 대한 주요 필드가 있는 계정에 연결된 영업 기회를 엽니다. 테이블의 전체 목록을 보려면 **[!UICONTROL 모두 보기]**&#x200B;를 선택하십시오. 단계, 유형 및 종료 날짜 등 영업 기회 세부 정보를 사용하여 관리자가 해당 필드를 필터링 가능하도록 만들면 **[!UICONTROL 내 영업 기회 연락처]**&#x200B;에서 해당 계정의 연락처를 필터링할 수도 있습니다. |
+| **[!UICONTROL 기회]** | 각 고객에 대한 주요 필드가 있는 계정에 연결된 영업 기회를 엽니다. 테이블에서 전체 목록을 보려면 **[!UICONTROL 모두 보기]**&#x200B;를 선택하십시오. 단계, 유형 및 종료 날짜 등 영업 기회 세부 정보를 사용하여 관리자가 해당 필드를 필터링 가능하도록 만들면 **[!UICONTROL 내 영업 기회 연락처]**&#x200B;에서 해당 계정의 연락처를 필터링할 수도 있습니다. |
 | **[!UICONTROL 상위 멤버]** | 거래별로 순위가 매겨진 거래처의 주요 참여 연락처. 각 연락처에는 직책, 이메일 주소, 참여 점수 및 긴급도 표시기가 표시됩니다. |
 | **[!UICONTROL 의도 데이터]** | 계정이 조사 중인 제품 및 주제와 같은 계정에 대한 구매 의도 신호. |
 | **[!UICONTROL 계정 팀원]** | 이메일, 직함, 지역 및 제품 그룹과 함께 계정에 할당된 직원입니다. |
@@ -78,7 +78,7 @@ Adobe Marketo Qualifier는 잠재 고객의 CRM 레코드에서 계정을 식별
 
 **[!UICONTROL 계정 조사]** 탭에는 다음 세 가지 영역이 있습니다.
 
-* **[!UICONTROL 연구 범주]** - 연구 주제. 중앙 창에서 조사할 범주를 선택합니다.
+* **[!UICONTROL 연구 범주]** - 연구 주제. 가운데 창에서 범주의 조사를 보려면 범주를 선택합니다.
 * **연구 콘텐츠**—범주별로 그룹화된 AI 생성 연구 카드. 카드에는 소스 도메인과 신호가 처음 감지된 날짜와 마지막으로 감지된 날짜가 포함될 수 있습니다.
 * **[!UICONTROL 최근 뉴스]** - 날짜, 태그 및 소스 링크를 포함하여 계정에 대한 최신 뉴스입니다.
 
