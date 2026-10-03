@@ -31,7 +31,7 @@ Adobe 직원의 경우 개인 [Adobe GitHub 저장소](https://git.corp.adobe.co
 1. **에서 이 콘텐트가 유용했습니까?** 페이지 하단의 배너에서 **자세한 피드백 옵션**&#x200B;을 선택합니다.
 1. **편집 제안**&#x200B;을 선택하고 변경 사항과 함께 가져오기 요청(PR)을 제출합니다.
 
-   자세한 내용은 [Adobe 문서 콘텐츠 작가 가이드](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)를 참조하십시오.
+   자세한 내용은 [Adobe 문서 콘텐츠 작가 가이드](https://experienceleague.adobe.com/ko/docs/contributor/contributor-guide/introduction)를 참조하십시오.
 
 이 저장소의 설명서 및 코드 샘플에 대해 사용자가 제출하는 부분 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
@@ -47,7 +47,7 @@ Adobe 직원의 경우 개인 [Adobe GitHub 저장소](https://git.corp.adobe.co
 
 기본 편집 내용은 GitHub 인터페이스를 사용하십시오. 주요 기여의 경우 리포지토리를 포크합니다.
 
-자세한 내용은 [Adobe 문서 콘텐츠 작가 가이드](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)를 참조하십시오.
+자세한 내용은 [Adobe 문서 콘텐츠 작가 가이드](https://experienceleague.adobe.com/ko/docs/contributor/contributor-guide/introduction)를 참조하십시오.
 
 ## 내부 참여자
 
