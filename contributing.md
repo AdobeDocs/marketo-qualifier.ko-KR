@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ## 기여자 안내서
 
-[Adobe 문서 콘텐츠 작가 가이드](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)를 참조하세요.
+[Adobe 문서 콘텐츠 작가 가이드](https://experienceleague.adobe.com/ko/docs/contributor/contributor-guide/introduction)를 참조하세요.
 
 ## 질문하기
 
