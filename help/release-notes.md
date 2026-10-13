@@ -3,12 +3,22 @@ title: '[!DNL Adobe Marketo Qualifier] 릴리스 정보'
 description: '[!DNL Adobe Marketo Qualifier]의 새로운 기능을 알아봅니다.'
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 14%
+source-wordcount: '532'
+ht-degree: 12%
 ---
 # [!DNL Adobe Marketo Qualifier] 릴리스 정보
+
+## 10-08-2026
+
+이번 릴리스에는 다음이 포함됩니다.
+
+* 아웃바운드 워크플로우를 재사용하거나 실행 중인 워크플로우의 터치포인트를 변경한 후 복제하고 사본을 편집합니다. 복사본은 잠재 고객이 없는 비공개 초안으로 시작하며 원래 워크플로우는 변경되지 않습니다. [자세히 알아보기](outbound-workflows.md#duplicate-an-outbound-workflow)
+* 목표, 타기팅, 터치포인트 및 설정 간의 탐색을 통해 컴팩트한 레이아웃으로 아웃바운드 워크플로우를 구성합니다. [자세히 알아보기](outbound-workflows.md#create-an-outbound-workflow)
+* 이메일 답글의 옵트아웃 요청 지우기는 자동으로 인식됩니다. 잠재 고객이 옵트아웃으로 표시되며 더 이상의 터치포인트는 전송되지 않습니다. [자세히 알아보기](outbound-workflows.md#opt-out-requests-in-replies)
+* 웹 조사와 제품별 고객 사례 연구를 결합한 간단한 브리핑을 통해 관련성 및 식별된 소스별로 작성된 토론 요점을 준비합니다. [자세히 알아보기](prospects.md#generate-meeting-prep)
+* 생성된 이메일은 품질 지침에 따라 검사되고 필요할 때 다시 작성한 후 검토합니다. 모든 이메일이 전송되기 전에 여전히 검토, 편집 및 승인합니다. [자세히 알아보기](outbound-workflows.md#review-and-refine-generated-emails)
 
 ## 09-22-2026
 

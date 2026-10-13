@@ -1,18 +1,25 @@
 ---
 title: 프로필 설정 구성
-description: Adobe Marketo Qualifier 프로필 설정에서 이메일 연결, 서명 및 일정 가용성을 구성하는 방법에 대해 알아봅니다.
+description: Adobe Marketo Qualifier 프로필 설정에서 이메일 연결, 서명 및 일정 가용성을 구성하는 방법을 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
+TQID: 'https://experienceleague.adobe.com/YsrBduYA7jKhgxttexqMBBpgDIq23s6wUb4Wp6y6h3g'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
+feature_v2:
+  - id: 1e0ea71a-a210-5748-9b0f-c02c2ef6a746
+    internal-label: Workflows
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 3%
@@ -66,12 +73,12 @@ ht-degree: 3%
 
 ## 일정 가용성
 
-Adobe Marketo Qualifier의 일정 가용성은 두 가지 입력을 기반으로 합니다.
+Adobe Marketo Qualifier에서의 일정 가용성은 두 가지 입력을 기반으로 합니다.
 
 * 연결된 작업 캘린더(예: Outlook 또는 Gmail)
 * **[!UICONTROL 일정 구성]**&#x200B;의 가용성 및 시간 슬롯 규칙
 
-Marketo 한정자는 연결된 달력에서 이벤트 세부 사항이 아닌 약속 있음/없음 상태를 읽습니다. 이 보고서는 이 상태와 규칙을 결합하여 잠재 고객이 예약할 수 있는 시간대를 결정합니다.
+Marketo Qualifier은 연결된 캘린더에서 이벤트 세부 정보가 아닌 약속 있음/없음 상태를 읽습니다. 이 보고서는 이 상태와 규칙을 결합하여 잠재 고객이 예약할 수 있는 시간대를 결정합니다.
 
 다음을 구성할 수 있습니다.
 

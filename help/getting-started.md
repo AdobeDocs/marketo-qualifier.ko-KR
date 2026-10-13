@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Adobe에서 조직에 Marketo Qualifier을 프로비전한 후에는 [!DNL Marke
 
 Adobe Admin Console의 사용자 그룹은 Marketo Qualifier에 대한 액세스를 제어하는 데 사용됩니다. 사용자가 로그인하려면 두 그룹을 모두 만들어야 합니다.
 
-그룹 설정에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://helpx.adobe.com/kr/business/enterprise/users/users-and-groups/user-groups.html)를 참조하세요.
+그룹 설정에 대한 자세한 내용은 [Adobe Admin Console 설명서](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)를 참조하세요.
 
 >[!PREREQUISITES]
 >

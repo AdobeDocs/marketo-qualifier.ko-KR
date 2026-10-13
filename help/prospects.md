@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2124387555f5fb08ea19eaf121fc87aa66d66de2
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '852'
 ht-degree: 1%
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 * **CRM 잠재 고객**—[!DNL Adobe Marketo Qualifier]이(가) 연결된 사용자에게 할당된 잠재 고객 및 연락처를 자동으로 가져옵니다. [통합](integrations.md)을 참조하세요.
 * **가져온 잠재 고객** - CSV 파일에서 가져온 잠재 고객입니다.
-* **수동으로 추가된 잠재 고객** - 개별 잠재 고객이 Marketo 한정자에 추가되었습니다.
+* **수동으로 추가된 잠재 고객**—Marketo Qualifier에 개별 잠재 고객이 추가되었습니다.
 
 CRM에서 제공되지 않는 잠재 고객을 추가하려면:
 
@@ -91,7 +91,7 @@ CRM에서 제공되지 않는 잠재 고객을 추가하려면:
 
 각 잠재 고객은 최근 기록과 함께 최신 [!DNL Marketo] 활동을 보여줍니다.
 
-마케팅 하이라이트는 모든 프로덕션 지역에서 사용할 수 있습니다. 관리자가 [!DNL Marketo]을(를) Marketo 한정자에 연결하는 일회성 설정을 완료합니다. [마케팅 하이라이트 설정](integrations.md#turn-on-marketo-engagement-filtering)을 참조하세요.
+마케팅 하이라이트는 모든 프로덕션 지역에서 사용할 수 있습니다. 관리자가 [!DNL Marketo]을(를) Marketo Qualifier에 연결하는 일회성 설정을 완료합니다. [마케팅 하이라이트 설정](integrations.md#turn-on-marketo-engagement-filtering)을 참조하세요.
 
 ## 잠재 고객 세부 정보 검토
 
@@ -106,8 +106,12 @@ Prospect 의 Profile 을 열려면 Prospect 를 선택합니다. 연락하기 �
 
 대기 중인 AI 사용자 요약 외에도 **[!UICONTROL 계정 연구]** 옆에 있는 **[!UICONTROL 모임 연구]** 탭에서 예정된 특정 호출에 맞게 맞춤 모임 준비를 생성할 수 있습니다.
 
+Meeting Prep은 잠재 고객 및 해당 회사에 대한 웹 조사와 판매 중인 제품을 사용하는 동료 고객에 대한 사례 연구 결과를 결합합니다. 사례 연구 주제에는 측정 가능한 고객 결과가 포함될 수 있습니다. 출처는 관련성에 따라 순위가 매겨진 토론 포인트와 함께 하나의 간략한 설명으로 결합됩니다. 각 토론 요점에서는 사례 연구, 웹 연구 또는 둘 다에서 얻은 결과인지 식별합니다. 관련 사례 연구 증거가 없는 경우, 모임 준비는 웹 연구를 사용합니다.
+
 * **목표 기반**—잠재 고객이 실행 중인 아웃바운드 워크플로에 등록되어 있는 경우 선택합니다. 회의 예약 또는 잠재 고객 재참여와 같이 준비 사항이 아웃바운드 워크플로우의 목표에 부합합니다.
 * **사용자 지정 프롬프트**—준비할 내용을 입력하십시오(예: `Focus on renewal risk` 또는 `Prepare for a technical deep dive with their IT lead`). 준비는 프롬프트와 일치합니다. 사용자 지정 프롬프트 옵션은 잠재 고객이 실행 중인 아웃바운드 워크플로우에 없을 때마다 사용할 수 있습니다.
+
+개요는 사용자가 선택한 아웃바운드 워크플로 목표 또는 사용자 지정 프롬프트를 계속 따릅니다. 모임 준비를 생성하는 방법은 변경되지 않습니다.
 
 >[!MORELIKETHIS]
 >

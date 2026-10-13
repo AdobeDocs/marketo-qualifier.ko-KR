@@ -3,20 +3,26 @@ title: 관리자 설정
 description: CRM 필드, 활동 동기화, 전자 메일 옵트아웃 및 기타 [!DNL Adobe Marketo Qualifier] 관리 설정을 관리하는 방법을 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-    internal-label: Administration
-
 internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+autotag-review: '2026-10-08T17:58:28.029Z'
+TQID: 'https://experienceleague.adobe.com/2eccZWj1XY7qP20n6GcnBe6PZwNkp0ALhZfOhljwZF8'
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1292'
 ht-degree: 0%
 ---
 
@@ -55,7 +61,7 @@ CRM 플러그인은 대표가 CRM을 떠나지 않고 잠재 고객을 우선 �
 
 ## CRM 액세스 범위
 
-Marketo Qualifier는 CRM에서 사용자, 연락처, 소유자 매핑, 리드, 계정, 기회 및 활동을 읽습니다. 기록된 전달 활동 및 옵트아웃 상태만 CRM에 쓰고, 전달 활동을 Marketo에 동기화합니다. CRM 관리자는 Salesforce 또는 Dynamics에서 API 액세스를 준비합니다. 그런 다음 Marketo 한정자 관리자가 CRM을 연결하고, 인바운드 필드를 매핑하고, 활동을 동기화할지 여부를 선택합니다.
+Marketo Qualifier은 CRM에서 사용자, 연락처, 소유자 매핑, 리드, 계정, 기회 및 활동을 읽습니다. 기록된 전달 활동 및 옵트아웃 상태만 CRM에 쓰고, 전달 활동을 Marketo에 동기화합니다. CRM 관리자는 Salesforce 또는 Dynamics에서 API 액세스를 준비합니다. 그런 다음 Marketo Qualifier 관리자가 CRM을 연결하고 인바운드 필드를 매핑한 다음 활동을 동기화할지 여부를 선택합니다.
 
 >[!NOTE]
 >
@@ -63,7 +69,7 @@ Marketo Qualifier는 CRM에서 사용자, 연락처, 소유자 매핑, 리드, �
 
 ## CRM 필드 매핑(인바운드 매핑)
 
-CRM이 연결된 후 연결을 위해 **[!UICONTROL 관리]**&#x200B;를 선택하고 **[!UICONTROL 인바운드 매핑]**&#x200B;을 엽니다. 인바운드 매핑은 Marketo 한정자가 애플리케이션으로 가져오는 CRM 필드를 제어합니다.
+CRM이 연결된 후 연결을 위해 **[!UICONTROL 관리]**&#x200B;를 선택하고 **[!UICONTROL 인바운드 매핑]**&#x200B;을 엽니다. 인바운드 매핑은 Marketo Qualifier이 애플리케이션으로 가져오는 CRM 필드를 제어합니다.
 
 1. **[!UICONTROL 섹션 추가]**&#x200B;를 선택합니다.
 1. 섹션 이름과 설명을 입력합니다.
@@ -75,7 +81,7 @@ CRM이 연결된 후 연결을 위해 **[!UICONTROL 관리]**&#x200B;를 선택�
 1. **[!UICONTROL 잠재 고객]** 목록에서 필터로 사용할 수 있도록 하려는 각 잠재 고객, 연락처 또는 영업 기회 필드에 대해 **[!UICONTROL 필터링 가능]**&#x200B;을 설정합니다.
 1. 섹션을 미리 보고 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 
-매핑된 필드는 Marketo 한정자의 해당 영역에 표시됩니다.
+매핑된 필드는 Marketo Qualifier의 해당 영역에 표시됩니다.
 
 * 잠재 고객 필드는 **[!UICONTROL 개인]** 탭에 나타납니다.
 * 계정 필드는 **[!UICONTROL 계정]** 탭에 나타납니다.
@@ -138,7 +144,7 @@ CRM 동기화 규칙이 구성되면 영업 팀은 모든 단계에서 데이터
 
 플레이북이 준비되면 대표는 다음 두 곳에서 사용할 수 있습니다.
 
-* **아웃바운드 전자 메일 프롬프트**—접점 프롬프트에서 문서 이름을 지정하고 사용할 컨텍스트를 설명합니다. 예를 들어 `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`을(를) 입력합니다. [터치포인트 생성 및 검토](outbound-workflows.md#step-3-generate-and-review-touchpoints)를 참조하세요.
+* **아웃바운드 전자 메일 프롬프트**—접점 프롬프트에서 문서 이름을 지정하고 사용할 컨텍스트를 설명합니다. 예를 들어 `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`을(를) 입력합니다. [터치포인트 구성](outbound-workflows.md#step-3-generate-and-review-touchpoints)을 참조하세요.
 * **AI 채팅**: 질문에 있는 기술 지원 센터를 참조하세요. 예를 들어 `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`을(를) 입력합니다. [AI 채팅](ai-assistant.md)을 참조하세요.
 
 두 경우 모두, 생성된 콘텐츠는 일반적인 연구가 아닌 플레이북의 메시지를 반영합니다.
@@ -152,7 +158,7 @@ CRM 동기화 규칙이 구성되면 영업 팀은 모든 단계에서 데이터
 
 설정이 자동으로 저장됩니다.
 
-잠재 고객이 링크를 선택하면 Marketo Qualifier은 해당 잠재 고객에게 이메일 전송을 중단하고 옵트아웃 상태를 연결된 CRM에 동기화합니다.
+잠재 고객이 링크를 선택하면 Marketo Qualifier은 해당 잠재 고객에게 이메일 전송을 중단하고 옵트아웃 상태를 연결된 CRM에 동기화합니다. 또한 Marketo Qualifier은 잠재 고객의 이메일 회신에서 &quot;이메일 수신을 중단하십시오&quot; 또는 &quot;구독 취소&quot;와 같은 명확한 옵트아웃 요청을 인식하고 해당 잠재 고객을 자동으로 옵트아웃으로 표시합니다. 동일한 **[!UICONTROL 옵트아웃]** 상태 및 배지가 적용되며, 더 이상 터치포인트를 보내지 않습니다. 추가 설정이 필요하지 않습니다. &quot;지금 아님&quot;과 같이 명백히 중지를 요청하지 않는 답글은 옵트아웃으로 처리되지 않습니다. [회신에서 옵트아웃 요청](outbound-workflows.md#opt-out-requests-in-replies)을 참조하세요.
 
 ## 참조: 샘플 API 매개 변수
 
