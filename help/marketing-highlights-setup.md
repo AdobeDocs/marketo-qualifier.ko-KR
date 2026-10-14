@@ -4,8 +4,8 @@ description: Marketo을 Adobe Marketo Qualifier에 연결하여 담당자가 마
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 설치 프로그램에는 네 가지 부품이 있습니다.
 
 * A부: Adobe Developer Console에서 API 자격 증명 만들기
-* 파트 B: Adobe Marketo 한정자 엔드포인트 및 식별자를 수집합니다.
+* 파트 B: Adobe Marketo Qualifier 엔드포인트 및 식별자를 수집합니다.
 * 파트 C: [!DNL Marketo Engage]에서 웹후크를 구성합니다.
 * D부: Smart Campaign 트리거에 웹후크를 추가합니다.
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## A부: API 자격 증명 만들기 {#part-a-create-api-credentials}
 
-이 자격 증명을 사용하면 [!DNL Marketo]에서 Marketo 한정자를 안전하게 인증할 수 있습니다.
+이 자격 증명을 사용하면 [!DNL Marketo]에서 Marketo Qualifier에 안전하게 인증할 수 있습니다.
 
 인증서를 생성하려면 다음을 수행합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 1. **[!UICONTROL API 추가]**&#x200B;를 선택하고 **[!UICONTROL Experience Platform API]**&#x200B;를 선택한 후 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 1. 인증 유형으로 **[!UICONTROL OAuth 서버 간]**&#x200B;을(를) 선택한 후 **[!UICONTROL 다음]**&#x200B;을(를) 선택하십시오.
 
-   **[!UICONTROL OAuth Server-to-Server]**&#x200B;을(를) 사용하면 [!DNL Marketo]에서 사용자가 로그인할 필요 없이 해당 서버에서 직접 Marketo 한정자 API를 호출할 수 있습니다.
+   **[!UICONTROL OAuth Server-to-Server]**&#x200B;을(를) 사용하면 [!DNL Marketo]에서 사용자가 로그인할 필요 없이 서버에서 직접 Marketo Qualifier API를 호출할 수 있습니다.
 
 1. 45자 이하의 자격 증명 이름을 입력하십시오(예: `Marketo Qualifier Marketing Highlights Creds`).
 1. 제품 프로필을 연결하려면 선택한 다음 **[!UICONTROL 구성된 API 저장]**&#x200B;을 선택하십시오.
@@ -170,7 +170,7 @@ Webhook을 생성하려면 다음을 수행합니다.
 
 ## D부: Smart Campaign 트리거에 웹후크 추가 {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
-기존 Smart Campaign 또는 새 Smart Campaign 트리거에 **[!UICONTROL Call Webhook]** 흐름 단계를 추가합니다. 해당 캠페인의 스마트 목록 트리거는 Marketo Qualifier로 전송되는 활동을 결정합니다.
+기존 Smart Campaign 또는 새 Smart Campaign 트리거에 **[!UICONTROL Call Webhook]** 흐름 단계를 추가합니다. 해당 캠페인의 스마트 목록 트리거는 Marketo Qualifier에 전송되는 활동을 결정합니다.
 
 Webhook를 추가하려면:
 
@@ -179,7 +179,7 @@ Webhook를 추가하려면:
 1. **[!UICONTROL 흐름]** 탭에서 **[!UICONTROL 웹후크 호출]** 단계를 추가하고 [파트 C](#part-c-configure-the-marketo-webhook)에서 만든 웹후크를 선택합니다.
 1. 스마트 캠페인을 활성화합니다.
 
-해당 Smart Campaign의 활동이 이제 Marketo 한정자로 전송됩니다. 담당자는 **[!UICONTROL 잠재 고객]** > **[!UICONTROL 마케팅 하이라이트]**&#x200B;에서 이 활동을 보고 필터링합니다.
+이제 해당 Smart Campaign의 활동이 Marketo Qualifier으로 전송됩니다. 담당자는 **[!UICONTROL 잠재 고객]** > **[!UICONTROL 마케팅 하이라이트]**&#x200B;에서 이 활동을 보고 필터링합니다.
 
 >[!MORELIKETHIS]
 >

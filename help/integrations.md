@@ -4,8 +4,8 @@ description: Adobe Marketo Qualifier에서 Outlook 연결, CRM 연결 관리, �
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1456'
 ht-degree: 1%
 ---
 
@@ -110,11 +110,11 @@ Marketo Qualifier은 전송된 이메일에 대한 답장만 읽고 나머지 �
 
 1. **[!UICONTROL 연결]**(또는 편집할 때 **[!UICONTROL 저장]**)을 선택합니다.
 
-Marketo 한정자가 자격 증명을 거부하는 경우 자격 증명이 잘못되었거나 만료된 경우, 권한이 누락되거나 인식할 수 없는 Dynamics 테넌트와 같은 원인을 식별합니다. 값을 수정하고 다시 시도하십시오.
+Marketo Qualifier이 자격 증명을 거부하면 자격 증명이 잘못되었거나 만료된 경우, 권한이 누락되거나 인식할 수 없는 Dynamics 테넌트와 같은 원인을 식별합니다. 값을 수정하고 다시 시도하십시오.
 
 >[!IMPORTANT]
 >
->클라이언트 암호를 이메일로 보내지 마십시오. 조직의 승인된 보안 채널을 사용하여 Marketo 한정자에 자격 증명을 입력하는 사용자와 자격 증명을 공유할 수 있습니다.
+>클라이언트 암호를 이메일로 보내지 마십시오. 조직의 승인된 보안 채널을 사용하여 Marketo Qualifier에 자격 증명을 입력하는 사용자와 자격 증명을 공유할 수 있습니다.
 
 ### 연결 끊기
 
@@ -127,7 +127,7 @@ Marketo 한정자가 자격 증명을 거부하는 경우 자격 증명이 잘�
 
 ## CRM 필드 매핑(인바운드 매핑) {#map-crm-fields-inbound-mapping}
 
-인바운드 매핑은 Marketo 한정자가 가져오는 CRM 필드와 표시 위치를 제어합니다. 필드는 섹션으로 그룹화되고 각 섹션은 엔티티 유형에 속합니다.
+인바운드 매핑은 Marketo Qualifier이 가져오는 CRM 필드와 표시 위치를 제어합니다. 필드는 섹션으로 그룹화되고 각 섹션은 엔티티 유형에 속합니다.
 
 ![인바운드 매핑](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
 
@@ -159,23 +159,23 @@ Marketo 한정자가 자격 증명을 거부하는 경우 자격 증명이 잘�
 
 ## 활동 동기화 구성(아웃바운드 매핑) {#configure-activity-sync-outbound-mapping}
 
-Activity Sync는 CRM 및 Marketo에 Marketo Qualifier 전달 활동을 기록합니다. 이메일 전송, 열기, 클릭 및 회신된 활동에는 아웃바운드 워크플로우 이름이 포함됩니다. 담당자는 CRM의 활동을 볼 수 있고 마케팅 팀은 잠재 고객 점수 및 참여 타임라인에서 Marketo 활동을 사용할 수 있습니다.
+Activity Sync는 CRM 및 Marketo에 Marketo Qualifier Outreach 활동을 기록합니다. 이메일 전송, 열기, 클릭 및 회신된 활동에는 아웃바운드 워크플로우 이름이 포함됩니다. 담당자는 CRM의 활동을 볼 수 있고 마케팅 팀은 잠재 고객 점수 및 참여 타임라인에서 Marketo 활동을 사용할 수 있습니다.
 
 1. 연결된 CRM 카드에서 **[!UICONTROL 관리]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 아웃바운드 매핑]** 탭을 엽니다.
 1. **[!UICONTROL 활동 동기화]**&#x200B;를 켭니다. 설정이 즉시 저장됩니다.
 
-활동 동기화가 꺼져 있으면 Marketo Qualifier가 인바운드 CRM 데이터를 계속 사용하지만 아웃바운드 활동을 CRM 또는 Marketo에 동기화하지 않습니다.
+활동 동기화가 꺼져 있으면 Marketo Qualifier에서 인바운드 CRM 데이터를 계속 사용하지만 아웃바운드 활동을 CRM 또는 Marketo에 동기화하지 않습니다.
 
 >[!NOTE]
 >
->Activity Sync를 사용하려면 CRM에 쓰기 권한이 필요합니다. 필요한 권한이 없으면 스위치가 비활성화되고 Marketo Qualifier가 관리자에게 문의하라는 메시지를 표시합니다. 활동 쓰기 액세스 권한을 부여하려면 CRM 관리자와 협력하십시오.
+>Activity Sync를 사용하려면 CRM에 쓰기 권한이 필요합니다. 필요한 권한이 없으면 스위치가 비활성화되고 Marketo Qualifier에서 관리자에게 문의하라는 메시지가 표시됩니다. 활동 쓰기 액세스 권한을 부여하려면 CRM 관리자와 협력하십시오.
 
 ## 마케팅 하이라이트 설정 {#turn-on-marketo-engagement-filtering}
 
 마케팅 하이라이트를 사용하면 담당자가 이메일 열기 및 클릭 수와 같은 실시간 [!DNL Marketo] 참여로 잠재 고객을 찾고 우선 순위를 지정할 수 있습니다. [마케팅 하이라이트별로 필터링](prospects.md#filter-by-marketing-highlights)을 참조하십시오.
 
-관리자가 관련 조직 및 샌드박스에 대해 [!DNL Marketo]을(를) Marketo 한정자에 연결하는 일회성 설정을 완료합니다. 이 설정에서는 Adobe Developer Console에서 API 자격 증명을 만들고, [!DNL Marketo]에서 웹후크를 구성하고, 해당 웹후크를 Smart Campaign 트리거에 추가하는 작업을 다룹니다. 전체 단계는 [마케팅 하이라이트 설정](marketing-highlights-setup.md)을 참조하십시오.
+관리자가 관련 조직 및 샌드박스에 대해 [!DNL Marketo]을(를) Marketo Qualifier에 연결하는 1회 설정을 완료합니다. 이 설정에서는 Adobe Developer Console에서 API 자격 증명을 만들고, [!DNL Marketo]에서 웹후크를 구성하고, 해당 웹후크를 Smart Campaign 트리거에 추가하는 작업을 다룹니다. 전체 단계는 [마케팅 하이라이트 설정](marketing-highlights-setup.md)을 참조하십시오.
 
 마케팅 하이라이트는 북미, EMEA 및 오스트레일리아의 모든 프로덕션 지역에서 사용할 수 있습니다.
 
@@ -192,16 +192,16 @@ Activity Sync는 CRM 및 Marketo에 Marketo Qualifier 전달 활동을 기록합
 
 설정 및 템플릿이 자동으로 저장됩니다.
 
-잠재 고객이 링크를 선택하면 Marketo Qualifier가 해당 잠재 고객에게 이메일을 보내지 않고 옵트아웃 상태를 연결된 CRM에 동기화합니다.
+잠재 고객이 링크를 선택하면 Marketo Qualifier은 해당 잠재 고객과의 이메일 전송을 중단하고 옵트아웃 상태를 연결된 CRM에 동기화합니다. 또한 Marketo Qualifier은 잠재 고객의 이메일 회신에서 &quot;이메일 수신을 중단하십시오&quot; 또는 &quot;구독 취소&quot;와 같은 명확한 옵트아웃 요청을 인식하고 해당 잠재 고객을 자동으로 옵트아웃으로 표시합니다. 동일한 **[!UICONTROL 옵트아웃]** 상태 및 배지가 적용되며, 더 이상 터치포인트를 보내지 않습니다. 추가 설정이 필요하지 않습니다. &quot;지금 아님&quot;과 같이 명백히 중지를 요청하지 않는 답글은 옵트아웃으로 처리되지 않습니다. [회신에서 옵트아웃 요청](outbound-workflows.md#opt-out-requests-in-replies)을 참조하세요.
 
 ## CRM 액세스 범위
 
-Marketo Qualifier는 필요한 CRM 엔터티를 읽고 정의된 데이터 집합만 다시 씁니다.
+Marketo Qualifier은 필요한 CRM 엔티티를 읽고 정의된 데이터 세트만 다시 기록합니다.
 
 * **읽기** - 사용자, 연락처, 소유자 매핑, 리드, 계정, 기회 및 활동.
 * **쓰기**—로그된 전달 활동([활동 동기화](#configure-activity-sync-outbound-mapping)가 켜져 있는 경우) 및 옵트아웃 상태.
 
-CRM 관리자는 Salesforce 또는 Dynamics에서 API 액세스를 준비합니다. 그런 다음 Marketo 한정자 관리자가 CRM을 연결하고, 인바운드 필드를 매핑하고, 활동을 동기화할지 여부를 선택합니다. 초기 연결에는 읽기 전용 액세스가 필요합니다. 활동 동기화 및 옵트아웃 쓰기백에는 해당 쓰기 액세스 권한이 필요합니다.
+CRM 관리자는 Salesforce 또는 Dynamics에서 API 액세스를 준비합니다. 그런 다음 Marketo Qualifier 관리자가 CRM을 연결하고 인바운드 필드를 매핑한 다음 활동을 동기화할지 여부를 선택합니다. 초기 연결에는 읽기 전용 액세스가 필요합니다. 활동 동기화 및 옵트아웃 쓰기백에는 해당 쓰기 액세스 권한이 필요합니다.
 
 >[!MORELIKETHIS]
 >
