@@ -52,7 +52,7 @@ ht-degree: 17%
 
 ::::landing-cards-container
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 시작하기
 
@@ -62,7 +62,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 잠재 고객
 
@@ -72,7 +72,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 계정
 
@@ -82,7 +82,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 스마트 대상(Beta)
 
@@ -92,7 +92,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
 
 아웃바운드 워크플로
 
@@ -102,7 +102,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 작업
 
@@ -112,7 +112,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 성능
 
@@ -122,7 +122,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 기술 자료 센터
 
@@ -132,7 +132,7 @@ AI 지원 및 자료 지원을 기반으로 하는 플레이북을 구축하십�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 통합
 
@@ -142,7 +142,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
 
 프로필 설정
 
@@ -152,7 +152,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
 
 AI 채팅
 
