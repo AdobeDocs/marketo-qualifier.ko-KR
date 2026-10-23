@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 1%
+source-wordcount: '1510'
+ht-degree: 0%
 ---
 
 # 통합
@@ -147,9 +147,11 @@ Marketo Qualifier이 자격 증명을 거부하면 자격 증명이 잘못되었
 
 1. **[!UICONTROL 섹션 이름]** 및 선택적 **[!UICONTROL 설명]**&#x200B;을 입력하십시오. 그런 다음 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 필드 추가]** 단계에서 CRM 필드를 가져오려면 해당 필드를 검색하여 선택하십시오. 그런 다음 계속하려면 **[!UICONTROL 다음]**&#x200B;을 선택하세요. 각 필드에는 **[!UICONTROL 표시 이름]**, **[!UICONTROL 필드 이름]** 및 **[!UICONTROL 데이터 형식]**&#x200B;이 표시됩니다.
-1. **[!UICONTROL 잠재 고객]**, **[!UICONTROL 연락처]** 및 **[!UICONTROL 기회]** 섹션의 경우 [잠재 고객](prospects.md) 목록에서 담당자가 필요로 하는 각 필드에 대해 **[!UICONTROL 필터링 가능]**&#x200B;을 켜십시오.
+1. **[!UICONTROL 잠재 고객]**, **[!UICONTROL 연락처]**, **[!UICONTROL 계정]** 및 **[!UICONTROL 기회]** 섹션의 경우 [잠재 고객](prospects.md#filter-and-find-prospects) 목록 또는 [아웃바운드 워크플로 타깃팅](outbound-workflows.md#step-2-configure-targeting-filters)에서 담당자가 필요로 하는 각 필드에 대해 **[!UICONTROL 필터링 가능]**&#x200B;을 켜십시오.
 
    해당 데이터 형식이 필터링을 지원하지 않거나 다른 섹션에서 이미 사용되고 있는 경우 필드를 필터링 가능으로 만들 수 없습니다.
+
+   필터링 가능한 계정 필드를 사용하면 담당자가 업종, 지역 또는 계정 유형과 같은 관련 계정의 속성별로 연락처를 필터링할 수 있습니다. 계정, 연락처 및 기회 필터를 결합하여 아웃바운드 워크플로우에 적합한 연락처를 정의할 수 있습니다. 계정 필드 필터링은 Salesforce 및 Microsoft Dynamics 365에서 사용할 수 있습니다.
 
    **[!UICONTROL 내 영업 기회 연락처]**&#x200B;에서 필터링 가능한 영업 기회 필드는 **[!UICONTROL 단계(영업 기회)]**&#x200B;와 같은 레이블이 있는 별도의 열로 표시됩니다. 접미사는 영업 기회 속성을 연결된 연락처의 필드와 구분합니다.
 

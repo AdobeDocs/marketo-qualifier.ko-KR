@@ -13,15 +13,17 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: 30abc8c57bb9b7a57f68c8e7daecc1bf3ac36567
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '703'
 ht-degree: 0%
 ---
 
 # 계정
 
 계정 보기에는 AI가 생성한 리서치, 최근 뉴스, 오픈 기회, 파이프라인 가치 및 참여 연락처가 결합됩니다. 연락하기 전에 이 정보를 사용하여 계정을 이해하고 우선 순위를 지정합니다.
+
+한 번에 여러 계정을 찾아서 우선 순위를 지정하려면 [스마트 대상(Beta)](smart-audience.md)을 사용하세요. 계정 목록을 빌드하고, CRM 데이터 및 증가 신호로 정제하고, 아웃바운드 워크플로우에 추가할 잠재 고객을 찾습니다.
 
 ## 계정 열기
 
@@ -66,7 +68,9 @@ Adobe Marketo Qualifier은 잠재 고객의 CRM 레코드에서 계정을 식별
 | **[!UICONTROL 상위 멤버]** | 거래별로 순위가 매겨진 거래처의 주요 참여 연락처. 각 연락처에는 직책, 이메일 주소, 참여 점수 및 긴급도 표시기가 표시됩니다. |
 | **[!UICONTROL 의도 데이터]** | 계정이 조사 중인 제품 및 주제와 같은 계정에 대한 구매 의도 신호. |
 | **[!UICONTROL 계정 팀원]** | 이메일, 직함, 지역 및 제품 그룹과 함께 계정에 할당된 직원입니다. |
-| **[!UICONTROL CRM 필드]** | 인바운드 매핑에 구성된 대로 CRM에서 가져온 계정 필드. [통합](integrations.md#map-crm-fields-inbound-mapping)을 참조하세요. |
+| **[!UICONTROL CRM 필드]** | 인바운드 매핑에 구성된 대로 CRM에서 가져온 계정 필드. |
+
+관리자가 필터링 가능하게 만드는 필드를 사용하여 연결된 계정별로 연락처를 필터링하고 아웃바운드 워크플로 타깃팅 기준을 정의할 수도 있습니다. [통합](integrations.md#map-crm-fields-inbound-mapping)을 참조하세요.
 
 **[!UICONTROL 최상위 구성원]** 보기에서 연락처에 대해 다음 작업 중 하나를 수행합니다.
 
