@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 18%
+source-wordcount: '517'
+ht-degree: 17%
 ---
 
 # [!DNL Adobe Marketo Qualifier]
@@ -32,6 +32,7 @@ ht-degree: 18%
 ## [!DNL Marketo Qualifier]에서 수행할 수 있는 작업
 
 * AI가 생성한 활동 요약 및 신호 기반 우선 순위를 사용하여 **잠재 고객 및 계정의 우선 순위 지정**.
+* **계정을 일반 언어로 설명하고, CRM 데이터 및 증가 신호를 추가하고, 아웃바운드 워크플로우에 대한 채점된 잠재 고객을 검토하여 [스마트 대상(Beta)](smart-audience.md)**&#x200B;을 사용하여 대상 목록을 만듭니다.
 * AI가 케이던스를 제안하고 각 잠재 고객에 대해 개인화된 이메일을 작성하는 **목표 기반 아웃바운드 워크플로 구축**.
 * 전화 통화, LinkedIn InMails 및 이메일 검토를 위해 **한 대기열에서 처리**.
 * 일정을 연결하고 개인 예약 링크를 케이던스에 삽입하여 **자동으로 회의를 예약하세요**.
@@ -39,7 +40,7 @@ ht-degree: 18%
 * CRM, 참여 및 지식 센터 데이터를 사용하는 AI 채팅으로 **자연어로 질문하기**.
 * 전자 메일 및 모임 예약 보고서를 사용하여 **도달 성과를 추적**&#x200B;합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## 홈 페이지 사용
 
@@ -51,7 +52,7 @@ ht-degree: 18%
 
 ::::landing-cards-container
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작하기
 
@@ -61,7 +62,7 @@ ht-degree: 18%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 잠재 고객
 
@@ -71,7 +72,7 @@ ht-degree: 18%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 계정
 
@@ -81,7 +82,17 @@ ht-degree: 18%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+스마트 대상(Beta)
+
+계정 및 가망 고객 목록을 작성하고 우선 순위를 지정한 다음 선택한 가망 고객을 아웃바운드 워크플로우에 추가합니다.
+
+[스마트 대상(Beta)](smart-audience.md)
+:::
+
+:::card
+![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 아웃바운드 워크플로
 
@@ -91,7 +102,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 작업
 
@@ -101,7 +112,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 성능
 
@@ -111,7 +122,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 기술 자료 센터
 
@@ -121,7 +132,7 @@ AI 지원 및 자료 지원을 기반으로 하는 플레이북을 구축하십�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 통합
 
@@ -131,7 +142,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 프로필 설정
 
@@ -141,7 +152,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 채팅
 

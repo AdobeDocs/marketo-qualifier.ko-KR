@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2776'
 ht-degree: 0%
 ---
 
@@ -93,6 +93,8 @@ AI는 생성된 터치포인트에서 목표의 요구 사항을 정확히 유�
 
 타겟팅에서는 활동 유형, 점수, 등급 및 기타 사용 가능한 속성을 사용할 수 있습니다. [!DNL AND] 또는 [!DNL OR]과(와) 기준을 결합하고 같음, 포함, 보다 큼, 보다 작음 및 사이 등의 연산자를 사용합니다.
 
+Salesforce 및 Microsoft Dynamics 365의 경우 타깃팅은 관리자가 [인바운드 매핑](integrations.md#map-crm-fields-inbound-mapping)에서 필터링 가능하게 하는 계정, 연락처 및 기회 필드를 결합할 수도 있습니다. 예를 들어 연락처의 역할을 관련 거래처의 업계와 결합하여 적합한 연락처를 타깃팅할 수 있는 기회의 단계에 통합합니다.
+
 ### 마케팅 하이라이트에서 잠재 고객 자동 등록
 
 아웃바운드 워크플로우는 타겟팅 기준에 따라 라이브 마케팅 하이라이트 활동을 평가할 수 있습니다. 활동이 일치하면 [!DNL Marketo Qualifier]이(가) 전자 메일로 잠재 고객의 CRM 소유자를 확인하고 해당 담당자에게 속한 적격 워크플로우에만 잠재 고객을 등록합니다.
@@ -161,6 +163,8 @@ AI는 사용자의 지침에 따라 전체 케이던스를 재작성합니다. �
 ### 잠재 고객 추가 및 이메일 생성 시작 {#step-5-add-prospects-and-start-email-generation}
 
 저장한 후 선택 보기에서 잠재 고객을 추가합니다. 구성한 타겟팅 필터가 적용됩니다.
+
+[스마트 대상(Beta) 목록](smart-audience.md#add-leads-to-an-outbound-workflow)에서 기존 아웃바운드 워크플로우에 대한 리드를 추가할 수도 있습니다. 확인하기 전에 선택한 리드 및 워크플로우를 검토하십시오. 리드를 추가해도 아래에서 설명하는 이메일 검토 및 승인 단계가 대체되지 않습니다.
 
 1. 목록을 검토합니다.
 

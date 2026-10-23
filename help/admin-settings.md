@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1356'
 ht-degree: 0%
 ---
 
@@ -78,14 +78,16 @@ CRM이 연결된 후 연결을 위해 **[!UICONTROL 관리]**&#x200B;를 선택�
 
    각 필드 행에는 **[!UICONTROL 표시 이름]**, **[!UICONTROL 필드 이름]** 및 **[!UICONTROL 데이터 형식]**&#x200B;이 표시됩니다.
 
-1. **[!UICONTROL 잠재 고객]** 목록에서 필터로 사용할 수 있도록 하려는 각 잠재 고객, 연락처 또는 영업 기회 필드에 대해 **[!UICONTROL 필터링 가능]**&#x200B;을 설정합니다.
+1. **[!UICONTROL 잠재 고객]** 목록 및 [아웃바운드 워크플로 타깃팅](outbound-workflows.md#step-2-configure-targeting-filters)에서 필터로 사용할 수 있도록 하려는 각 잠재 고객, 연락처, 계정 또는 기회 필드에 대해 **[!UICONTROL 필터링 가능]**&#x200B;을 설정합니다.
 1. 섹션을 미리 보고 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 
 매핑된 필드는 Marketo Qualifier의 해당 영역에 표시됩니다.
 
 * 잠재 고객 필드는 **[!UICONTROL 개인]** 탭에 나타납니다.
-* 계정 필드는 **[!UICONTROL 계정]** 탭에 나타납니다.
+* 계정 필드는 **[!UICONTROL 계정]** 탭에 나타납니다. **[!UICONTROL Accounts]** 엔터티 형식이 있는 섹션에서 담당자가 연결된 계정의 특성(예: 업계, 지역 또는 계정 형식)별로 연락처를 필터링할 수 있도록 필드를 필터링할 수 있도록 합니다.
 * 영업 기회 필드는 **[!UICONTROL 계정 영업 기회]** 섹션에 표시됩니다. 필터링 가능한 영업 기회 필드는 **[!UICONTROL 내 영업 기회 연락처]**&#x200B;에도 고유한 열로 표시되며, 연락처 필드와 구분하기 위해 **[!UICONTROL 단계(영업 기회)]**&#x200B;와 같은 레이블이 있습니다.
+
+계정 필드 필터링은 Salesforce 및 Microsoft Dynamics 365에서 사용할 수 있습니다. 담당자는 필터링 가능한 계정, 연락처 및 기회 필드를 결합하여 연락처를 찾고 아웃바운드 워크플로우 타깃팅 기준을 정의할 수 있습니다.
 
 ## 활동 동기화 구성(아웃바운드 매핑)
 

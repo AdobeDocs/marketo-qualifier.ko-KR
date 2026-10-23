@@ -3,12 +3,18 @@ title: '[!DNL Adobe Marketo Qualifier] 릴리스 정보'
 description: '[!DNL Adobe Marketo Qualifier]의 새로운 기능을 알아봅니다.'
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 12%
+source-wordcount: '619'
+ht-degree: 11%
 ---
 # [!DNL Adobe Marketo Qualifier] 릴리스 정보
+
+## 예정된 릴리스
+
+* 스마트 대상(Beta)을 통해 올바른 계정과 잠재 고객을 찾아 우선 순위를 지정합니다. 원하는 계정을 일반 언어로 설명하고 CRM 데이터 및 성장 신호를 추가하고 채점된 잠재 고객을 검토한 다음 아웃바운드 워크플로우에 추가합니다. [자세히 알아보기](smart-audience.md)
+* 연락처 및 영업 기회 필드와 함께 계정 필드별로 연락처를 필터링하여 올바른 연락처를 찾고 아웃바운드 워크플로우를 보다 정확하게 타깃팅합니다. [자세히 알아보기](prospects.md#filter-and-find-prospects)
+* 연락처에는 관련 계정 및 소유자 이름이 표시되며, 이제 잠재 고객의 페이지에 30일에서 90일 동안의 마케팅 활동이 표시됩니다. [자세히 알아보기](prospects.md#review-prospect-details)
 
 ## 10-08-2026
 
