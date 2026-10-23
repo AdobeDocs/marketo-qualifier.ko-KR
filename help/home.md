@@ -40,7 +40,7 @@ ht-degree: 17%
 * CRM, 참여 및 지식 센터 데이터를 사용하는 AI 채팅으로 **자연어로 질문하기**.
 * 전자 메일 및 모임 예약 보고서를 사용하여 **도달 성과를 추적**&#x200B;합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
 
 ## 홈 페이지 사용
 
