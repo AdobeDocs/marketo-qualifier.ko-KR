@@ -6,18 +6,22 @@ role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Marketo Qualifier
 feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
+  - id: ace0d1fc-8e69-4e6a-a442-37fc40985eea
+    internal-label: Account Qualification Agent
+  - id: abf46024-b86e-4240-96ee-3f23636dfc27
+    internal-label: Outbound Workflows
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: bf94a2d28913093923f446025405339e4e64919c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 17%
@@ -40,7 +44,7 @@ ht-degree: 17%
 * CRM, 참여 및 지식 센터 데이터를 사용하는 AI 채팅으로 **자연어로 질문하기**.
 * 전자 메일 및 모임 예약 보고서를 사용하여 **도달 성과를 추적**&#x200B;합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476568?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3505339)
 
 ## 홈 페이지 사용
 
@@ -52,7 +56,7 @@ ht-degree: 17%
 
 ::::landing-cards-container
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작하기
 
@@ -62,7 +66,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 잠재 고객
 
@@ -72,7 +76,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 계정
 
@@ -82,7 +86,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 스마트 대상(Beta)
 
@@ -92,7 +96,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 아웃바운드 워크플로
 
@@ -102,7 +106,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 작업
 
@@ -112,7 +116,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 성능
 
@@ -122,7 +126,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 기술 자료 센터
 
@@ -132,7 +136,7 @@ AI 지원 및 자료 지원을 기반으로 하는 플레이북을 구축하십�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 통합
 
@@ -142,7 +146,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 프로필 설정
 
@@ -152,7 +156,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 채팅
 
