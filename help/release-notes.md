@@ -9,14 +9,14 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: f7b2d254601b6dd9a00513dae850ae22a5480b87
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '768'
 ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] 릴리스 정보
 
-## 예정된 릴리스
+## 2026년 11월 릴리스
 
 * 일반 언어로 연결할 사용자를 설명하고 CRM 리드 및 연락처 필터로 전환하고, 아웃바운드 워크플로우 타기팅에서 모든 리드 및 연락처 필터를 사용하고, 저장하기 전에 일치하는 잠재 고객을 미리 봅니다. [자세히 알아보기](outbound-workflows.md#step-2-configure-targeting-filters)
 * 직책 및 이메일과 같은 텍스트 필드에서 필터당 최대 5개의 값을 사용하여 잠재고객을 한 번에 여러 개의 값으로 필터링합니다. [자세히 알아보기](prospects.md#filter-and-find-prospects)
