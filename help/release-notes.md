@@ -9,15 +9,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 11%
+source-wordcount: '767'
+ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] 릴리스 정보
 
 ## 예정된 릴리스
 
+* 일반 언어로 연결할 사용자를 설명하고 CRM 리드 및 연락처 필터로 전환하고, 아웃바운드 워크플로우 타기팅에서 모든 리드 및 연락처 필터를 사용하고, 저장하기 전에 일치하는 잠재 고객을 미리 봅니다. [자세히 알아보기](outbound-workflows.md#step-2-configure-targeting-filters)
+* 직책 및 이메일과 같은 텍스트 필드에서 필터당 최대 5개의 값을 사용하여 잠재고객을 한 번에 여러 개의 값으로 필터링합니다. [자세히 알아보기](prospects.md#filter-and-find-prospects)
+* 아웃바운드 워크플로우에서 직접 잠재 고객 답글에 대한 AI 초안 답글을 검토, 편집 및 전송하거나 적합하지 않은 초안을 거부합니다. [자세히 알아보기](outbound-workflows.md#review-and-send-ai-draft-replies)
+* Salesforce 또는 Microsoft Dynamics 365에 [!DNL Adobe Marketo Qualifier]을(를) 설치하고 Salesforce 목록 보기 및 레코드 페이지에서 아웃바운드 워크플로 또는 Marketo 캠페인에 잠재 고객을 추가합니다. [자세히 알아보기](crm-plugin-setup.md)
+* 스마트 대상(Beta)을 사용하여 더 빠르게 시작하십시오. 안내 연습, 대상을 만들 때 빠른 추가 옵션, 레코드 수가 있는 더 명확한 목록, 보기에 남아 있는 계정 열, 색상 코드 점수. [자세히 알아보기](smart-audience.md)
 * 스마트 대상(Beta)을 통해 올바른 계정과 잠재 고객을 찾아 우선 순위를 지정합니다. 원하는 계정을 일반 언어로 설명하고 CRM 데이터 및 성장 신호를 추가하고 채점된 잠재 고객을 검토한 다음 아웃바운드 워크플로우에 추가합니다. [자세히 알아보기](smart-audience.md)
 * 연락처 및 영업 기회 필드와 함께 계정 필드별로 연락처를 필터링하여 올바른 연락처를 찾고 아웃바운드 워크플로우를 보다 정확하게 타깃팅합니다. [자세히 알아보기](prospects.md#filter-and-find-prospects)
 * 연락처에는 관련 계정 및 소유자 이름이 표시되며, 이제 잠재 고객의 페이지에 30일에서 90일 동안의 마케팅 활동이 표시됩니다. [자세히 알아보기](prospects.md#review-prospect-details)

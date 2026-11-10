@@ -4,9 +4,9 @@ description: 스마트 대상(Beta)을 사용하여 계정 목록을 작성하�
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 badgeBeta: label="Beta" type="Informative"
-source-git-commit: bf94a2d28913093923f446025405339e4e64919c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1313'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,8 @@ Smart Audience(Beta)를 사용하면 [!DNL Adobe Marketo Qualifier]에서 다음
 목록 보기에서 표, 필터 및 단추를 사용하거나 채팅을 사용하여 원하는 내용을 설명합니다. 둘 다 동일한 목록에서 작동합니다. 한 항목의 변경 사항이 다른 항목에 나타납니다. 변경 내용이 즉시 나타나지 않으면 **[!UICONTROL 새로 고침]**&#x200B;을 선택하세요.
 
 각 목록 맨 위에 있는 진행률 추적기에는 **[!UICONTROL 스마트 대상 목록 빌드]**, **[!UICONTROL 잠재 고객 우선 순위 지정]** 및 **[!UICONTROL 아웃바운드 워크플로우에 추가]**&#x200B;의 세 단계가 표시됩니다.
+
+랜딩 페이지에는 계정 설명부터 아웃바운드 워크플로우에 대한 리드 추가에 이르기까지 전체 5단계 흐름에 대한 자동 재생 예제가 포함되어 있습니다. **[!UICONTROL 작동 방법]** 연습에서는 여정을 단계별로 설명하고 목록이 없을 때 자동으로 열립니다. **[!UICONTROL 작동 방법]**&#x200B;을 선택하여 이 연습을 건너뛰고 언제든지 다시 열 수 있습니다.
 
 ## 시작하기에 앞서
 
@@ -29,7 +31,10 @@ Smart Audience(Beta)를 사용하면 [!DNL Adobe Marketo Qualifier]에서 다음
 연결할 계정에 대한 설명으로 시작합니다. 미리 보기는 목록을 저장하지 않습니다.
 
 1. **[!UICONTROL 스마트 대상]**&#x200B;을 열고 **[!UICONTROL 새 스마트 대상]** 또는 **[!UICONTROL 목록 만들기]**&#x200B;를 선택합니다.
-1. 채팅에서 원하는 계정에 대해 설명합니다. 예를 들어 `Find healthcare accounts with revenue over $50M`을(를) 입력합니다.
+1. 대상자 만들기 페이지의 빠른 추가 옵션 및 예제 프롬프트를 사용하여 요청을 시작하거나 채팅에서 원하는 계정을 설명합니다.
+
+   예를 들어 `Find healthcare accounts with revenue over $50M`을(를) 입력합니다.
+
 1. 미리보기에서 일치하는 계정의 수와 샘플을 검토합니다.
 
 요청에는 다음 기준이 포함될 수 있습니다.
@@ -58,6 +63,8 @@ Smart Audience(Beta)를 사용하면 [!DNL Adobe Marketo Qualifier]에서 다음
 1. 미리보기가 준비되면 채팅에 목록으로 저장하고 목록 이름을 지정하도록 요청합니다.
 1. **[!UICONTROL 계정]** 탭에서 저장된 계정을 검토합니다.
 
+저장된 목록은 열 목록을 선택하는 데 도움이 되는 계정, 리드 및 데이터 보강 세부 정보가 있는 카드로 표시됩니다.
+
 해당 페이지에서 목록 이름을 바꿀 수 있습니다. 목록을 삭제하려면 목록을 열고 **[!UICONTROL 스마트 대상 목록 삭제]**&#x200B;를 선택하십시오.
 
 >[!CAUTION]
@@ -82,7 +89,9 @@ CRM 정보를 추가하려면 `Add a column showing which accounts have an open 
 
 예를 들어 `Which of these accounts have raised funding recently?` 또는 `Which of these accounts have had layoffs?`을(를) 입력합니다.
 
-큰 목록에서 신호를 추가하는 데 몇 분 정도 걸릴 수 있습니다. 목록에 표시된 진행 상황을 따르고 각 새 열을 검토한 다음 유지하거나 삭제합니다.
+큰 목록에서 신호를 추가하는 데 몇 분 정도 걸릴 수 있습니다. 목록에 표시된 진행 상황을 따르고 각 새 열을 검토한 다음 유지하거나 삭제합니다. 데이터 보강 열을 추가한 후 **[!UICONTROL 열 표시]**&#x200B;를 선택하여 표시합니다. 열 순서를 변경하지 않고 찾을 수 있도록 열을 간략하게 강조 표시합니다.
+
+**[!UICONTROL 계정]** 및 **[!UICONTROL 리드]** 탭의 레코드 수가 표시됩니다. 목록을 가로로 스크롤할 때 **[!UICONTROL Account]** 열이 계속 표시됩니다.
 
 계정 범위를 좁히고 우선 순위를 지정하려면 다음을 수행합니다.
 
@@ -109,9 +118,13 @@ CRM 정보를 추가하려면 `Add a column showing which accounts have an open 
 
 **[!UICONTROL 리드]** 탭에서 결과를 검토하십시오. 각 잠재 고객의 이름, 제목, 계정, 이메일, 소유자 및 점수를 보여줍니다. 연공, 이메일 주소를 사용할 수 있는지 여부, 최소 또는 최대 점수 또는 잠재 고객이 워크플로우에 있는지 여부를 기준으로 필터링합니다. **[!UICONTROL 추론]** 열은 각 잠재 고객의 순위가 지정된 이유를 설명합니다.
 
+**[!UICONTROL 리드]** 탭이 비어 있는 경우 안내에 따라 관심 목록에 추가된 계정의 리드를 찾으십시오.
+
 ### 점수 작동 방식
 
 점수의 범위는 0에서 100까지입니다. 점수가 높을수록 더 적합하고 참여할 준비가 더 되어 있음을 나타냅니다. 동일한 데이터가 동일한 점수를 생성합니다.
+
+점수는 더 강한 일치를 돋보이게 하기 위해 색깔로 구분되어 있다. 색상에만 의존하지 않고 계정이나 리드를 비교할 때 숫자 점수와 추론을 검토하십시오.
 
 점수는 다음을 결합합니다.
 
