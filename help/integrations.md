@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1531'
 ht-degree: 0%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 0%
 Outlook을 연결하여 전자 메일을 보내고, 잠재 고객 답글을 인식하고, 모임을 예약합니다. 리드, 연락처, 계정, 기회, 활동 및 소유자를 Account Qualification Agent(AQA) 및 아웃바운드 워크플로에서 사용할 수 있도록 하기 위해 Adobe Marketo Qualifier을 Salesforce 또는 Microsoft Dynamics 365에 연결할 수도 있습니다. Marketo Qualifier은 CRM 데이터를 읽고, CRM에 도달 활동 및 옵트아웃 상태를 다시 쓸 수 있으며, 도달 활동을 Marketo에 동기화할 수 있습니다. 그렇지 않으면 CRM 레코드를 수정하지 않습니다.
 
 이 문서에서는 Outlook 연결, CRM 연결 관리, 필드 매핑, 활동 동기화 및 이메일 옵트아웃 구성 방법에 대해 설명합니다. CRM을 처음 연결하려면 [시작](getting-started.md#connect-your-crm)을 참조하세요.
+
+Marketo Qualifier 인사이트 및 작업을 Salesforce 또는 Microsoft Dynamics 365 내에서 사용할 수 있도록 하려면 [CRM에 Marketo Qualifier 포함](crm-plugin-setup.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >

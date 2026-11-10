@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1105'
 ht-degree: 0%
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ## 에이전트 제안
 
-**[!UICONTROL 에이전트 제안]** 탭에는 아웃바운드 워크플로우의 타깃팅 기준과 일치하는 잠재 고객이 나열되며 등록에 권장됩니다. 권장 사항을 켜려면 [아웃바운드 워크플로](outbound-workflows.md)를 참조하십시오.
+**[!UICONTROL 에이전트 제안]** 탭에는 구성된 [아웃바운드 워크플로 타깃팅 필터](outbound-workflows.md#step-2-configure-targeting-filters)의 전체 집합을 사용하여 등록하도록 권장되는 잠재 고객이 나열됩니다. 권장 사항을 켜려면 [아웃바운드 워크플로](outbound-workflows.md)를 참조하십시오.
 
 작업 패널에서 제안을 검토하려면 다음을 선택합니다.
 
@@ -139,6 +139,8 @@ ht-degree: 0%
 1. 응답 제안을 열고 전체 스레드 및 초안 응답을 검토합니다.
 1. 다른 초안을 만들려면 응답을 편집하거나 **[!UICONTROL AI로 생성]**&#x200B;을 선택하십시오.
 1. 응답을 보내고 잠재 고객의 아웃바운드 워크플로우를 계속하려면 **[!UICONTROL 승인 및 보내기]**&#x200B;를 선택합니다.
+
+아웃바운드 워크플로우의 **[!UICONTROL 참여 잠재 고객]** 보기에서 [AI 초안 답글을 검토, 편집, 전송 또는 거부](outbound-workflows.md#review-and-send-ai-draft-replies)할 수도 있습니다.
 
 ## 아웃바운드 워크플로우에서 작업 완료
 

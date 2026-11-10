@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1369'
 ht-degree: 0%
 ---
 
@@ -49,7 +49,7 @@ CRM 연결, 필드 매핑 및 활동 동기화를 구성하려면 **[!UICONTROL 
 Marketo Qualifier은 다음과 같은 방식으로 CRM과 작동합니다.
 
 * **CRM MCP 쿼리** - Account Qualification Agent은 라이브 CRM 데이터를 쿼리하여 응답과 통찰력이 레코드의 현재 상태를 반영하도록 합니다.
-* **포함된 플러그인**—CRM 플러그인은 CRM의 [!DNL Marketo Sales Insights]&#x200B;(MSI) 인사이트 및 에이전트 데이터를 표시합니다. 플러그 인을 사용하여 [!DNL Marketo Qualifier]에 잠재 고객을 추가하십시오.
+* **포함된 플러그인**—CRM 플러그인은 CRM의 [!DNL Marketo Sales Insights]&#x200B;(MSI) 인사이트 및 에이전트 데이터를 표시합니다. 플러그 인을 사용하여 [!DNL Marketo Qualifier]에 잠재 고객을 추가하십시오. 설치 및 Salesforce 작업 설정에 대해서는 [CRM에 Marketo Qualifier 포함](crm-plugin-setup.md)을 참조하십시오.
 * **활동 동기화**—관리자가 **[!UICONTROL 활동 동기화]**&#x200B;를 켜면 봉사 활동이 CRM 및 Marketo에 동기화됩니다.
 
 ### CRM 플러그인의 잠재 고객 우선 순위 지정

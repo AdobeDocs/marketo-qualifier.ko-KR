@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '554'
 ht-degree: 17%
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 [!DNL Adobe Marketo Qualifier]은(는) BDR(비즈니스 개발 담당자)을 위한 잠재 고객 자격, 지원 및 크로스 채널 구매자 참여를 자동화하는 AI 기반 앱입니다. Account Qualification Agent은 계정 및 잠재 고객을 분석하고, 다음 단계를 위해 준비된 고객을 우선시하며, CRM 데이터를 기반으로 개인화된 전달을 초안합니다.
 
-이 앱은 [!DNL Marketo Engage], [!DNL Marketo Optimizer] 및 [!DNL Marketo Measure]과(와) 함께 [!DNL Marketo] 제품군의 일부입니다. BDR은 브라우저 및 이메일 플러그인을 사용하여 CRM 또는 Outlook 내에서 직접 비즈니스 인텔리전스에 액세스할 수 있습니다.
+이 앱은 [!DNL Marketo Engage], [!DNL Marketo Optimizer] 및 [!DNL Marketo Measure]과(와) 함께 [!DNL Marketo] 제품군의 일부입니다. BDR은 [CRM 플러그인](crm-plugin-setup.md)을 사용하여 Salesforce 또는 Microsoft Dynamics 365 내에서 직접 비즈니스 인텔리전스에 액세스하고 이메일 플러그인을 사용하여 Outlook에서 액세스할 수 있습니다.
 
 ## [!DNL Marketo Qualifier]에서 수행할 수 있는 작업
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 * CRM, 참여 및 지식 센터 데이터를 사용하는 AI 채팅으로 **자연어로 질문하기**.
 * 전자 메일 및 모임 예약 보고서를 사용하여 **도달 성과를 추적**&#x200B;합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3505354?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3505339)
 
 ## 홈 페이지 사용
 
@@ -56,7 +56,7 @@ ht-degree: 17%
 
 ::::landing-cards-container
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 시작하기
 
@@ -66,7 +66,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 잠재 고객
 
@@ -76,7 +76,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 계정
 
@@ -86,7 +86,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 스마트 대상(Beta)
 
@@ -96,7 +96,7 @@ ht-degree: 17%
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 아웃바운드 워크플로
 
@@ -106,7 +106,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 작업
 
@@ -116,7 +116,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 성능
 
@@ -126,7 +126,7 @@ AI가 생성하고 개인화된 이메일을 사용하여 목표 기반 케이�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 기술 자료 센터
 
@@ -136,7 +136,7 @@ AI 지원 및 자료 지원을 기반으로 하는 플레이북을 구축하십�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 통합
 
@@ -146,7 +146,17 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+CRM 플러그인 설정
+
+CRM 플러그인을 설치하고 아웃바운드 워크플로우 및 Marketo 캠페인에 대한 Salesforce 작업을 구성합니다.
+
+[CRM에 Marketo Qualifier 포함](crm-plugin-setup.md)
+:::
+
+:::card
+![아이콘](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 프로필 설정
 
@@ -156,7 +166,7 @@ Salesforce 또는 Microsoft Dynamics 365를 연결하고 필드를 매핑합니�
 :::
 
 :::card
-![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ko)
+![아이콘](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI 채팅
 

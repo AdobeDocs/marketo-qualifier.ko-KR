@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1033'
 ht-degree: 1%
 ---
 
@@ -86,6 +86,8 @@ CRM에서 제공되지 않는 잠재 고객을 추가하려면:
 * 계정
 * 소스
 * 마지막 업데이트
+
+**[!UICONTROL 리드]** 및 **[!UICONTROL 연락처]** 목록에서 **[!UICONTROL 직책]** 및 **[!UICONTROL 전자 메일]**&#x200B;과 같은 텍스트 필터는 포함 연산자로 최대 5개의 값을 허용합니다. 값을 입력하고 Enter 키를 누른 다음 다음 값을 추가합니다. 결과에는 모든 값과 일치하는 잠재 고객이 포함됩니다. 예를 들어 `manager` 및 `director`을(를) 포함하는 직책 필터 는 제목에 단어 중 하나가 포함된 잠재 고객을 반환합니다. 이 필터링은 Salesforce 및 Microsoft Dynamics 365에서 사용할 수 있으며 [아웃바운드 워크플로 타깃팅](outbound-workflows.md#step-2-configure-targeting-filters)에서 동일한 필터를 사용할 수 있습니다.
 
 관리자는 매핑된 CRM 필드를 필터로 사용할 수도 있습니다. **[!UICONTROL 관리자 설정]**&#x200B;에서 사용자가 잠재 고객을 찾는 데 사용하는 각 필드에 대해 **[!UICONTROL 필터링 가능]**&#x200B;을 켜십시오. [CRM 필드 매핑](integrations.md#map-crm-fields-inbound-mapping)을 참조하세요.
 
