@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1530'
 ht-degree: 0%
 ---
 
@@ -37,7 +37,7 @@ Outlook을 연결하여 전자 메일을 보내고, 잠재 고객 답글을 인�
 
 이 문서에서는 Outlook 연결, CRM 연결 관리, 필드 매핑, 활동 동기화 및 이메일 옵트아웃 구성 방법에 대해 설명합니다. CRM을 처음 연결하려면 [시작](getting-started.md#connect-your-crm)을 참조하세요.
 
-Marketo Qualifier 인사이트 및 작업을 Salesforce 또는 Microsoft Dynamics 365 내에서 사용할 수 있도록 하려면 [CRM에 Marketo Qualifier 포함](crm-plugin-setup.md)을 참조하십시오.
+Marketo Qualifier 인사이트 및 작업을 Salesforce 또는 Microsoft Dynamics 365 내에서 사용할 수 있도록 하려면 [CRM 플러그인 설정](crm-plugin-setup.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >

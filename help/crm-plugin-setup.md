@@ -1,6 +1,6 @@
 ---
-title: CRM 연결
-description: Salesforce 또는 Microsoft Dynamics 365에 Marketo Qualifier을 설치하고 아웃바운드 워크플로우 및 Marketo 캠페인에 대한 Salesforce 작업을 구성하는 방법에 대해 알아봅니다.
+title: CRM 플러그인 설정
+description: Salesforce 또는 Microsoft Dynamics 365에서 Marketo Qualifier CRM 플러그인을 설치하는 방법을 알아봅니다. 워크플로우 및 Marketo 캠페인에 대한 Salesforce 작업을 구성합니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -17,13 +17,13 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '953'
 ht-degree: 0%
 ---
 
-# CRM 연결
+# CRM 플러그인 설정
 
 담당자가 Salesforce 또는 Microsoft Dynamics 365를 종료하지 않고 리드, 연락처 및 계정 기록 페이지에서 [!DNL Marketo Sales Insights] 및 AI가 생성한 인사이트를 사용할 수 있도록 [!DNL Adobe Marketo Qualifier] CRM 플러그인을 설치하십시오. 또한 이 플러그인은 [CRM에서 잠재 고객의 우선 순위 지정](admin-settings.md#prioritize-leads-in-the-crm-plugin)을 위한 홈 보기를 제공합니다.
 
