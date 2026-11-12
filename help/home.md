@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '553'
 ht-degree: 17%
 ---
 
@@ -152,7 +152,7 @@ CRM 플러그인 설정
 
 CRM 플러그인을 설치하고 아웃바운드 워크플로우 및 Marketo 캠페인에 대한 Salesforce 작업을 구성합니다.
 
-[CRM에 Marketo Qualifier 포함](crm-plugin-setup.md)
+[CRM 플러그인 설정](crm-plugin-setup.md)
 :::
 
 :::card
