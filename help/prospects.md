@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1058'
 ht-degree: 1%
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 * 연결된 CRM에서 사용자에게 할당된 **[!UICONTROL 잠재 고객]**&#x200B;개 잠재 고객.
 * 연결된 계정과 함께 연결된 CRM에서 사용자에게 할당된 **[!UICONTROL 연락처]**&#x200B;개. 연락처 세부 정보에는 소유자 이름도 포함됩니다. 이러한 세부 사항은 Salesforce 및 Microsoft Dynamics 365에서 사용할 수 있습니다.
-* 이메일 열기 또는 클릭과 같은 라이브 Marketo 활동이 있는 **[!UICONTROL 마케팅 하이라이트]** 잠재 고객.
+* 이메일 열기 또는 클릭과 같은 참여를 포함하여 Marketo Engage 트리거 또는 일괄 스마트 캠페인에서 보낸 **[!UICONTROL 마케팅 하이라이트]** 잠재 고객.
 * 수동으로 가져오거나 추가하는 **[!UICONTROL 사용자 목록]** 잠재 고객.
 
 ## 잠재 고객 컨텍스트 검토 및 목록 내보내기
@@ -97,16 +97,16 @@ CRM에서 제공되지 않는 잠재 고객을 추가하려면:
 
 ### 마케팅 하이라이트별로 필터링
 
-잠재 고객을 이메일 활동, 웹 방문, 양식 작성과 같은 라이브 [!DNL Marketo] 참여로 검토하고 우선 순위를 지정합니다. 참여는 실시간에 가깝게 나타납니다.
+전자 메일 활동, 웹 방문 및 양식 채우기를 포함하여 [!DNL Marketo Engage]에서 보낸 잠재 고객을 검토하고 우선 순위를 지정하십시오. 캠페인을 트리거하면 진행 중인 참여가 전송되고, 배치 캠페인을 사용하면 실행될 때마다 자격을 갖춘 잠재 고객이 전송됩니다.
 
 마케팅 하이라이트별로 잠재 고객을 필터링하려면 다음을 수행하십시오.
 
 1. **[!UICONTROL 필터]**&#x200B;를 선택하십시오.
 1. 마케팅 하이라이트 필터를 추가하고 활동 유형, 캠페인 또는 기타 속성을 설정하여 중요한 참여에 집중할 수 있습니다.
 
-각 잠재 고객은 최근 기록과 함께 최신 [!DNL Marketo] 활동을 보여줍니다.
+각 잠재 고객은 최근 기록과 함께 최신 [!DNL Marketo] 활동을 보여줍니다. 활동은 잠재 고객이 도착한 방법을 보여 줄 수 있습니다(예: **[!UICONTROL 일괄 캠페인에서 추가됨]**).
 
-마케팅 하이라이트는 모든 프로덕션 지역에서 사용할 수 있습니다. 관리자가 [!DNL Marketo]을(를) Marketo Qualifier에 연결하는 일회성 설정을 완료합니다. [마케팅 하이라이트 설정](integrations.md#turn-on-marketo-engagement-filtering)을 참조하세요.
+마케팅 하이라이트는 모든 프로덕션 지역에서 사용할 수 있습니다. **[!UICONTROL Marketo Qualifier으로 보내기]** 흐름 단계로 리드를 보내려면 [마케팅 하이라이트 설정](marketing-highlights-setup.md)을 참조하세요.
 
 ## 잠재 고객 세부 정보 검토
 

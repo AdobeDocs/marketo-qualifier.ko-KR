@@ -1,6 +1,6 @@
 ---
 title: 마케팅 하이라이트 설정
-description: Marketo을 Adobe Marketo Qualifier에 연결하여 담당자가 마케팅 하이라이트에서 라이브 Marketo 활동으로 잠재 고객을 보고 필터링할 수 있는 방법에 대해 알아봅니다.
+description: 스마트 캠페인 플로우 단계를 통해 Marketo Engage에서 Marketo Qualifier으로 리드를 보내고, 검토할 마케팅 하이라이트 권장 사항을 얻는 방법에 대해 알아봅니다.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -21,30 +21,63 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '1011'
 ht-degree: 1%
 ---
 
 # 마케팅 하이라이트 설정
 
-마케팅 하이라이트는 이메일 열기 및 클릭 수, 웹 방문 횟수 및 양식 채우기와 같은 각 잠재 고객의 라이브 [!DNL Marketo] 활동을 보여줍니다. 이 문서에서는 활동이 유입될 수 있도록 [!DNL Marketo] 인스턴스를 연결하는 방법에 대해 설명합니다.
+Smart Campaign에 **[!UICONTROL Marketo Qualifier으로 보내기]** 흐름 단계를 추가하여 [!DNL Adobe Marketo Engage]에서 [!DNL Adobe Marketo Qualifier]&#x200B;(으)로 리드를 보냅니다. 담당자는 **[!UICONTROL 잠재 고객]** > **[!UICONTROL 마케팅 하이라이트]**&#x200B;에서 잠재 고객 및 해당 잠재 고객을 보낸 활동을 봅니다.
+
+흐름 단계는 두 가지 유형의 스마트 캠페인에서 모두 작동합니다.
+
+* **캠페인 트리거** 이메일 열기 및 클릭 수, 링크 클릭 수, 양식 채우기 및 웹 페이지 방문 수와 같은 작업을 수행할 때 참여를 보냅니다.
+* **캠페인 일괄 처리** 캠페인이 실행될 때마다 적격 리드를 보냅니다.
+
+잠재 고객이 아웃바운드 워크플로우의 타깃팅 기준과 일치하는 경우 Marketo Qualifier에서는 연결된 CRM에서 잠재 고객을 해당 소유자에게 전달하는 것을 권장합니다. 소유자는 등록 및 지원 전에 리드를 검토하고 승인합니다. 가망 고객은 자동으로 등록되지 않습니다.
+
+마케팅 하이라이트는 북미, EMEA 및 오스트레일리아의 모든 프로덕션 지역에서 사용할 수 있습니다.
+
+## 시작하기에 앞서 {#before-you-begin}
+
+흐름 단계를 추가하기 전에 다음 전제 조건을 확인하십시오.
+
+* Marketo 관리자가 **[!UICONTROL 관리자]**&#x200B;에서 Marketo Engage 인스턴스에 대해 **[!UICONTROL Marketo Qualifier으로 보내기]**&#x200B;를 설정했습니다.
+* Marketo Qualifier이 [Salesforce 또는 Microsoft Dynamics 365](getting-started.md#connect-your-crm)에 연결되어 있으므로 각 리드는 해당 CRM 소유자와 일치할 수 있습니다.
 
 >[!IMPORTANT]
 >
->이 설정을 완료하려면 Adobe Developer Console 및 [!DNL Marketo]의 **[!UICONTROL 관리자]**&#x200B;에 액세스해야 합니다. Adobe 연락처 및 [!DNL Marketo] 관리자와 함께 아래 네 가지 부분을 완료하십시오.
+>**[!UICONTROL Marketo Qualifier으로 보내기]** 흐름 단계에는 웹후크, 끝점 URL 또는 API 자격 증명이 필요하지 않습니다. 사용하기 위해 Adobe Developer Console에 액세스할 필요가 없습니다. 흐름 단계를 사용할 수 없는 경우 Marketo 관리자에게 문의하십시오.
 
-설치 프로그램에는 네 가지 부품이 있습니다.
+## Smart Campaign으로 리드 보내기 {#send-leads-with-a-smart-campaign}
 
-* A부: Adobe Developer Console에서 API 자격 증명 만들기
-* 파트 B: Adobe Marketo Qualifier 엔드포인트 및 식별자를 수집합니다.
-* 파트 C: [!DNL Marketo Engage]에서 웹후크를 구성합니다.
-* D부: Smart Campaign 트리거에 웹후크를 추가합니다.
+기존 Smart Campaign을 사용하거나 전송할 가망 고객 및 활동에 대해 하나를 만듭니다.
 
-설정이 완료되면 사용자는 **[!UICONTROL 잠재 고객]** > **[!UICONTROL 마케팅 하이라이트]**&#x200B;에서 이 활동을 보고 필터링합니다.
+1. Marketo Engage에서 스마트 캠페인을 열거나 **[!UICONTROL 마케팅 활동]** > **[!UICONTROL 새로 만들기]** > **[!UICONTROL 스마트 캠페인]**&#x200B;을 선택하여 만드십시오.
+1. **[!UICONTROL 스마트 목록]** 탭에서 적합한 잠재 고객을 정의합니다.
 
-## A부: API 자격 증명 만들기 {#part-a-create-api-credentials}
+   * 트리거 캠페인의 경우 전송할 활동에 대한 트리거를 추가합니다(예: **[!UICONTROL 웹 페이지 방문]**, **[!UICONTROL 웹 페이지에서 링크 클릭]** 또는 **[!UICONTROL 전자 메일의 링크 클릭]**).
+   * 배치 캠페인의 경우, 보낼 가망 고객에 대한 필터를 추가합니다.
+
+1. **[!UICONTROL 흐름]** 탭에서 **[!UICONTROL Marketo Qualifier으로 보내기]** 흐름 단계를 추가합니다.
+1. 트리거 캠페인을 활성화하거나 배치 캠페인을 실행 또는 예약합니다.
+1. Marketo Qualifier에서 **[!UICONTROL 잠재 고객]** > **[!UICONTROL 마케팅 하이라이트]**&#x200B;를 열어 잠재 고객 및 해당 활동을 검토하십시오.
+
+   활동은 잠재 고객이 도착한 방식을 보여 줍니다(예: **[!UICONTROL 일괄 캠페인에서 추가됨]**).
+
+아웃바운드 워크플로우의 타깃팅 기준과 일치하는 리드는 해당 CRM 소유자에게만 권장됩니다. 권장 사항을 검토하려면 **[!UICONTROL 작업]** > **[!UICONTROL 에이전트 제안]**&#x200B;을 여십시오. [마케팅 추천 항목에서 추천 항목 받기](outbound-workflows.md#automatically-enroll-prospects-from-marketing-highlights) 및 [에이전트 제안](tasks.md#agent-suggestions)을 참조하세요.
+
+## 기존 웹후크 설정 {#existing-webhook-setups}
+
+다음 지침은 이전 Webhook 설정에 대해 설명합니다. **[!UICONTROL Marketo Qualifier으로 보내기]** 흐름 단계에는 필요하지 않습니다. 조직에서 이미 웹후크를 사용하고 있는 경우 해당 설정을 변경하기 전에 Marketo 관리자 및 Adobe 담당자와 협력하십시오.
+
++++Webhook 설정 지침
+
+이 지침을 사용하려면 Adobe Developer Console 및 Marketo Engage의 **[!UICONTROL 관리자]**&#x200B;에 액세스해야 합니다.
+
+### A부: API 자격 증명 만들기 {#part-a-create-api-credentials}
 
 이 자격 증명을 사용하면 [!DNL Marketo]에서 Marketo Qualifier에 안전하게 인증할 수 있습니다.
 
@@ -66,7 +99,7 @@ ht-degree: 1%
 >
 >클라이언트 암호를 비공개로 유지합니다. 암호처럼 취급하고 이메일로 보내지 마십시오. 조직의 승인된 보안 채널을 사용하여 웹후크를 구성하는 사람과 공유합니다.
 
-## 파트 B: 엔드포인트 및 식별자 수집 {#part-b-gather-your-endpoint-and-identifiers}
+### 파트 B: 엔드포인트 및 식별자 수집 {#part-b-gather-your-endpoint-and-identifiers}
 
 [파트 C](#part-c-configure-the-marketo-webhook)에 세 개의 값이 필요합니다.
 
@@ -84,7 +117,7 @@ ht-degree: 1%
 
 지역, imsOrg ID 또는 샌드박스 이름을 잘 모르는 경우 Adobe 담당자가 확인할 수 있습니다.
 
-## C부: Marketo 웹후크 구성 {#part-c-configure-the-marketo-webhook}
+### C부: Marketo 웹후크 구성 {#part-c-configure-the-marketo-webhook}
 
 Webhook을 생성하려면 다음을 수행합니다.
 
@@ -171,7 +204,7 @@ Webhook을 생성하려면 다음을 수행합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-## D부: Smart Campaign 트리거에 웹후크 추가 {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
+### D부: Smart Campaign 트리거에 웹후크 추가 {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
 기존 Smart Campaign 또는 새 Smart Campaign 트리거에 **[!UICONTROL Call Webhook]** 흐름 단계를 추가합니다. 해당 캠페인의 스마트 목록 트리거는 Marketo Qualifier에 전송되는 활동을 결정합니다.
 
@@ -183,6 +216,8 @@ Webhook를 추가하려면:
 1. 스마트 캠페인을 활성화합니다.
 
 이제 해당 Smart Campaign의 활동이 Marketo Qualifier으로 전송됩니다. 담당자는 **[!UICONTROL 잠재 고객]** > **[!UICONTROL 마케팅 하이라이트]**&#x200B;에서 이 활동을 보고 필터링합니다.
+
++++
 
 >[!MORELIKETHIS]
 >
