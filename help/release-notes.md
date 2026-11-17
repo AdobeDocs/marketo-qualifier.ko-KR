@@ -9,15 +9,16 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f7b2d254601b6dd9a00513dae850ae22a5480b87
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '821'
 ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] 릴리스 정보
 
 ## 2026년 11월 릴리스
 
+* 설정할 웹후크 또는 API 자격 증명이 없는 모든 트리거 또는 일괄 Smart Campaign에 **[!UICONTROL Marketo Qualifier으로 보내기]** 흐름 단계를 추가하여 [!DNL Marketo Engage]에서 [!DNL Marketo Qualifier]&#x200B;(으)로 리드를 보냅니다. 아웃바운드 워크플로우와 일치하는 잠재 고객은 검토하기 위해 해당 소유자에게 권장합니다. [자세히 알아보기](marketing-highlights-setup.md)
 * 일반 언어로 연결할 사용자를 설명하고 CRM 리드 및 연락처 필터로 전환하고, 아웃바운드 워크플로우 타기팅에서 모든 리드 및 연락처 필터를 사용하고, 저장하기 전에 일치하는 잠재 고객을 미리 봅니다. [자세히 알아보기](outbound-workflows.md#step-2-configure-targeting-filters)
 * 직책 및 이메일과 같은 텍스트 필드에서 필터당 최대 5개의 값을 사용하여 잠재고객을 한 번에 여러 개의 값으로 필터링합니다. [자세히 알아보기](prospects.md#filter-and-find-prospects)
 * 아웃바운드 워크플로우에서 직접 잠재 고객 답글에 대한 AI 초안 답글을 검토, 편집 및 전송하거나 적합하지 않은 초안을 거부합니다. [자세히 알아보기](outbound-workflows.md#review-and-send-ai-draft-replies)
@@ -43,7 +44,7 @@ ht-degree: 10%
 
 * 포함된 CRM 플러그 인에서 [!DNL Marketo Sales Insights] 및 agentic 데이터를 보고 [!DNL Marketo Qualifier]에 잠재 고객을 추가하십시오. [자세히 알아보기](admin-settings.md#crm-mcp-and-the-embedded-plugin)
 * 최상의 선택, 내 시청 목록, 웹 활동, 이메일 참여 및 웨비나 활동으로 CRM 잠재 고객의 우선 순위를 지정합니다. [자세히 알아보기](admin-settings.md#prioritize-leads-in-the-crm-plugin)
-* 실시간 [!DNL Marketo] 활동이 워크플로 기준과 일치하는 경우 아웃바운드 워크플로에 잠재 고객을 자동으로 등록합니다. [자세히 알아보기](home.md#automatically-enroll-prospects-from-marketing-highlights)
+* [!DNL Marketo] 활동이 아웃바운드 워크플로우의 타깃팅 기준과 일치하는 잠재 고객을 위한 권장 사항을 가져옵니다. 소유자는 등록 및 지원 전에 잠재 고객을 검토하고 승인합니다. [자세히 알아보기](outbound-workflows.md#automatically-enroll-prospects-from-marketing-highlights)
 * 잠재 고객 컨텍스트를 검토하고 잠재 고객 목록을 내보내고 [!DNL Marketo Optimizer] Prime 및 Ultimate 인스턴스에서 AI 사용자 요약을 봅니다. [자세히 알아보기](prospects.md#review-prospect-context-and-export-the-list)
 * 작업 대기열에서 생성된 잠재 고객 이메일을 검토 및 승인하고 아웃바운드 워크플로우 동안 에이전트 제안을 회신 [자세히 알아보기](tasks.md)
 

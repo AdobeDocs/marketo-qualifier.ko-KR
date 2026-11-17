@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 0%
 ## 에이전트 제안
 
 **[!UICONTROL 에이전트 제안]** 탭에는 구성된 [아웃바운드 워크플로 타깃팅 필터](outbound-workflows.md#step-2-configure-targeting-filters)의 전체 집합을 사용하여 등록하도록 권장되는 잠재 고객이 나열됩니다. 권장 사항을 켜려면 [아웃바운드 워크플로](outbound-workflows.md)를 참조하십시오.
+
+**[!UICONTROL Marketo Qualifier으로 보내기]** 흐름 단계를 사용하여 [!DNL Marketo Engage]에서 보낸 리드는 아웃바운드 워크플로우의 타깃팅 기준과 일치할 때 여기에 표시될 수도 있습니다. 연결된 Salesforce 또는 Microsoft Dynamics 365 CRM에서 각 리드는 해당 소유자에게만 권장됩니다. 소유자가 등록 및 지원 전 잠재 고객을 검토하고 승인합니다. Marketo Engage에서 리드를 전송하면 해당 리드가 자동으로 등록되지 않습니다. [마케팅 하이라이트 설정](marketing-highlights-setup.md)을 참조하세요.
 
 작업 패널에서 제안을 검토하려면 다음을 선택합니다.
 

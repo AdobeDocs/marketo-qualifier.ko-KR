@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1517'
 ht-degree: 0%
 ---
 
@@ -186,7 +186,7 @@ Activity Sync는 CRM 및 Marketo에 Marketo Qualifier Outreach 활동을 기록�
 
 마케팅 하이라이트를 사용하면 담당자가 이메일 열기 및 클릭 수와 같은 실시간 [!DNL Marketo] 참여로 잠재 고객을 찾고 우선 순위를 지정할 수 있습니다. [마케팅 하이라이트별로 필터링](prospects.md#filter-by-marketing-highlights)을 참조하십시오.
 
-관리자가 관련 조직 및 샌드박스에 대해 [!DNL Marketo]을(를) Marketo Qualifier에 연결하는 1회 설정을 완료합니다. 이 설정에서는 Adobe Developer Console에서 API 자격 증명을 만들고, [!DNL Marketo]에서 웹후크를 구성하고, 해당 웹후크를 Smart Campaign 트리거에 추가하는 작업을 다룹니다. 전체 단계는 [마케팅 하이라이트 설정](marketing-highlights-setup.md)을 참조하십시오.
+[!DNL Marketo Engage]의 트리거 또는 일괄 Smart Campaign에 **[!UICONTROL Marketo Qualifier으로 보내기]** 흐름 단계를 추가하여 구성할 웹후크 또는 API 자격 증명이 없는 자격 있는 리드를 보냅니다. 사전 요구 사항 및 단계는 [마케팅 하이라이트 설정](marketing-highlights-setup.md)을 참조하십시오.
 
 마케팅 하이라이트는 북미, EMEA 및 오스트레일리아의 모든 프로덕션 지역에서 사용할 수 있습니다.
 

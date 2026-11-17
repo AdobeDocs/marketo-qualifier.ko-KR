@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3140'
 ht-degree: 0%
 ---
 
@@ -98,16 +98,19 @@ AI는 생성된 터치포인트에서 목표의 요구 사항을 정확히 유�
 
 모든 타겟팅 필터는 워크플로우와 함께 저장되며, 잠재 고객을 추가할 때 자동으로 적용됩니다. [에이전트 제안](tasks.md#agent-suggestions)은(는) 동일한 전체 필터 집합을 사용하므로 권장 잠재 고객이 타깃팅 기준과 일치합니다.
 
-### 마케팅 하이라이트에서 잠재 고객 자동 등록
+### 마케팅 하이라이트에서 추천 받기 {#automatically-enroll-prospects-from-marketing-highlights}
 
-아웃바운드 워크플로우는 타겟팅 기준에 따라 라이브 마케팅 하이라이트 활동을 평가할 수 있습니다. 활동이 일치하면 [!DNL Marketo Qualifier]이(가) 전자 메일로 잠재 고객의 CRM 소유자를 확인하고 해당 담당자에게 속한 적격 워크플로우에만 잠재 고객을 등록합니다.
+아웃바운드 워크플로우는 타겟팅 기준에 따라 마케팅 하이라이트의 리드 및 활동을 평가할 수 있습니다. [!DNL Marketo Engage]의 **[!UICONTROL Marketo Qualifier으로 보내기]** 흐름 단계를 사용하여 트리거 또는 일괄 스마트 캠페인에서 리드를 보냅니다. [마케팅 하이라이트 설정](marketing-highlights-setup.md)을 참조하세요.
 
-자동 등록은 다음 순서를 따릅니다.
+기준이 일치하면 [!DNL Marketo Qualifier]이(가) Salesforce 또는 Microsoft Dynamics 365에서 잠재 고객 소유자를 확인하고 해당 대리인에게만 잠재 고객을 추천합니다. 가망 고객은 자동으로 등록되지 않습니다.
+
+권장 사항은 다음 순서를 따릅니다.
 
 1. 대표는 워크플로우의 타깃팅 기준을 정의합니다.
-1. 잠재 고객을 위해 [!DNL Marketo] 실시간 활동이 도착합니다.
-1. [!DNL Marketo Qualifier]은(는) Salesforce 또는 Microsoft Dynamics에서 잠재 고객의 소유자를 확인하고 소유자의 적격 워크플로우에 대해 활동을 평가합니다.
-1. 기준이 일치하면 Prospect 가 등록되고 Outreach 가 시작됩니다.
+1. 리드가 Marketo Engage Smart Campaign의 마케팅 하이라이트에 도달합니다.
+1. Marketo Qualifier은 리드를 해당 CRM 소유자와 일치시키고 소유자의 적격 워크플로우에 대해 리드 및 활동을 평가합니다.
+1. 기준이 일치하면 소유자는 **[!UICONTROL 작업]** > **[!UICONTROL 에이전트 제안]**&#x200B;에서 추천을 받습니다.
+1. 소유자가 추천된 잠재 고객 및 생성된 전자 메일을 검토한 다음 [잠재 고객을 승인하고 등록](#approve-and-enroll-prospects)한 후 전달을 시작합니다.
 
 다른 담당자가 이미 잠재 고객에게 연락하고 있는 경우 [!DNL Marketo Qualifier]이(가) 중복 전달을 시작하기 전에 경고를 표시합니다.
 
